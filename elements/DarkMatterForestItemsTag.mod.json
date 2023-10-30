@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:DarkMatterForestWood"
+      },
+      {
+        "value": "CUSTOM:DarkMatterForestLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "darkmatterforest_log",
+    "namespace": "forge"
+  }
+}

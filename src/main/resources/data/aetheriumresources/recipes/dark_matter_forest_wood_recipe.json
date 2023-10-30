@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:dark_matter_forest_log"
+    },
+    "1": {
+      "item": "aetheriumresources:dark_matter_forest_log"
+    },
+    "2": {
+      "item": "aetheriumresources:dark_matter_forest_log"
+    },
+    "3": {
+      "item": "aetheriumresources:dark_matter_forest_log"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:dark_matter_forest_wood",
+    "count": 3
+  }
+}

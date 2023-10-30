@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "The End",
+    "texture": "the_end",
+    "description": "kimdc2 - The End",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriumTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:theend"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

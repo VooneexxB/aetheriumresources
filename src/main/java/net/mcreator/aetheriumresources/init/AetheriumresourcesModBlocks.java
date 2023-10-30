@@ -21,6 +21,16 @@ import net.mcreator.aetheriumresources.block.ErrorBlock;
 import net.mcreator.aetheriumresources.block.Error2Block;
 import net.mcreator.aetheriumresources.block.DarkmatterBlock;
 import net.mcreator.aetheriumresources.block.DarkgrassBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterForestWoodBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterForestStairsBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterForestSlabBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterForestPressurePlateBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterForestPlanksBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterForestLogBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterForestLeavesBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterForestFenceGateBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterForestFenceBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterForestButtonBlock;
 import net.mcreator.aetheriumresources.block.BORDERPortalBlock;
 import net.mcreator.aetheriumresources.block.AmethystMachineBlock;
 import net.mcreator.aetheriumresources.block.AaBlock;
@@ -30,23 +40,45 @@ public class AetheriumresourcesModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, AetheriumresourcesMod.MODID);
 	public static final RegistryObject<Block> ERROR = REGISTRY.register("error", () -> new ErrorBlock());
 	public static final RegistryObject<Block> ERROR_2 = REGISTRY.register("error_2", () -> new Error2Block());
-	public static final RegistryObject<Block> EGGBED = REGISTRY.register("eggbed", () -> new AaBlock());
 	public static final RegistryObject<Block> ERROR_DECORATIVO = REGISTRY.register("error_decorativo", () -> new ErrorDecorativoBlock());
 	public static final RegistryObject<Block> FAILURE_DECORATIVO = REGISTRY.register("failure_decorativo", () -> new FailureDecorativoBlock());
-	public static final RegistryObject<Block> AMETHYST_MACHINE = REGISTRY.register("amethyst_machine", () -> new AmethystMachineBlock());
 	public static final RegistryObject<Block> DARKMATTER = REGISTRY.register("darkmatter", () -> new DarkmatterBlock());
-	public static final RegistryObject<Block> BORDER_PORTAL = REGISTRY.register("border_portal", () -> new BORDERPortalBlock());
-	public static final RegistryObject<Block> DARKGRASS = REGISTRY.register("darkgrass", () -> new DarkgrassBlock());
 	public static final RegistryObject<Block> PARASITEMATTER = REGISTRY.register("parasitematter", () -> new ParasitematterBlock());
+	public static final RegistryObject<Block> DARKGRASS = REGISTRY.register("darkgrass", () -> new DarkgrassBlock());
+	public static final RegistryObject<Block> DARK_MATTER_FOREST_WOOD = REGISTRY.register("dark_matter_forest_wood",
+			() -> new DarkMatterForestWoodBlock());
+	public static final RegistryObject<Block> DARK_MATTER_FOREST_LOG = REGISTRY.register("dark_matter_forest_log",
+			() -> new DarkMatterForestLogBlock());
+	public static final RegistryObject<Block> DARK_MATTER_FOREST_PLANKS = REGISTRY.register("dark_matter_forest_planks",
+			() -> new DarkMatterForestPlanksBlock());
+	public static final RegistryObject<Block> DARK_MATTER_FOREST_LEAVES = REGISTRY.register("dark_matter_forest_leaves",
+			() -> new DarkMatterForestLeavesBlock());
+	public static final RegistryObject<Block> DARK_MATTER_FOREST_STAIRS = REGISTRY.register("dark_matter_forest_stairs",
+			() -> new DarkMatterForestStairsBlock());
+	public static final RegistryObject<Block> DARK_MATTER_FOREST_SLAB = REGISTRY.register("dark_matter_forest_slab",
+			() -> new DarkMatterForestSlabBlock());
+	public static final RegistryObject<Block> DARK_MATTER_FOREST_FENCE = REGISTRY.register("dark_matter_forest_fence",
+			() -> new DarkMatterForestFenceBlock());
+	public static final RegistryObject<Block> DARK_MATTER_FOREST_FENCE_GATE = REGISTRY.register("dark_matter_forest_fence_gate",
+			() -> new DarkMatterForestFenceGateBlock());
+	public static final RegistryObject<Block> DARK_MATTER_FOREST_PRESSURE_PLATE = REGISTRY.register("dark_matter_forest_pressure_plate",
+			() -> new DarkMatterForestPressurePlateBlock());
+	public static final RegistryObject<Block> DARK_MATTER_FOREST_BUTTON = REGISTRY.register("dark_matter_forest_button",
+			() -> new DarkMatterForestButtonBlock());
+	public static final RegistryObject<Block> BORDER_PORTAL = REGISTRY.register("border_portal", () -> new BORDERPortalBlock());
+	public static final RegistryObject<Block> AMETHYST_MACHINE = REGISTRY.register("amethyst_machine", () -> new AmethystMachineBlock());
+	public static final RegistryObject<Block> EGGBED = REGISTRY.register("eggbed", () -> new AaBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
-			AaBlock.registerRenderLayer();
 			FailureDecorativoBlock.registerRenderLayer();
-			BORDERPortalBlock.registerRenderLayer();
 			DarkgrassBlock.registerRenderLayer();
+			DarkMatterForestLeavesBlock.registerRenderLayer();
+			DarkMatterForestButtonBlock.registerRenderLayer();
+			BORDERPortalBlock.registerRenderLayer();
+			AaBlock.registerRenderLayer();
 		}
 	}
 }

@@ -5,9 +5,9 @@ import net.minecraft.world.level.levelgen.placement.SurfaceWaterDepthFilter;
 import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
 import net.minecraft.world.level.levelgen.placement.CountPlacement;
 import net.minecraft.world.level.levelgen.placement.BiomeFilter;
-import net.minecraft.world.level.levelgen.feature.trunkplacers.MegaJungleTrunkPlacer;
+import net.minecraft.world.level.levelgen.feature.trunkplacers.GiantTrunkPlacer;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
-import net.minecraft.world.level.levelgen.feature.foliageplacers.MegaJungleFoliagePlacer;
+import net.minecraft.world.level.levelgen.feature.foliageplacers.MegaPineFoliagePlacer;
 import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
 import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
 import net.minecraft.world.level.levelgen.feature.Feature;
@@ -20,6 +20,7 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.AmbientParticleSettings;
 import net.minecraft.world.level.biome.AmbientMoodSettings;
 import net.minecraft.world.level.biome.AmbientAdditionsSettings;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
@@ -46,11 +47,11 @@ public class DarkforestBiome {
 				PlacementUtils.register("aetheriumresources:tree_darkforest",
 						FeatureUtils.register("aetheriumresources:tree_darkforest", Feature.TREE,
 								new TreeConfiguration.TreeConfigurationBuilder(
-										BlockStateProvider.simple(AetheriumresourcesModBlocks.FAILURE_DECORATIVO.get().defaultBlockState()),
-										new MegaJungleTrunkPlacer(10, 2, 19),
-										BlockStateProvider.simple(AetheriumresourcesModBlocks.ERROR_DECORATIVO.get().defaultBlockState()),
-										new MegaJungleFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 2), new TwoLayersFeatureSize(1, 1, 2))
-										.ignoreVines().build()),
+										BlockStateProvider.simple(AetheriumresourcesModBlocks.DARK_MATTER_FOREST_LOG.get().defaultBlockState()),
+										new GiantTrunkPlacer(12, 2, 14),
+										BlockStateProvider.simple(AetheriumresourcesModBlocks.DARK_MATTER_FOREST_LEAVES.get().defaultBlockState()),
+										new MegaPineFoliagePlacer(ConstantInt.of(0), ConstantInt.of(0), UniformInt.of(3, 4)),
+										new TwoLayersFeatureSize(1, 1, 2)).build()),
 						List.of(CountPlacement.of(1), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
 								PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING),
 								BiomeFilter.biome())));

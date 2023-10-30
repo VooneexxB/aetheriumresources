@@ -32,7 +32,7 @@ import java.util.Random;
 
 public class Error2Block extends Block {
 	public Error2Block() {
-		super(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_PINK)
+		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_PINK)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("aetheriumresources:failure-breaking")),
 						() -> new SoundEvent(new ResourceLocation("aetheriumresources:failure-step")),
 						() -> new SoundEvent(new ResourceLocation("aetheriumresources:failure-placing")),

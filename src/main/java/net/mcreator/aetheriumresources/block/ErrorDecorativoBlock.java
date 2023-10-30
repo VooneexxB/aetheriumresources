@@ -30,7 +30,7 @@ import java.util.Collections;
 
 public class ErrorDecorativoBlock extends Block {
 	public ErrorDecorativoBlock() {
-		super(BlockBehaviour.Properties.of(Material.DECORATION, MaterialColor.COLOR_PINK)
+		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_PINK)
 				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("aetheriumresources:error-breaking")),
 						() -> new SoundEvent(new ResourceLocation("aetheriumresources:error-step")),
 						() -> new SoundEvent(new ResourceLocation("aetheriumresources:error-placing")),

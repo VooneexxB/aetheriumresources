@@ -297,5 +297,23 @@
         "stream": true
       }
     ]
+  },
+  "theend": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheriumresources:the_beginning_of_the_end_",
+        "stream": true
+      }
+    ]
+  },
+  "elektrodeath": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheriumresources:elekimtroswing",
+        "stream": true
+      }
+    ]
   }
 }

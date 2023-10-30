@@ -22,7 +22,7 @@ import java.util.Collections;
 
 public class DarkmatterBlock extends Block {
 	public DarkmatterBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_BLACK).sound(SoundType.SOUL_SAND).strength(1.5f, 6f)
+		super(BlockBehaviour.Properties.of(Material.GRASS, MaterialColor.COLOR_BLACK).sound(SoundType.SOUL_SAND).strength(1.5f, 6f)
 				.requiresCorrectToolForDrops());
 	}
 

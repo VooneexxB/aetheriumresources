@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DarkMatterForestLog"
+      },
+      {
+        "value": "CUSTOM:DarkMatterForestLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarkMatterForestLog"
+      },
+      {
+        "value": "CUSTOM:DarkMatterForestLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DarkMatterForestWood"
+    },
+    "name": "dark_matter_forest_wood_recipe",
+    "namespace": "mod"
+  }
+}

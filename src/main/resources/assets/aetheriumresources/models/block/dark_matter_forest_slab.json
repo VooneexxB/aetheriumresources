@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "aetheriumresources:blocks/darkmatterforest_planks",
+    "top": "aetheriumresources:blocks/darkmatterforest_planks",
+    "side": "aetheriumresources:blocks/darkmatterforest_planks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "aetheriumresources:simulacra"
+  },
+  "addition": {
+    "item": "minecraft:ender_eye"
+  },
+  "result": {
+    "item": "aetheriumresources:theend"
+  }
+}

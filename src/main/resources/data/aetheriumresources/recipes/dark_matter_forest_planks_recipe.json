@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:darkmatterforest_log"
+    }
+  ],
+  "result": {
+    "item": "aetheriumresources:dark_matter_forest_planks",
+    "count": 4
+  }
+}

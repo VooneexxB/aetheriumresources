@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "Blocks.LIGHTNING_ROD"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "Blocks.REDSTONE_TORCH"
+      },
+      {
+        "value": "CUSTOM:Disco3"
+      },
+      {
+        "value": "Blocks.REDSTONE_TORCH"
+      },
+      {
+        "value": "Items.REPEATER"
+      },
+      {
+        "value": "Items.COMPARATOR"
+      },
+      {
+        "value": "Items.REPEATER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Elektrodeath"
+    },
+    "name": "elektrocrafting",
+    "namespace": "mod"
+  }
+}

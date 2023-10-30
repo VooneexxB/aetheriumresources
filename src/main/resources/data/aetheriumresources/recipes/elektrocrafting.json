@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_block"
+    },
+    "1": {
+      "item": "minecraft:lightning_rod"
+    },
+    "2": {
+      "item": "minecraft:redstone_block"
+    },
+    "3": {
+      "item": "minecraft:redstone_torch"
+    },
+    "4": {
+      "item": "aetheriumresources:disco_3"
+    },
+    "5": {
+      "item": "minecraft:redstone_torch"
+    },
+    "6": {
+      "item": "minecraft:repeater"
+    },
+    "7": {
+      "item": "minecraft:comparator"
+    },
+    "8": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:elektrodeath",
+    "count": 1
+  }
+}

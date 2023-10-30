@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Elektro Corruption",
+    "texture": "elektro",
+    "description": "kimdc2 - Elektrocorruption",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriumTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:elektrodeath"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}
