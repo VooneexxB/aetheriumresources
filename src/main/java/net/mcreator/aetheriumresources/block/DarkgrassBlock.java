@@ -13,12 +13,12 @@ import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
-import net.mcreator.aetheriumresources.init.AetheriumresourcesModMobEffects;
 import net.mcreator.aetheriumresources.init.AetheriumresourcesModBlocks;
 
 import java.util.List;
@@ -26,7 +26,7 @@ import java.util.Collections;
 
 public class DarkgrassBlock extends FlowerBlock {
 	public DarkgrassBlock() {
-		super(AetheriumresourcesModMobEffects.EFEITO.get(), 100,
+		super(MobEffects.WITHER, 100,
 				BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.NETHER_SPROUTS).instabreak().jumpFactor(0.6f).noCollission());
 	}
 
