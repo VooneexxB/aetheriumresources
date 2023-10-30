@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "S1MUL4CRA",
+    "texture": "glitchdisc",
+    "description": "Andrii Floria - 9l1tch",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriumTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:simulacra"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

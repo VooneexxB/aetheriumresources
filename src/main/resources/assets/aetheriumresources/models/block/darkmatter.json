@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheriumresources:blocks/darkmatterblock",
+    "up": "aetheriumresources:blocks/darkmatterblock",
+    "north": "aetheriumresources:blocks/darkmatterblock",
+    "east": "aetheriumresources:blocks/darkmatterblock",
+    "south": "aetheriumresources:blocks/darkmatterblock",
+    "west": "aetheriumresources:blocks/darkmatterblock",
+    "particle": "aetheriumresources:blocks/darkmatterblock"
+  }
+}

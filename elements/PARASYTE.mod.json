@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "P4RAS1TA",
+    "texture": "parasita",
+    "description": "Andrii Floria - Scurrying Around",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriumTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:parasita"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

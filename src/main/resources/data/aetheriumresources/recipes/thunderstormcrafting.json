@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "1": {
+      "item": "minecraft:water_bucket"
+    },
+    "2": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "3": {
+      "item": "minecraft:potion"
+    },
+    "4": {
+      "item": "minecraft:music_disc_far"
+    },
+    "5": {
+      "item": "minecraft:potion"
+    },
+    "6": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "7": {
+      "item": "minecraft:water_bucket"
+    },
+    "8": {
+      "item": "minecraft:crying_obsidian"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:thunderstorm",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "aetheriumresources:custom/seringa",
+  "textures": {
+    "0": "aetheriumresources:blocks/seringa",
+    "particle": "aetheriumresources:items/file"
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "_fv": 34,
+  "_type": "block",
+  "definition": {
+    "texture": "sem_titulo",
+    "textureTop": "sem_titulo",
+    "textureLeft": "sem_titulo",
+    "textureFront": "sem_titulo",
+    "textureRight": "sem_titulo",
+    "textureBack": "sem_titulo",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "enablePitch": false,
+    "emissiveRendering": true,
+    "displayFluidOverlay": false,
+    "itemTexture": "",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": false,
+    "connectedSides": false,
+    "transparencyType": "SOLID",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "F41LUR3",
+    "specialInfo": [],
+    "hardness": 60.0,
+    "resistance": 1200.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "creativeTab": {
+      "value": "CUSTOM:AetheriumTab"
+    },
+    "destroyTool": "pickaxe",
+    "customDrop": {
+      "value": "CUSTOM:Materiaorganica"
+    },
+    "dropAmount": 3,
+    "useLootTableForDrops": true,
+    "requiresCorrectTool": true,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": true,
+    "canRedstoneConnect": false,
+    "lightOpacity": 15,
+    "material": {
+      "value": "MISCELLANEOUS"
+    },
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": true,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "PINK",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "BLOCKED",
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 0.6,
+    "jumpFactor": 0.8,
+    "reactionToPushing": "IGNORE",
+    "isNotColidable": false,
+    "isCustomSoundType": true,
+    "soundOnStep": {
+      "value": "SCULK_SENSOR"
+    },
+    "breakSound": {
+      "value": "CUSTOM:failure-breaking"
+    },
+    "fallSound": {
+      "value": "CUSTOM:failure-fall"
+    },
+    "hitSound": {
+      "value": "CUSTOM:failure-hit"
+    },
+    "placeSound": {
+      "value": "CUSTOM:failure-placing"
+    },
+    "stepSound": {
+      "value": "CUSTOM:failure-step"
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "breakHarvestLevel": 3,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ELECTRIC_SPARK"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.19999999999999998,
+    "particleAmount": 2,
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "onEntityWalksOn": {
+      "name": "ErrorEntityWalksOnTheBlock"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

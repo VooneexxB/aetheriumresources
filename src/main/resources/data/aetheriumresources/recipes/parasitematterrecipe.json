@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aetheriumresources:parasite_matter_pieces"
+    },
+    {
+      "item": "aetheriumresources:parasite_matter_pieces"
+    },
+    {
+      "item": "aetheriumresources:parasite_matter_pieces"
+    },
+    {
+      "item": "aetheriumresources:parasite_matter_pieces"
+    }
+  ],
+  "result": {
+    "item": "aetheriumresources:parasitematter",
+    "count": 1
+  }
+}

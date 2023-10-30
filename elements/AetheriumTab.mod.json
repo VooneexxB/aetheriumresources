@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Aetherium Resources",
+    "icon": {
+      "value": "CUSTOM:Error"
+    },
+    "showSearch": false
+  }
+}

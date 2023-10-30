@@ -1,0 +1,7 @@
+{
+  "parent": "aetheriumresources:custom/sword",
+  "textures": {
+    "2": "aetheriumresources:blocks/texture",
+    "particle": "aetheriumresources:items/sem_titulo"
+  }
+}

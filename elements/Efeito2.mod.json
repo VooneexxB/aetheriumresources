@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "GU3RR31R0",
+    "icon": "image.png",
+    "color": {
+      "value": -10140681,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "Efeito2OnEffectActiveTick"
+    }
+  }
+}

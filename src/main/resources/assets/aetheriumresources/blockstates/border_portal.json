@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "aetheriumresources:block/border_portal_ew"
+    },
+    "axis=x": {
+      "model": "aetheriumresources:block/border_portal_ns"
+    }
+  }
+}

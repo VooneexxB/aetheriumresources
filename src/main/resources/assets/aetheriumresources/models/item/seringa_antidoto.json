@@ -1,0 +1,7 @@
+{
+  "parent": "aetheriumresources:custom/antidoto",
+  "textures": {
+    "0": "aetheriumresources:blocks/antidoto",
+    "particle": "aetheriumresources:items/antidotoitem"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "aetheriumresources:disco_2"
+  },
+  "addition": {
+    "item": "aetheriumresources:parasite_matter_pieces"
+  },
+  "result": {
+    "item": "aetheriumresources:parasyte"
+  }
+}

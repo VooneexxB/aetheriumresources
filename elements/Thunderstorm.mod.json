@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Thunderstorm Night",
+    "texture": "thunder",
+    "description": "kimdc2 - Thunderstorm Night",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriumTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:thunderstorm"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

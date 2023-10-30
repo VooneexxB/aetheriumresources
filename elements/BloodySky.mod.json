@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Burning Skies",
+    "texture": "blood",
+    "description": "Andrii Floria - Screams Under Red Sky",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriumTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:death"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

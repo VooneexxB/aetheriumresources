@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "aetheriumresources:error",
+    "aetheriumresources:error_2",
+    "aetheriumresources:error_decorativo",
+    "aetheriumresources:failure_decorativo",
+    "aetheriumresources:amethyst_machine",
+    "aetheriumresources:darkmatter"
+  ]
+}

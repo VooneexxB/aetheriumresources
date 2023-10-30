@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:materiaorganica"
+    },
+    "1": {
+      "item": "minecraft:iron_block"
+    },
+    "2": {
+      "item": "aetheriumresources:materiaorganica"
+    },
+    "3": {
+      "item": "minecraft:iron_block"
+    },
+    "4": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "5": {
+      "item": "minecraft:iron_block"
+    },
+    "6": {
+      "item": "aetheriumresources:error_decorativo"
+    },
+    "7": {
+      "item": "aetheriumresources:error_decorativo"
+    },
+    "8": {
+      "item": "aetheriumresources:error_decorativo"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:amethyst_machine",
+    "count": 1
+  }
+}

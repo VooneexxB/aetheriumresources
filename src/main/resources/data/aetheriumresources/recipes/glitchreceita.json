@@ -1,0 +1,25 @@
+{
+  "group": "glitch",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "aetheriumresources:materiaorganica"
+    },
+    {
+      "item": "minecraft:stone"
+    }
+  ],
+  "result": {
+    "item": "aetheriumresources:error_decorativo",
+    "count": 4
+  }
+}

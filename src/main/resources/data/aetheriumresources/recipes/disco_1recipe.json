@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aetheriumresources:materiaorganica"
+    },
+    {
+      "item": "aetheriumresources:materiaorganica"
+    },
+    {
+      "item": "minecraft:music_disc_cat"
+    },
+    {
+      "item": "aetheriumresources:materiaorganica"
+    },
+    {
+      "item": "aetheriumresources:materiaorganica"
+    }
+  ],
+  "result": {
+    "item": "aetheriumresources:disco_2",
+    "count": 1
+  }
+}

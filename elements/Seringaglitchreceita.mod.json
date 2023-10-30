@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "CUSTOM:Seringa"
+    },
+    "brewingIngredientStack": {
+      "value": "CUSTOM:Materiaorganica"
+    },
+    "brewingReturnStack": {
+      "value": "CUSTOM:SeringaGlitch"
+    },
+    "name": "seringaglitchreceita",
+    "namespace": "mod"
+  }
+}

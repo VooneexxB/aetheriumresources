@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "bedtexture",
+        "3": "egg"
+      },
+      "name": "default"
+    }
+  }
+}

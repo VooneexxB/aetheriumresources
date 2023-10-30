@@ -1,0 +1,48 @@
+{
+  "_fv": 34,
+  "_type": "item",
+  "definition": {
+    "renderType": 1,
+    "texture": "file_1",
+    "customModelName": "seringagltich:default",
+    "name": "Seringa (Glitch)",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriumTab"
+    },
+    "stackSize": 8,
+    "enchantability": 0,
+    "useDuration": 1,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 3.0,
+    "specialInfo": [],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onEntityHitWith": {
+      "name": "SeringaGlitchLivingEntityIsHitWithItem"
+    },
+    "onFinishUsingItem": {
+      "name": "SeringaGlitchPlayerFinishesUsingItem"
+    },
+    "isFood": true,
+    "nutritionalValue": 19,
+    "saturation": 5.0,
+    "eatResultItem": {
+      "value": "CUSTOM:Seringa"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "drink"
+  }
+}

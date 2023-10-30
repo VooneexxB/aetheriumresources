@@ -1,0 +1,48 @@
+{
+  "_fv": 34,
+  "_type": "item",
+  "definition": {
+    "renderType": 1,
+    "texture": "antidotoitem",
+    "customModelName": "antidoto:default",
+    "name": "Seringa (Antídoto)",
+    "rarity": "EPIC",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriumTab"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 1,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 3.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onEntityHitWith": {
+      "name": "Antidotohit"
+    },
+    "onFinishUsingItem": {
+      "name": "Antidotouso"
+    },
+    "isFood": true,
+    "nutritionalValue": 10,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": "CUSTOM:Seringa"
+    },
+    "isMeat": false,
+    "isAlwaysEdible": true,
+    "animation": "drink"
+  }
+}

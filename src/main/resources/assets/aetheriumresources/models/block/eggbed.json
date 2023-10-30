@@ -1,0 +1,9 @@
+{
+  "parent": "aetheriumresources:custom/bedegg",
+  "textures": {
+    "all": "aetheriumresources:blocks/bedtexture",
+    "particle": "aetheriumresources:blocks/bedtexture",
+    "2": "aetheriumresources:blocks/bedtexture",
+    "3": "aetheriumresources:blocks/egg"
+  }
+}

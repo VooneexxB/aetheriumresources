@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheriumresources:blocks/error",
+    "up": "aetheriumresources:blocks/error",
+    "north": "aetheriumresources:blocks/error",
+    "east": "aetheriumresources:blocks/error",
+    "south": "aetheriumresources:blocks/error",
+    "west": "aetheriumresources:blocks/error",
+    "particle": "aetheriumresources:blocks/error"
+  }
+}

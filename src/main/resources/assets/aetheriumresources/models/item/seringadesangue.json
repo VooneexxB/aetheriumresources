@@ -1,0 +1,7 @@
+{
+  "parent": "aetheriumresources:custom/model",
+  "textures": {
+    "0": "aetheriumresources:blocks/sangue",
+    "particle": "aetheriumresources:items/sangue"
+  }
+}

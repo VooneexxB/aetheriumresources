@@ -1,0 +1,948 @@
+{
+  "mod_elements": [
+    {
+      "name": "BorderswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bordersword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Error",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "error"
+    },
+    {
+      "name": "AetheriumTab",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherium_tab"
+    },
+    {
+      "name": "Glitchytale",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchytale"
+    },
+    {
+      "name": "Error2",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "error_2"
+    },
+    {
+      "name": "Aa",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eggbed"
+    },
+    {
+      "name": "Efeito",
+      "type": "potioneffect",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "efeito"
+    },
+    {
+      "name": "Pocaoefeito",
+      "type": "potion",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pocaoefeito"
+    },
+    {
+      "name": "ErrorEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "error_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EfeitoOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "efeito_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Efeito2OnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "efeito_2_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Efeito2",
+      "type": "potioneffect",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "efeito_2"
+    },
+    {
+      "name": "ErrorDecorativo",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "error_decorativo"
+    },
+    {
+      "name": "FailureDecorativo",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "failure_decorativo"
+    },
+    {
+      "name": "Seringa",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seringa"
+    },
+    {
+      "name": "SeringaGlitch",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seringa_glitch"
+    },
+    {
+      "name": "MateriaorganicaPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "materiaorganica_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Materiaorganica",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "materiaorganica"
+    },
+    {
+      "name": "Seringaglitchreceita",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seringaglitchreceita"
+    },
+    {
+      "name": "Glitchreceita",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitchreceita"
+    },
+    {
+      "name": "Glitch2receita",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glitch_2receita"
+    },
+    {
+      "name": "SeringaGlitchLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seringa_glitch_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Seringareceita",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seringareceita"
+    },
+    {
+      "name": "SeringaGlitchPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seringa_glitch_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Erroretapa1",
+      "type": "potion",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erroretapa_1"
+    },
+    {
+      "name": "Erroretapa1craftinbg",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erroretapa_1craftinbg"
+    },
+    {
+      "name": "Erroretapa2",
+      "type": "potion",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erroretapa_2"
+    },
+    {
+      "name": "Activatedrecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activatedrecipe"
+    },
+    {
+      "name": "Errorrecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errorrecipe"
+    },
+    {
+      "name": "Errordrop",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errordrop"
+    },
+    {
+      "name": "Errordrop2",
+      "type": "loottable",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "errordrop_2"
+    },
+    {
+      "name": "Seringadesangue",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seringadesangue"
+    },
+    {
+      "name": "Bloodglitch",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodglitch",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Disco2",
+      "type": "musicdisc",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disco_2"
+    },
+    {
+      "name": "Disco3",
+      "type": "musicdisc",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disco_3"
+    },
+    {
+      "name": "Disco1recipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disco_1recipe"
+    },
+    {
+      "name": "Disco2recipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "disco_2recipe"
+    },
+    {
+      "name": "AmethystMachineGUI",
+      "type": "gui",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_machine_gui"
+    },
+    {
+      "name": "Realitymisfortune",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "realitymisfortune"
+    },
+    {
+      "name": "RealitymisfortuneToolInHandTick",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "realitymisfortune_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AmethystMachine",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_machine"
+    },
+    {
+      "name": "Amethystmachinerecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystmachinerecipe"
+    },
+    {
+      "name": "Darkmatter",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter"
+    },
+    {
+      "name": "Darkdesert",
+      "type": "biome",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkdesert"
+    },
+    {
+      "name": "BORDER",
+      "type": "dimension",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "border",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Darkgrass",
+      "type": "plant",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkgrass"
+    },
+    {
+      "name": "PARASYTE",
+      "type": "musicdisc",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasyte"
+    },
+    {
+      "name": "ParasiteMatterPieces",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasite_matter_pieces"
+    },
+    {
+      "name": "Parasitematter",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasitematter"
+    },
+    {
+      "name": "Parasitematterrecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasitematterrecipe"
+    },
+    {
+      "name": "Parasitediscrecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "parasitediscrecipe"
+    },
+    {
+      "name": "Thunderstorm",
+      "type": "musicdisc",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderstorm"
+    },
+    {
+      "name": "BloodySky",
+      "type": "musicdisc",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloody_sky"
+    },
+    {
+      "name": "Simulacra",
+      "type": "musicdisc",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simulacra"
+    },
+    {
+      "name": "Bloodyskycrafting",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodyskycrafting"
+    },
+    {
+      "name": "Simulacracrafting",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simulacracrafting"
+    },
+    {
+      "name": "Thunderstormcrafting",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunderstormcrafting"
+    },
+    {
+      "name": "SeringaAntidoto",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seringa_antidoto"
+    },
+    {
+      "name": "Antidotohit",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antidotohit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Antidotorecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antidotorecipe"
+    },
+    {
+      "name": "Antidotouso",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antidotouso",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Darkforest",
+      "type": "biome",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkforest"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "error-breaking",
+      "files": [
+        "3rr0r_breaking1",
+        "3rr0r_breaking2",
+        "3rr0r_breaking3",
+        "3rr0r_breaking4"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "error-placing",
+      "files": [
+        "3rr0r_placing1",
+        "3rr0r_placing2",
+        "3rr0r_placing3",
+        "3rr0r_placing4"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "error-step",
+      "files": [
+        "3rr0r_step1",
+        "3rr0r_step2",
+        "3rr0r_step3",
+        "3rr0r_step4",
+        "3rr0r_step5"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "failure-breaking",
+      "files": [
+        "f41lur3_breaking1",
+        "f41lur3_breaking2",
+        "f41lur3_breaking3",
+        "f41lur3_breaking4"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "failure-placing",
+      "files": [
+        "f41lur3_placing1",
+        "f41lur3_placing2",
+        "f41lur3_placing3",
+        "f41lur3_placing4"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "failure-step",
+      "files": [
+        "f41lur3_step1",
+        "f41lur3_step2",
+        "f41lur3_step3",
+        "f41lur3_step4",
+        "f41lur3_step5"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "failure-fall",
+      "files": [
+        "f41lur3_fal1",
+        "f41lur3_fall2"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "error-fall",
+      "files": [
+        "3rr0r_fall1",
+        "3rr0r_fall2"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "error-hit",
+      "files": [
+        "3rr0r_hit1",
+        "3rr0r_hit2",
+        "3rr0r_hit3",
+        "3rr0r_hit4"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "failure-hit",
+      "files": [
+        "f41lur3_hit1",
+        "f41lur3_hit2",
+        "f41lur3_hit3",
+        "f41lur3_hit4"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "potionerror",
+      "files": [
+        "error1",
+        "error2",
+        "error3",
+        "error4",
+        "error5"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "truedeath",
+      "files": [
+        "x2mate.com_-_god_of_hopelessness_128_kbps"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "breakingworld",
+      "files": [
+        "x2mate.com_-_chaos1_128_kbps"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "falsehopedisc",
+      "files": [
+        "snapinsta.io_-_god_of_fear_256_kbps"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "swordslash1",
+      "files": [
+        "tomp3.cc_-_pibby_finn_mertens_sword_slash_sound_effect_mp3cut.net"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "parasita",
+      "files": [
+        "tomp3.cc_-_scurrying_around"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "thunderstorm",
+      "files": [
+        "new_song_18"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "death",
+      "files": [
+        "tomp3.cc_-_screams_under_the_red_sky"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "simulacra",
+      "files": [
+        "tomp3.cc_-_9l1tch_192kbps"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.aetheriumresources.eggbed": "EggBed",
+      "itemGroup.tabaetherium_tab": "Aetherium Resources",
+      "item.minecraft.potion.effect.erroretapa_2": "Activated Strange Bottle",
+      "subtitles.failure-fall": "",
+      "item.minecraft.potion.effect.erroretapa_1": "Strange Bottle",
+      "item.aetheriumresources.disco_3.desc": "Andrii Floria - Chaos1",
+      "item.aetheriumresources.thunderstorm.desc": "kimdc2 - Thunderstorm Night",
+      "subtitles.error-placing": "",
+      "subtitles.place": "",
+      "item.aetheriumresources.thunderstorm": "Thunderstorm Night",
+      "item.aetheriumresources.bloody_sky.desc": "Andrii Floria - Screams Under Red Sky",
+      "subtitles.error-fall": "",
+      "item.minecraft.potion.effect.pocaoefeito": "Potion of 3RR0R",
+      "item.aetheriumresources.disco_2.desc": "Andrii Floria - God of Hopelessness",
+      "item.aetheriumresources.seringa_glitch": "Seringa (Glitch)",
+      "item.aetheriumresources.seringadesangue": "Seringa (Sangue)",
+      "block.aetheriumresources.amethyst_machine": "Amethyst Purifier (WIP)",
+      "effect.aetheriumresources.efeito": "H34D4CH3",
+      "item.aetheriumresources.seringa": "Seringa",
+      "block.aetheriumresources.error_2": "F41LUR3",
+      "subtitles.simulacra": "",
+      "block.aetheriumresources.error": "3RR0R",
+      "subtitles.failure-placing": "",
+      "subtitles.falsehopedisc": "",
+      "item.aetheriumresources.disco_3": "BR3AK1NGW0RLD",
+      "subtitles.failure-hit": "",
+      "item.minecraft.tipped_arrow.effect.pocaoefeito": "Arrow of 3RR0R",
+      "item.aetheriumresources.disco_2": "TRU3DE4TH",
+      "subtitles.failure-breaking": "",
+      "block.aetheriumresources.darkmatter": "Dark Matter",
+      "block.aetheriumresources.failure_decorativo": "F41LUR3 (Decorativo)",
+      "item.minecraft.tipped_arrow.effect.erroretapa_2": "Arrow of Activated Strange Bottle",
+      "item.minecraft.tipped_arrow.effect.erroretapa_1": "Arrow of Strange Bottle",
+      "subtitles.breakingworld": "",
+      "item.minecraft.splash_potion.effect.pocaoefeito": "Splash Potion of 3RR0R",
+      "item.aetheriumresources.simulacra": "S1MUL4CRA",
+      "subtitles.failure-step": "",
+      "subtitles.swordslash1": "",
+      "block.aetheriumresources.error_decorativo": "3RR0R (Decorativo)",
+      "subtitles.parasita": "",
+      "biome.aetheriumresources.darkforest": "Dark Forest",
+      "item.aetheriumresources.materiaorganica": "M4TÉR1A",
+      "subtitles.error-hit": "",
+      "item.minecraft.lingering_potion.effect.erroretapa_1": "Lingering Strange Bottle",
+      "item.minecraft.lingering_potion.effect.erroretapa_2": "Lingering Activated Strange Bottle",
+      "biome.aetheriumresources.darkdesert": "Dark Desert",
+      "subtitles.thunderstorm": "",
+      "block.aetheriumresources.darkgrass": "Dark Grass",
+      "item.aetheriumresources.parasite_matter_pieces": "Parasite Matter",
+      "item.aetheriumresources.seringa_antidoto": "Seringa (Antídoto)",
+      "item.aetheriumresources.parasyte": "P4RAS1TA",
+      "subtitles.death": "",
+      "item.aetheriumresources.glitchytale.desc": "Andrii Floria - God of Fear",
+      "item.aetheriumresources.parasyte.desc": "Andrii Floria - Scurrying Around",
+      "item.aetheriumresources.border": "Border Access (WIP)",
+      "item.minecraft.lingering_potion.effect.pocaoefeito": "Lingering Potion of 3RR0R",
+      "subtitles.step": "",
+      "effect.aetheriumresources.efeito_2": "GU3RR31R0",
+      "subtitles.potionerror": "",
+      "subtitles.error-step": "",
+      "item.aetheriumresources.glitchytale": "F4LS3H0P3",
+      "subtitles.error-breaking": "",
+      "item.minecraft.splash_potion.effect.erroretapa_1": "Splash Strange Bottle",
+      "subtitles.truedeath": "",
+      "item.aetheriumresources.bloody_sky": "Burning Skies",
+      "item.aetheriumresources.simulacra.desc": "Andrii Floria - 9l1tch",
+      "block.aetheriumresources.parasitematter": "Parasite Matter Block",
+      "item.aetheriumresources.realitymisfortune": "Reality\u0027s Misfortune",
+      "subtitles.swordslash": "",
+      "item.minecraft.splash_potion.effect.erroretapa_2": "Splash Activated Strange Bottle"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "aetheriumresources",
+    "modName": "AetheriumResources",
+    "version": "1.2.8",
+    "author": "VoonexB",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "sem_titulo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.aetheriumresources",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

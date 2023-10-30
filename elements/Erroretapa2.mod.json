@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Activated Strange Bottle",
+    "splashName": "Splash Activated Strange Bottle",
+    "lingeringName": "Lingering Activated Strange Bottle",
+    "arrowName": "Arrow of Activated Strange Bottle",
+    "effects": []
+  }
+}

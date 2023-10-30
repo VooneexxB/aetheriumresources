@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Brewing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "brewingInputStack": {
+      "value": "Items.HONEY_BOTTLE"
+    },
+    "brewingIngredientStack": {
+      "value": "Items.AMETHYST_SHARD"
+    },
+    "brewingReturnStack": {
+      "value": "POTION:CUSTOM:Erroretapa1"
+    },
+    "name": "erroretapa_1craftinbg",
+    "namespace": "mod"
+  }
+}

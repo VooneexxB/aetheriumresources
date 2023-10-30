@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of 3RR0R",
+    "splashName": "Splash Potion of 3RR0R",
+    "lingeringName": "Lingering Potion of 3RR0R",
+    "arrowName": "Arrow of 3RR0R",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Efeito"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

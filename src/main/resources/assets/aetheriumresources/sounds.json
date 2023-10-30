@@ -1,0 +1,301 @@
+{
+  "error-breaking": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "aetheriumresources:3rr0r_breaking1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_breaking2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_breaking3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_breaking4",
+        "stream": false
+      }
+    ]
+  },
+  "error-placing": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "aetheriumresources:3rr0r_placing1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_placing2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_placing3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_placing4",
+        "stream": false
+      }
+    ]
+  },
+  "error-step": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "aetheriumresources:3rr0r_step1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_step2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_step3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_step4",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_step5",
+        "stream": false
+      }
+    ]
+  },
+  "failure-breaking": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "aetheriumresources:f41lur3_breaking1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_breaking2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_breaking3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_breaking4",
+        "stream": false
+      }
+    ]
+  },
+  "failure-placing": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "aetheriumresources:f41lur3_placing1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_placing2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_placing3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_placing4",
+        "stream": false
+      }
+    ]
+  },
+  "failure-step": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "aetheriumresources:f41lur3_step1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_step2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_step3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_step4",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_step5",
+        "stream": false
+      }
+    ]
+  },
+  "failure-fall": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "aetheriumresources:f41lur3_fal1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_fall2",
+        "stream": false
+      }
+    ]
+  },
+  "error-fall": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "aetheriumresources:3rr0r_fall1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_fall2",
+        "stream": false
+      }
+    ]
+  },
+  "error-hit": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "aetheriumresources:3rr0r_hit1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_hit2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_hit3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_hit4",
+        "stream": false
+      }
+    ]
+  },
+  "failure-hit": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "aetheriumresources:f41lur3_hit1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_hit2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_hit3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:f41lur3_hit4",
+        "stream": false
+      }
+    ]
+  },
+  "potionerror": {
+    "category": "voice",
+    "sounds": [
+      {
+        "name": "aetheriumresources:error1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:error2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:error3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:error4",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:error5",
+        "stream": false
+      }
+    ]
+  },
+  "truedeath": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheriumresources:x2mate.com_-_god_of_hopelessness_128_kbps",
+        "stream": true
+      }
+    ]
+  },
+  "breakingworld": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheriumresources:x2mate.com_-_chaos1_128_kbps",
+        "stream": true
+      }
+    ]
+  },
+  "falsehopedisc": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheriumresources:snapinsta.io_-_god_of_fear_256_kbps",
+        "stream": true
+      }
+    ]
+  },
+  "swordslash1": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "aetheriumresources:tomp3.cc_-_pibby_finn_mertens_sword_slash_sound_effect_mp3cut.net",
+        "stream": false
+      }
+    ]
+  },
+  "parasita": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheriumresources:tomp3.cc_-_scurrying_around",
+        "stream": true
+      }
+    ]
+  },
+  "thunderstorm": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheriumresources:new_song_18",
+        "stream": true
+      }
+    ]
+  },
+  "death": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheriumresources:tomp3.cc_-_screams_under_the_red_sky",
+        "stream": true
+      }
+    ]
+  },
+  "simulacra": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "aetheriumresources:tomp3.cc_-_9l1tch_192kbps",
+        "stream": true
+      }
+    ]
+  }
+}

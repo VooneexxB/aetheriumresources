@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "TRU3DE4TH",
+    "texture": "disco",
+    "description": "Andrii Floria - God of Hopelessness",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriumTab"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:truedeath"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

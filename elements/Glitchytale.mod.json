@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "F4LS3H0P3",
+    "texture": "disc",
+    "description": "Andrii Floria - God of Fear",
+    "creativeTab": {
+      "value": "CUSTOM:AetheriumTab"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:falsehopedisc"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

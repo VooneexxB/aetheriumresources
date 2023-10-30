@@ -1,0 +1,7 @@
+{
+  "parent": "aetheriumresources:custom/seringagltich",
+  "textures": {
+    "0": "aetheriumresources:blocks/seringaglitch",
+    "particle": "aetheriumresources:items/file_1"
+  }
+}

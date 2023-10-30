@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheriumresources:blocks/parasitematter",
+    "up": "aetheriumresources:blocks/parasitematter",
+    "north": "aetheriumresources:blocks/parasitematter",
+    "east": "aetheriumresources:blocks/parasitematter",
+    "south": "aetheriumresources:blocks/parasitematter",
+    "west": "aetheriumresources:blocks/parasitematter",
+    "particle": "aetheriumresources:blocks/parasitematter"
+  }
+}

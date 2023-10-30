@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "glitch",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ErrorDecorativo"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Blocks.AMETHYST_BLOCK"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:FailureDecorativo"
+    },
+    "name": "glitch_2receita",
+    "namespace": "mod"
+  }
+}

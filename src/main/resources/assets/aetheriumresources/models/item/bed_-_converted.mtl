@@ -1,0 +1,27 @@
+newmtl m_905cf72c-bc00-49c8-2392-ad8138b33a46
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd aetheriumresources:blocks/imagem_2023-10-17_151529295
+Ns 100.0
+d 1.0
+newmtl m_79ded851-cac5-e836-97f7-50971ba026ad
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd aetheriumresources:blocks/bed
+Ns 100.0
+d 1.0
+newmtl m_9b522ec4-0a88-5ac2-92b8-a9e0a3f93408
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd aetheriumresources:blocks/baseegg
+Ns 100.0
+d 1.0
+newmtl none
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 100.0
+d 1.0

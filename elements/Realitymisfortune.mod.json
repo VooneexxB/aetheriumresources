@@ -1,0 +1,33 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "sem_titulo",
+    "customModelName": "sword:default",
+    "name": "Reality's Misfortune",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:AetheriumTab"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 30.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "BorderswordLivingEntityIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "RealitymisfortuneToolInHandTick"
+    }
+  }
+}
