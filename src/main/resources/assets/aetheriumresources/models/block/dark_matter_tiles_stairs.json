@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "aetheriumresources:blocks/darkmattertiles1",
+    "top": "aetheriumresources:blocks/darkmattertiles1",
+    "side": "aetheriumresources:blocks/darkmattertiles1"
+  }
+}

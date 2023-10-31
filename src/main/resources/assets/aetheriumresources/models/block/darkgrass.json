@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "aetheriumresources:blocks/darkgrass",
-    "particle": "aetheriumresources:blocks/darkgrass"
+    "cross": "aetheriumresources:blocks/darkgrasstexture",
+    "particle": "aetheriumresources:blocks/darkgrasstexture"
   }
 }

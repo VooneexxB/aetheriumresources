@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aetheriumresources:block/darkmatterbricksslab"
+    },
+    "type=top": {
+      "model": "aetheriumresources:block/darkmatterbricksslab_top"
+    },
+    "type=double": {
+      "model": "aetheriumresources:block/darkmatterbricksslab_full"
+    }
+  }
+}

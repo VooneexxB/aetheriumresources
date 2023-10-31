@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "aetheriumresources:dark_matter_tiles"
+  },
+  "result": "aetheriumresources:dark_matter_tiles_stairs"
+}

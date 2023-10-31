@@ -1,7 +1,7 @@
 {
   "parent": "block/fence_post",
   "textures": {
-    "texture": "aetheriumresources:blocks/darkmatterforest_planks",
-    "particle": "aetheriumresources:blocks/darkmatterforest_planks"
+    "texture": "aetheriumresources:blocks/voidplank",
+    "particle": "aetheriumresources:blocks/voidplank"
   }
 }

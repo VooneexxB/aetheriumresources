@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:dark_matter_bricks"
+    },
+    "1": {
+      "item": "aetheriumresources:dark_matter_bricks"
+    },
+    "2": {
+      "item": "aetheriumresources:dark_matter_bricks"
+    },
+    "3": {
+      "item": "aetheriumresources:dark_matter_bricks"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:dark_matter_tiles",
+    "count": 4
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:dark_matter_bricks"
+    },
+    "3": {
+      "item": "aetheriumresources:dark_matter_bricks"
+    },
+    "4": {
+      "item": "aetheriumresources:dark_matter_bricks"
+    },
+    "6": {
+      "item": "aetheriumresources:dark_matter_bricks"
+    },
+    "7": {
+      "item": "aetheriumresources:dark_matter_bricks"
+    },
+    "8": {
+      "item": "aetheriumresources:dark_matter_bricks"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:darkmatterbricksstairs",
+    "count": 4
+  }
+}

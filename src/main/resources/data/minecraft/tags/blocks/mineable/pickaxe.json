@@ -5,7 +5,21 @@
     "aetheriumresources:error_2",
     "aetheriumresources:error_decorativo",
     "aetheriumresources:failure_decorativo",
-    "aetheriumresources:darkmatter",
-    "aetheriumresources:amethyst_machine"
+    "aetheriumresources:enriched_dark_matter",
+    "aetheriumresources:dark_matter_bricks",
+    "aetheriumresources:darkmatterbricksslab",
+    "aetheriumresources:darkmatterbrickswall",
+    "aetheriumresources:darkmatterbricksstairs",
+    "aetheriumresources:dark_matter_tiles",
+    "aetheriumresources:darkmattertilesslab",
+    "aetheriumresources:darkmattertileswalls",
+    "aetheriumresources:dark_matter_tiles_stairs",
+    "aetheriumresources:polished_dark_matter",
+    "aetheriumresources:polished_dark_matter_slab",
+    "aetheriumresources:polished_dark_matter_wall",
+    "aetheriumresources:polished_dark_matter_stairs",
+    "aetheriumresources:amethyst_machine",
+    "aetheriumresources:dark_matter_gem_block",
+    "aetheriumresources:chiseled_dark_matter"
   ]
 }

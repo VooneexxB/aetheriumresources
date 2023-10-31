@@ -1,6 +1,6 @@
 {
   "parent": "block/button",
   "textures": {
-    "texture": "aetheriumresources:blocks/darkmatterforest_planks"
+    "texture": "aetheriumresources:blocks/voidplank"
   }
 }

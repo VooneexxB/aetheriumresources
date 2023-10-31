@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aetheriumresources:block/polished_dark_matter_slab"
+    },
+    "type=top": {
+      "model": "aetheriumresources:block/polished_dark_matter_slab_top"
+    },
+    "type=double": {
+      "model": "aetheriumresources:block/polished_dark_matter_slab_full"
+    }
+  }
+}

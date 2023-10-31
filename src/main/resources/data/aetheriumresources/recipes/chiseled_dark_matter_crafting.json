@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:polished_dark_matter"
+    },
+    "1": {
+      "item": "aetheriumresources:polished_dark_matter"
+    },
+    "2": {
+      "item": "aetheriumresources:polished_dark_matter"
+    },
+    "3": {
+      "item": "aetheriumresources:polished_dark_matter"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:chiseled_dark_matter",
+    "count": 1
+  }
+}

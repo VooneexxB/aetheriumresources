@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "aetheriumresources:block/stripped_dark_matter_forest_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "aetheriumresources:block/stripped_dark_matter_forest_log"
+    },
+    "axis=z": {
+      "model": "aetheriumresources:block/stripped_dark_matter_forest_log",
+      "x": 90
+    }
+  }
+}

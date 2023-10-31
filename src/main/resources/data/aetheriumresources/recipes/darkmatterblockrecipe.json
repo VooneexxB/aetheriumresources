@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aetheriumresources:darkmatteritem"
+    },
+    {
+      "item": "aetheriumresources:darkmatteritem"
+    },
+    {
+      "item": "aetheriumresources:darkmatteritem"
+    },
+    {
+      "item": "aetheriumresources:darkmatteritem"
+    }
+  ],
+  "result": {
+    "item": "aetheriumresources:darkmatter",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheriumresources:blocks/enricheddarkmatter",
+    "up": "aetheriumresources:blocks/enricheddarkmatter",
+    "north": "aetheriumresources:blocks/enricheddarkmatter",
+    "east": "aetheriumresources:blocks/enricheddarkmatter",
+    "south": "aetheriumresources:blocks/enricheddarkmatter",
+    "west": "aetheriumresources:blocks/enricheddarkmatter",
+    "particle": "aetheriumresources:blocks/enricheddarkmatter"
+  }
+}

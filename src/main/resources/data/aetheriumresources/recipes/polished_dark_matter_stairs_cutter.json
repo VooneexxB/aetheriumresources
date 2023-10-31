@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "aetheriumresources:polished_dark_matter"
+  },
+  "result": "aetheriumresources:polished_dark_matter_stairs"
+}

@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "aetheriumresources:blocks/darkmatterforest_log_top",
-    "up": "aetheriumresources:blocks/darkmatterforest_log_top",
-    "north": "aetheriumresources:blocks/darkmatterforest_log_side",
-    "east": "aetheriumresources:blocks/darkmatterforest_log_side",
-    "south": "aetheriumresources:blocks/darkmatterforest_log_side",
-    "west": "aetheriumresources:blocks/darkmatterforest_log_side",
-    "particle": "aetheriumresources:blocks/darkmatterforest_log_top"
+    "down": "aetheriumresources:blocks/voidlogup",
+    "up": "aetheriumresources:blocks/voidlogup",
+    "north": "aetheriumresources:blocks/voidlogside",
+    "east": "aetheriumresources:blocks/voidlogside",
+    "south": "aetheriumresources:blocks/voidlogside",
+    "west": "aetheriumresources:blocks/voidlogside",
+    "particle": "aetheriumresources:blocks/voidlogup"
   }
 }

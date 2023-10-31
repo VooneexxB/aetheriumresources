@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "aetheriumresources:blocks/darkmatterbricks1",
+    "particle": "aetheriumresources:blocks/darkmatterbricks1"
+  }
+}

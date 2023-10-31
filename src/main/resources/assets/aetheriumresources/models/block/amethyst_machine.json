@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "aetheriumresources:blocks/machinebelow",
-    "up": "aetheriumresources:blocks/machinebelow",
-    "north": "aetheriumresources:blocks/machinesides",
-    "east": "aetheriumresources:blocks/machinebelow",
-    "south": "aetheriumresources:blocks/machinebelow",
-    "west": "aetheriumresources:blocks/machinebelow",
-    "particle": "aetheriumresources:blocks/machinebelow"
+    "down": "aetheriumresources:blocks/amethyst_purifier_bottom",
+    "up": "aetheriumresources:blocks/amethyst_purifier_up",
+    "north": "aetheriumresources:blocks/amethyst_purifier_front",
+    "east": "aetheriumresources:blocks/amethyst_purifier_side",
+    "south": "aetheriumresources:blocks/amethyst_purifier_side",
+    "west": "aetheriumresources:blocks/amethyst_purifier_side",
+    "particle": "aetheriumresources:blocks/amethyst_purifier_bottom"
   }
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "aetheriumresources:dark_matter_bricks"
+  },
+  "result": "aetheriumresources:darkmatterbricksslab"
+}

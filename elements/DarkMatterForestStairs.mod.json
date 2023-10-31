@@ -2,10 +2,10 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "darkmatterforest_planks",
-    "textureTop": "darkmatterforest_planks",
+    "texture": "voidplank",
+    "textureTop": "voidplank",
     "textureLeft": "",
-    "textureFront": "darkmatterforest_planks",
+    "textureFront": "voidplank",
     "textureRight": "",
     "textureBack": "",
     "renderType": 10,

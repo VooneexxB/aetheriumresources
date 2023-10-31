@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:dark_matter_tiles"
+    },
+    "1": {
+      "item": "aetheriumresources:dark_matter_tiles"
+    },
+    "2": {
+      "item": "aetheriumresources:dark_matter_tiles"
+    },
+    "3": {
+      "item": "aetheriumresources:dark_matter_tiles"
+    },
+    "4": {
+      "item": "aetheriumresources:dark_matter_tiles"
+    },
+    "5": {
+      "item": "aetheriumresources:dark_matter_tiles"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:darkmattertileswalls",
+    "count": 6
+  }
+}

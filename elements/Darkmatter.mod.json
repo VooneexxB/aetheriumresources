@@ -2,12 +2,12 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "darkmatterblock",
-    "textureTop": "darkmatterblock",
-    "textureLeft": "darkmatterblock",
-    "textureFront": "darkmatterblock",
-    "textureRight": "darkmatterblock",
-    "textureBack": "darkmatterblock",
+    "texture": "darkmatter",
+    "textureTop": "darkmatter",
+    "textureLeft": "darkmatter",
+    "textureFront": "darkmatter",
+    "textureRight": "darkmatter",
+    "textureBack": "darkmatter",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Dark Matter",
+    "name": "Dark Matter Block",
     "specialInfo": [],
     "hardness": 1.5,
     "resistance": 6.0,
@@ -42,12 +42,12 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriumTab"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "hoe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": true,

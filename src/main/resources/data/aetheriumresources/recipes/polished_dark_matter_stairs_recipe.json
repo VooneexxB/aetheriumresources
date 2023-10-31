@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:polished_dark_matter"
+    },
+    "3": {
+      "item": "aetheriumresources:polished_dark_matter"
+    },
+    "4": {
+      "item": "aetheriumresources:polished_dark_matter"
+    },
+    "6": {
+      "item": "aetheriumresources:polished_dark_matter"
+    },
+    "7": {
+      "item": "aetheriumresources:polished_dark_matter"
+    },
+    "8": {
+      "item": "aetheriumresources:polished_dark_matter"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:polished_dark_matter_stairs",
+    "count": 4
+  }
+}

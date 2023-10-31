@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheriumresources:blocks/chiseleddarkmatter",
+    "up": "aetheriumresources:blocks/chiseleddarkmatter",
+    "north": "aetheriumresources:blocks/chiseleddarkmatter",
+    "east": "aetheriumresources:blocks/chiseleddarkmatter",
+    "south": "aetheriumresources:blocks/chiseleddarkmatter",
+    "west": "aetheriumresources:blocks/chiseleddarkmatter",
+    "particle": "aetheriumresources:blocks/chiseleddarkmatter"
+  }
+}

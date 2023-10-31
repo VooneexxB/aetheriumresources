@@ -1,0 +1,24 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Darkmatterbrickswall"
+      },
+      {
+        "value": "CUSTOM:Darkmattertileswalls"
+      },
+      {
+        "value": "CUSTOM:PolishedDarkMatterWall"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

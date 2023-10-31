@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aetheriumresources:block/darkmattertilesslab"
+    },
+    "type=top": {
+      "model": "aetheriumresources:block/darkmattertilesslab_top"
+    },
+    "type=double": {
+      "model": "aetheriumresources:block/darkmattertilesslab_full"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aetheriumresources:block/polished_dark_matter"
+    },
+    "facing=east": {
+      "model": "aetheriumresources:block/polished_dark_matter",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aetheriumresources:block/polished_dark_matter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aetheriumresources:block/polished_dark_matter",
+      "y": 270
+    }
+  }
+}

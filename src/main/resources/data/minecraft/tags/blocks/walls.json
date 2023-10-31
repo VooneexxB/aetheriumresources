@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "aetheriumresources:darkmatterbrickswall",
+    "aetheriumresources:darkmattertileswalls",
+    "aetheriumresources:polished_dark_matter_wall"
+  ]
+}

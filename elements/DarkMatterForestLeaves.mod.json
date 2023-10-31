@@ -38,7 +38,7 @@
     "hardness": 0.2,
     "resistance": 0.2,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:AetheriumTab"
     },

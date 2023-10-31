@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PolishedDarkMatter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedDarkMatter"
+      },
+      {
+        "value": "CUSTOM:PolishedDarkMatter"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PolishedDarkMatter"
+      },
+      {
+        "value": "CUSTOM:PolishedDarkMatter"
+      },
+      {
+        "value": "CUSTOM:PolishedDarkMatter"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PolishedDarkMatterStairs"
+    },
+    "name": "polished_dark_matter_stairs_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "aetheriumresources:block/dark_matter_gem_block"
+    }
+  }
+}

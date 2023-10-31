@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:dark_matter_gem"
+    },
+    "1": {
+      "item": "aetheriumresources:dark_matter_gem"
+    },
+    "2": {
+      "item": "aetheriumresources:dark_matter_gem"
+    },
+    "3": {
+      "item": "aetheriumresources:dark_matter_gem"
+    },
+    "4": {
+      "item": "aetheriumresources:dark_matter_gem"
+    },
+    "5": {
+      "item": "aetheriumresources:dark_matter_gem"
+    },
+    "6": {
+      "item": "aetheriumresources:dark_matter_gem"
+    },
+    "7": {
+      "item": "aetheriumresources:dark_matter_gem"
+    },
+    "8": {
+      "item": "aetheriumresources:dark_matter_gem"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:dark_matter_gem_block",
+    "count": 1
+  }
+}

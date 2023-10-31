@@ -10,7 +10,7 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Blocks.STONE#0"
+        "value": ""
       },
       {
         "value": "Blocks.STONE#0"
@@ -25,13 +25,13 @@
         "value": "CUSTOM:Materiaorganica"
       },
       {
-        "value": ""
-      },
-      {
         "value": "Blocks.STONE#0"
       },
       {
         "value": ""
+      },
+      {
+        "value": "Blocks.STONE#0"
       },
       {
         "value": ""

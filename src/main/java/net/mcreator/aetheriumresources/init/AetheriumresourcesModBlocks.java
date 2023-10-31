@@ -14,13 +14,27 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.aetheriumresources.block.StrippedDarkMatterForestLogBlock;
+import net.mcreator.aetheriumresources.block.PolishedDarkMatterWallBlock;
+import net.mcreator.aetheriumresources.block.PolishedDarkMatterStairsBlock;
+import net.mcreator.aetheriumresources.block.PolishedDarkMatterSlabBlock;
+import net.mcreator.aetheriumresources.block.PolishedDarkMatterBlock;
 import net.mcreator.aetheriumresources.block.ParasitematterBlock;
 import net.mcreator.aetheriumresources.block.FailureDecorativoBlock;
 import net.mcreator.aetheriumresources.block.ErrorDecorativoBlock;
 import net.mcreator.aetheriumresources.block.ErrorBlock;
 import net.mcreator.aetheriumresources.block.Error2Block;
+import net.mcreator.aetheriumresources.block.EnrichedDarkMatterBlock;
+import net.mcreator.aetheriumresources.block.DarkmattertileswallsBlock;
+import net.mcreator.aetheriumresources.block.DarkmattertilesslabBlock;
+import net.mcreator.aetheriumresources.block.DarkmatterbrickswallBlock;
+import net.mcreator.aetheriumresources.block.DarkmatterbricksstairsBlock;
+import net.mcreator.aetheriumresources.block.DarkmatterbricksslabBlock;
 import net.mcreator.aetheriumresources.block.DarkmatterBlock;
 import net.mcreator.aetheriumresources.block.DarkgrassBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterTilesStairsBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterTilesBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterGemBlockBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterForestWoodBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterForestStairsBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterForestSlabBlock;
@@ -31,6 +45,9 @@ import net.mcreator.aetheriumresources.block.DarkMatterForestLeavesBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterForestFenceGateBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterForestFenceBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterForestButtonBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterBricksBlock;
+import net.mcreator.aetheriumresources.block.DarkForestPlanksTrapdoorBlock;
+import net.mcreator.aetheriumresources.block.ChiseledDarkMatterBlock;
 import net.mcreator.aetheriumresources.block.BORDERPortalBlock;
 import net.mcreator.aetheriumresources.block.AmethystMachineBlock;
 import net.mcreator.aetheriumresources.block.AaBlock;
@@ -43,8 +60,26 @@ public class AetheriumresourcesModBlocks {
 	public static final RegistryObject<Block> ERROR_DECORATIVO = REGISTRY.register("error_decorativo", () -> new ErrorDecorativoBlock());
 	public static final RegistryObject<Block> FAILURE_DECORATIVO = REGISTRY.register("failure_decorativo", () -> new FailureDecorativoBlock());
 	public static final RegistryObject<Block> DARKMATTER = REGISTRY.register("darkmatter", () -> new DarkmatterBlock());
-	public static final RegistryObject<Block> PARASITEMATTER = REGISTRY.register("parasitematter", () -> new ParasitematterBlock());
+	public static final RegistryObject<Block> ENRICHED_DARK_MATTER = REGISTRY.register("enriched_dark_matter", () -> new EnrichedDarkMatterBlock());
 	public static final RegistryObject<Block> DARKGRASS = REGISTRY.register("darkgrass", () -> new DarkgrassBlock());
+	public static final RegistryObject<Block> DARK_MATTER_BRICKS = REGISTRY.register("dark_matter_bricks", () -> new DarkMatterBricksBlock());
+	public static final RegistryObject<Block> DARKMATTERBRICKSSLAB = REGISTRY.register("darkmatterbricksslab", () -> new DarkmatterbricksslabBlock());
+	public static final RegistryObject<Block> DARKMATTERBRICKSWALL = REGISTRY.register("darkmatterbrickswall", () -> new DarkmatterbrickswallBlock());
+	public static final RegistryObject<Block> DARKMATTERBRICKSSTAIRS = REGISTRY.register("darkmatterbricksstairs",
+			() -> new DarkmatterbricksstairsBlock());
+	public static final RegistryObject<Block> DARK_MATTER_TILES = REGISTRY.register("dark_matter_tiles", () -> new DarkMatterTilesBlock());
+	public static final RegistryObject<Block> DARKMATTERTILESSLAB = REGISTRY.register("darkmattertilesslab", () -> new DarkmattertilesslabBlock());
+	public static final RegistryObject<Block> DARKMATTERTILESWALLS = REGISTRY.register("darkmattertileswalls", () -> new DarkmattertileswallsBlock());
+	public static final RegistryObject<Block> DARK_MATTER_TILES_STAIRS = REGISTRY.register("dark_matter_tiles_stairs",
+			() -> new DarkMatterTilesStairsBlock());
+	public static final RegistryObject<Block> POLISHED_DARK_MATTER = REGISTRY.register("polished_dark_matter", () -> new PolishedDarkMatterBlock());
+	public static final RegistryObject<Block> POLISHED_DARK_MATTER_SLAB = REGISTRY.register("polished_dark_matter_slab",
+			() -> new PolishedDarkMatterSlabBlock());
+	public static final RegistryObject<Block> POLISHED_DARK_MATTER_WALL = REGISTRY.register("polished_dark_matter_wall",
+			() -> new PolishedDarkMatterWallBlock());
+	public static final RegistryObject<Block> POLISHED_DARK_MATTER_STAIRS = REGISTRY.register("polished_dark_matter_stairs",
+			() -> new PolishedDarkMatterStairsBlock());
+	public static final RegistryObject<Block> PARASITEMATTER = REGISTRY.register("parasitematter", () -> new ParasitematterBlock());
 	public static final RegistryObject<Block> DARK_MATTER_FOREST_WOOD = REGISTRY.register("dark_matter_forest_wood",
 			() -> new DarkMatterForestWoodBlock());
 	public static final RegistryObject<Block> DARK_MATTER_FOREST_LOG = REGISTRY.register("dark_matter_forest_log",
@@ -65,9 +100,15 @@ public class AetheriumresourcesModBlocks {
 			() -> new DarkMatterForestPressurePlateBlock());
 	public static final RegistryObject<Block> DARK_MATTER_FOREST_BUTTON = REGISTRY.register("dark_matter_forest_button",
 			() -> new DarkMatterForestButtonBlock());
-	public static final RegistryObject<Block> BORDER_PORTAL = REGISTRY.register("border_portal", () -> new BORDERPortalBlock());
 	public static final RegistryObject<Block> AMETHYST_MACHINE = REGISTRY.register("amethyst_machine", () -> new AmethystMachineBlock());
 	public static final RegistryObject<Block> EGGBED = REGISTRY.register("eggbed", () -> new AaBlock());
+	public static final RegistryObject<Block> DARK_MATTER_GEM_BLOCK = REGISTRY.register("dark_matter_gem_block", () -> new DarkMatterGemBlockBlock());
+	public static final RegistryObject<Block> BORDER_PORTAL = REGISTRY.register("border_portal", () -> new BORDERPortalBlock());
+	public static final RegistryObject<Block> STRIPPED_DARK_MATTER_FOREST_LOG = REGISTRY.register("stripped_dark_matter_forest_log",
+			() -> new StrippedDarkMatterForestLogBlock());
+	public static final RegistryObject<Block> DARK_FOREST_PLANKS_TRAPDOOR = REGISTRY.register("dark_forest_planks_trapdoor",
+			() -> new DarkForestPlanksTrapdoorBlock());
+	public static final RegistryObject<Block> CHISELED_DARK_MATTER = REGISTRY.register("chiseled_dark_matter", () -> new ChiseledDarkMatterBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -77,8 +118,9 @@ public class AetheriumresourcesModBlocks {
 			DarkgrassBlock.registerRenderLayer();
 			DarkMatterForestLeavesBlock.registerRenderLayer();
 			DarkMatterForestButtonBlock.registerRenderLayer();
-			BORDERPortalBlock.registerRenderLayer();
 			AaBlock.registerRenderLayer();
+			BORDERPortalBlock.registerRenderLayer();
+			DarkForestPlanksTrapdoorBlock.registerRenderLayer();
 		}
 	}
 }

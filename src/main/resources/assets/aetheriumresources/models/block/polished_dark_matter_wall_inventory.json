@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "aetheriumresources:blocks/polisheddarkmatter1",
+    "particle": "aetheriumresources:blocks/polisheddarkmatter1"
+  }
+}
