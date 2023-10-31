@@ -24,7 +24,7 @@ public class DarkMatterForestLogBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public DarkMatterForestLogBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f));
+		super(BlockBehaviour.Properties.of(Material.NETHER_WOOD).sound(SoundType.STEM).strength(2f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 

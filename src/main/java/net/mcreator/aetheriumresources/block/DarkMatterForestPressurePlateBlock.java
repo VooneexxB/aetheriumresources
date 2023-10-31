@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class DarkMatterForestPressurePlateBlock extends PressurePlateBlock {
 	public DarkMatterForestPressurePlateBlock() {
-		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f));
+		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.NETHER_WOOD).sound(SoundType.STEM).strength(2f, 3f));
 	}
 
 	@Override

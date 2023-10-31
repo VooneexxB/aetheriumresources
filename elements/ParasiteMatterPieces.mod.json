@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "matter",
     "customModelName": "Normal",
-    "name": "Parasite Matter",
+    "name": "Parasite Matter (WIP)",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:AetheriumTab"

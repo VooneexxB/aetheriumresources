@@ -24,7 +24,7 @@ import java.util.Collections;
 
 public class DarkMatterForestLeavesBlock extends Block {
 	public DarkMatterForestLeavesBlock() {
-		super(BlockBehaviour.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.2f).noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.LEAVES).sound(SoundType.WART_BLOCK).strength(0.2f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 

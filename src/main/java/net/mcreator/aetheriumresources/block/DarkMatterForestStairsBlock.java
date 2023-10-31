@@ -19,7 +19,7 @@ import java.util.Collections;
 public class DarkMatterForestStairsBlock extends StairBlock {
 	public DarkMatterForestStairsBlock() {
 		super(() -> Blocks.AIR.defaultBlockState(),
-				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 2f).dynamicShape());
+				BlockBehaviour.Properties.of(Material.NETHER_WOOD).sound(SoundType.STEM).strength(3f, 2f).dynamicShape());
 	}
 
 	@Override

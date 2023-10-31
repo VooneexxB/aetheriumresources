@@ -7,8 +7,12 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.common.brewing.IBrewingRecipe;
 import net.minecraftforge.common.brewing.BrewingRecipeRegistry;
 
+import net.minecraft.world.item.alchemy.PotionUtils;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
 
+import net.mcreator.aetheriumresources.init.AetheriumresourcesModPotions;
 import net.mcreator.aetheriumresources.init.AetheriumresourcesModItems;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -20,12 +24,14 @@ public class AntidotorecipeBrewingRecipe implements IBrewingRecipe {
 
 	@Override
 	public boolean isInput(ItemStack input) {
-		return input.getItem() == AetheriumresourcesModItems.SERINGA_GLITCH.get();
+		Item inputItem = input.getItem();
+		return (inputItem == Items.POTION || inputItem == Items.SPLASH_POTION || inputItem == Items.LINGERING_POTION)
+				&& PotionUtils.getPotion(input) == AetheriumresourcesModPotions.ERRORETAPAFINAL.get();
 	}
 
 	@Override
 	public boolean isIngredient(ItemStack ingredient) {
-		return ingredient.getItem() == AetheriumresourcesModItems.PARASITE_MATTER_PIECES.get();
+		return ingredient.getItem() == AetheriumresourcesModItems.SERINGA.get();
 	}
 
 	@Override

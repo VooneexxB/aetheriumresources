@@ -6,6 +6,16 @@
     "splashName": "Splash Strange Bottle",
     "lingeringName": "Lingering Strange Bottle",
     "arrowName": "Arrow of Strange Bottle",
-    "effects": []
+    "effects": [
+      {
+        "effect": {
+          "value": "BLINDNESS"
+        },
+        "duration": 3600,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
   }
 }

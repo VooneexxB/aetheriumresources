@@ -38,7 +38,7 @@
     "hardness": 2.0,
     "resistance": 2.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
       "value": "CUSTOM:AetheriumTab"
     },
@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "WOOD"
+      "value": "NETHER_WOOD"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "HYPHAE"
     },
     "breakSound": {
       "value": ""

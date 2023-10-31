@@ -15,8 +15,8 @@ import net.minecraft.core.particles.ParticleTypes;
 
 public class DarkdesertBiome {
 	public static Biome createBiome() {
-		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-13948117).waterColor(-10092544).waterFogColor(-13434880)
-				.skyColor(-13948117).foliageColorOverride(-16711680).grassColorOverride(-16711680)
+		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-7895161).waterColor(-10092544).waterFogColor(-13434880)
+				.skyColor(-7895161).foliageColorOverride(-16711680).grassColorOverride(-16711680)
 				.ambientLoopSound(new SoundEvent(new ResourceLocation("ambient.soul_sand_valley.loop")))
 				.ambientMoodSound(new AmbientMoodSettings(new SoundEvent(new ResourceLocation("ambient.soul_sand_valley.mood")), 6000, 8, 2))
 				.ambientAdditionsSound(

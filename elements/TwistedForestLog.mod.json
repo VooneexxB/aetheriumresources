@@ -2,17 +2,17 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "parasitematter",
-    "textureTop": "parasitematter",
-    "textureLeft": "parasitematter",
-    "textureFront": "parasitematter",
-    "textureRight": "parasitematter",
-    "textureBack": "parasitematter",
+    "texture": "twistedlogup",
+    "textureTop": "twistedlogup",
+    "textureLeft": "twistedlogside",
+    "textureFront": "twistedlogside",
+    "textureRight": "twistedlogside",
+    "textureBack": "twistedlogside",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 0,
+    "rotationMode": 5,
     "enablePitch": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -33,28 +33,28 @@
         "subtract": false
       }
     ],
-    "name": "Parasite Matter Block",
+    "name": "Twisted Forest Log",
     "specialInfo": [],
-    "hardness": 0.5,
-    "resistance": 80.0,
+    "hardness": 2.0,
+    "resistance": 2.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:AetheriumTab"
     },
-    "destroyTool": "hoe",
+    "destroyTool": "axe",
     "customDrop": {
-      "value": "CUSTOM:ParasiteMatterPieces"
+      "value": ""
     },
-    "dropAmount": 4,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "SCULK"
+      "value": "NETHER_WOOD"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -63,23 +63,23 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "OBSIDIAN",
+    "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
+    "flammability": 5,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 0.8,
-    "jumpFactor": 0.8,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SCULK_SENSOR"
+      "value": "HYPHAE"
     },
     "breakSound": {
       "value": ""
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

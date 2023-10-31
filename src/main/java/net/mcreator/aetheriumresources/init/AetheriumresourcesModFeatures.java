@@ -17,7 +17,9 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
+import net.mcreator.aetheriumresources.world.features.plants.TwistedGrassFeature;
 import net.mcreator.aetheriumresources.world.features.plants.DarkgrassFeature;
+import net.mcreator.aetheriumresources.world.features.ores.TwistedMatterFeature;
 import net.mcreator.aetheriumresources.world.features.ores.EnrichedDarkMatterFeature;
 import net.mcreator.aetheriumresources.world.features.ores.DarkmatterFeature;
 import net.mcreator.aetheriumresources.AetheriumresourcesMod;
@@ -31,13 +33,17 @@ import java.util.ArrayList;
 public class AetheriumresourcesModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, AetheriumresourcesMod.MODID);
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
-	public static final RegistryObject<Feature<?>> DARKMATTER = register("darkmatter", DarkmatterFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, DarkmatterFeature.GENERATE_BIOMES, DarkmatterFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> ENRICHED_DARK_MATTER = register("enriched_dark_matter", EnrichedDarkMatterFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, EnrichedDarkMatterFeature.GENERATE_BIOMES,
 					EnrichedDarkMatterFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> DARKGRASS = register("darkgrass", DarkgrassFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, DarkgrassFeature.GENERATE_BIOMES, DarkgrassFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DARKMATTER = register("darkmatter", DarkmatterFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, DarkmatterFeature.GENERATE_BIOMES, DarkmatterFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TWISTED_MATTER = register("twisted_matter", TwistedMatterFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, TwistedMatterFeature.GENERATE_BIOMES, TwistedMatterFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TWISTED_GRASS = register("twisted_grass", TwistedGrassFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, TwistedGrassFeature.GENERATE_BIOMES, TwistedGrassFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

@@ -9,10 +9,10 @@
     "group": "",
     "recipeShapeless": false,
     "brewingInputStack": {
-      "value": "CUSTOM:SeringaGlitch"
+      "value": "POTION:CUSTOM:Erroretapafinal"
     },
     "brewingIngredientStack": {
-      "value": "CUSTOM:ParasiteMatterPieces"
+      "value": "CUSTOM:Seringa"
     },
     "brewingReturnStack": {
       "value": "CUSTOM:SeringaAntidoto"

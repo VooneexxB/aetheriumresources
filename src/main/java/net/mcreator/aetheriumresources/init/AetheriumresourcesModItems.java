@@ -10,9 +10,12 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.aetheriumresources.item.TwistedMatterItemItem;
+import net.mcreator.aetheriumresources.item.TwistedMatterBrickItem;
 import net.mcreator.aetheriumresources.item.ThunderstormItem;
 import net.mcreator.aetheriumresources.item.TheendItem;
 import net.mcreator.aetheriumresources.item.SimulacraItem;
@@ -43,39 +46,41 @@ public class AetheriumresourcesModItems {
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> FAILURE_DECORATIVO = block(AetheriumresourcesModBlocks.FAILURE_DECORATIVO,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> DARKMATTER = block(AetheriumresourcesModBlocks.DARKMATTER, AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> ENRICHED_DARK_MATTER = block(AetheriumresourcesModBlocks.ENRICHED_DARK_MATTER,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARKGRASS = block(AetheriumresourcesModBlocks.DARKGRASS, AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> DARKMATTER = block(AetheriumresourcesModBlocks.DARKMATTER, AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARK_MATTER_BRICKS = block(AetheriumresourcesModBlocks.DARK_MATTER_BRICKS,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> DARKMATTERBRICKSSTAIRS = block(AetheriumresourcesModBlocks.DARKMATTERBRICKSSTAIRS,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARKMATTERBRICKSSLAB = block(AetheriumresourcesModBlocks.DARKMATTERBRICKSSLAB,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARKMATTERBRICKSWALL = block(AetheriumresourcesModBlocks.DARKMATTERBRICKSWALL,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> DARKMATTERBRICKSSTAIRS = block(AetheriumresourcesModBlocks.DARKMATTERBRICKSSTAIRS,
-			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARK_MATTER_TILES = block(AetheriumresourcesModBlocks.DARK_MATTER_TILES,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> DARK_MATTER_TILES_STAIRS = block(AetheriumresourcesModBlocks.DARK_MATTER_TILES_STAIRS,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARKMATTERTILESSLAB = block(AetheriumresourcesModBlocks.DARKMATTERTILESSLAB,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARKMATTERTILESWALLS = block(AetheriumresourcesModBlocks.DARKMATTERTILESWALLS,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> DARK_MATTER_TILES_STAIRS = block(AetheriumresourcesModBlocks.DARK_MATTER_TILES_STAIRS,
-			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> POLISHED_DARK_MATTER = block(AetheriumresourcesModBlocks.POLISHED_DARK_MATTER,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> POLISHED_DARK_MATTER_STAIRS = block(AetheriumresourcesModBlocks.POLISHED_DARK_MATTER_STAIRS,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> POLISHED_DARK_MATTER_SLAB = block(AetheriumresourcesModBlocks.POLISHED_DARK_MATTER_SLAB,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> POLISHED_DARK_MATTER_WALL = block(AetheriumresourcesModBlocks.POLISHED_DARK_MATTER_WALL,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> POLISHED_DARK_MATTER_STAIRS = block(AetheriumresourcesModBlocks.POLISHED_DARK_MATTER_STAIRS,
-			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> PARASITEMATTER = block(AetheriumresourcesModBlocks.PARASITEMATTER,
+	public static final RegistryObject<Item> CHISELED_DARK_MATTER = block(AetheriumresourcesModBlocks.CHISELED_DARK_MATTER,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARK_MATTER_FOREST_WOOD = block(AetheriumresourcesModBlocks.DARK_MATTER_FOREST_WOOD,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARK_MATTER_FOREST_LOG = block(AetheriumresourcesModBlocks.DARK_MATTER_FOREST_LOG,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> STRIPPED_DARK_MATTER_FOREST_LOG = block(AetheriumresourcesModBlocks.STRIPPED_DARK_MATTER_FOREST_LOG,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARK_MATTER_FOREST_PLANKS = block(AetheriumresourcesModBlocks.DARK_MATTER_FOREST_PLANKS,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
@@ -85,9 +90,13 @@ public class AetheriumresourcesModItems {
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARK_MATTER_FOREST_SLAB = block(AetheriumresourcesModBlocks.DARK_MATTER_FOREST_SLAB,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> DARK_FOREST_PLANKS_TRAPDOOR = block(AetheriumresourcesModBlocks.DARK_FOREST_PLANKS_TRAPDOOR,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARK_MATTER_FOREST_FENCE = block(AetheriumresourcesModBlocks.DARK_MATTER_FOREST_FENCE,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARK_MATTER_FOREST_FENCE_GATE = block(AetheriumresourcesModBlocks.DARK_MATTER_FOREST_FENCE_GATE,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> DARK_FOREST_PLANKS_DOOR = doubleBlock(AetheriumresourcesModBlocks.DARK_FOREST_PLANKS_DOOR,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARK_MATTER_FOREST_PRESSURE_PLATE = block(AetheriumresourcesModBlocks.DARK_MATTER_FOREST_PRESSURE_PLATE,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
@@ -119,14 +128,22 @@ public class AetheriumresourcesModItems {
 	public static final RegistryObject<Item> GLITCHYTALE = REGISTRY.register("glitchytale", () -> new GlitchytaleItem());
 	public static final RegistryObject<Item> THEEND = REGISTRY.register("theend", () -> new TheendItem());
 	public static final RegistryObject<Item> ELEKTRODEATH = REGISTRY.register("elektrodeath", () -> new ElektrodeathItem());
-	public static final RegistryObject<Item> STRIPPED_DARK_MATTER_FOREST_LOG = block(AetheriumresourcesModBlocks.STRIPPED_DARK_MATTER_FOREST_LOG,
+	public static final RegistryObject<Item> TWISTED_MATTER = block(AetheriumresourcesModBlocks.TWISTED_MATTER,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> DARK_FOREST_PLANKS_TRAPDOOR = block(AetheriumresourcesModBlocks.DARK_FOREST_PLANKS_TRAPDOOR,
+	public static final RegistryObject<Item> TWISTED_MATTER_ITEM = REGISTRY.register("twisted_matter_item", () -> new TwistedMatterItemItem());
+	public static final RegistryObject<Item> TWISTED_MATTER_BRICK = REGISTRY.register("twisted_matter_brick", () -> new TwistedMatterBrickItem());
+	public static final RegistryObject<Item> TWISTED_GRASS = block(AetheriumresourcesModBlocks.TWISTED_GRASS,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> CHISELED_DARK_MATTER = block(AetheriumresourcesModBlocks.CHISELED_DARK_MATTER,
+	public static final RegistryObject<Item> TWISTED_FOREST_LOG = block(AetheriumresourcesModBlocks.TWISTED_FOREST_LOG,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_FOREST_WOOD = block(AetheriumresourcesModBlocks.TWISTED_FOREST_WOOD,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties().tab(tab)));
 	}
 }

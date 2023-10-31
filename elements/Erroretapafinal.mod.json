@@ -1,0 +1,39 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Bottle of Dark Mixture",
+    "splashName": "Splash Bottle of Dark Mixture",
+    "lingeringName": "Lingering Bottle of Dark Mixture",
+    "arrowName": "Arrow of Dark Mixture",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Efeito"
+        },
+        "duration": 3600,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "GLOWING"
+        },
+        "duration": 3600,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "LEVITATION"
+        },
+        "duration": 3600,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

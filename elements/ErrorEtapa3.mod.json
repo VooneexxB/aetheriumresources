@@ -1,0 +1,48 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Condensed Parasite",
+    "splashName": "Splash Potion of Condensed Parasite",
+    "lingeringName": "Lingering Potion of Condensed Parasite",
+    "arrowName": "Arrow of Condensed Parasite",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Efeito"
+        },
+        "duration": 3600,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HUNGER"
+        },
+        "duration": 3600,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "WEAKNESS"
+        },
+        "duration": 3600,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "POISON"
+        },
+        "duration": 3600,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -10,21 +10,6 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:ParasiteMatterPieces"
-      },
-      {
-        "value": "CUSTOM:ParasiteMatterPieces"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ParasiteMatterPieces"
-      },
-      {
-        "value": "CUSTOM:ParasiteMatterPieces"
-      },
-      {
         "value": ""
       },
       {
@@ -32,15 +17,30 @@
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:TwistedMatterItem"
+      },
+      {
+        "value": "CUSTOM:TwistedMatterItem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TwistedMatterItem"
+      },
+      {
+        "value": "CUSTOM:TwistedMatterItem"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Parasitematter"
+      "value": "CUSTOM:TwistedMatter"
     },
-    "name": "parasitematterrecipe",
+    "name": "twisted_matter_block_craft",
     "namespace": "mod"
   }
 }

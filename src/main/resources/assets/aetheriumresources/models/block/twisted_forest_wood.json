@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aetheriumresources:blocks/twistedlogside",
+    "particle": "aetheriumresources:blocks/twistedlogside"
+  }
+}

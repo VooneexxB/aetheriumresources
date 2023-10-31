@@ -6,6 +6,34 @@
     "splashName": "Splash Activated Strange Bottle",
     "lingeringName": "Lingering Activated Strange Bottle",
     "arrowName": "Arrow of Activated Strange Bottle",
-    "effects": []
+    "effects": [
+      {
+        "effect": {
+          "value": "SLOWNESS"
+        },
+        "duration": 3600,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "BLINDNESS"
+        },
+        "duration": 3600,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "MINING_FATIGUE"
+        },
+        "duration": 3600,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
   }
 }

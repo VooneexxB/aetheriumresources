@@ -24,7 +24,7 @@ import java.util.Collections;
 
 public class DarkMatterForestButtonBlock extends WoodButtonBlock {
 	public DarkMatterForestButtonBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f).noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.NETHER_WOOD).sound(SoundType.STEM).strength(2f, 3f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 

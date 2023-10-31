@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "aetheriumresources:blocks/darkwood_bottom_door",
+    "top": "aetheriumresources:blocks/darkwood_top_door"
+  }
+}

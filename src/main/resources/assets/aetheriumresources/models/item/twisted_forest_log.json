@@ -1,5 +1,5 @@
 {
-  "parent": "aetheriumresources:block/parasitematter",
+  "parent": "aetheriumresources:block/twisted_forest_log",
   "display": {
     "thirdperson": {
       "rotation": [

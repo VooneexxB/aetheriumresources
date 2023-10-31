@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "aetheriumresources:twisted_matter_item"
+    },
+    {
+      "item": "aetheriumresources:twisted_matter_item"
+    },
+    {
+      "item": "aetheriumresources:twisted_matter_item"
+    },
+    {
+      "item": "aetheriumresources:twisted_matter_item"
+    }
+  ],
+  "result": {
+    "item": "aetheriumresources:twisted_matter",
+    "count": 1
+  }
+}

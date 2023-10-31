@@ -1,0 +1,48 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Dark Condensed Parasite",
+    "splashName": "Splash Potion of Dark Condensed Parasite",
+    "lingeringName": "Lingering Potion of Dark Condensed Parasite",
+    "arrowName": "Arrow of Dark Condensed Parasite",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:Efeito"
+        },
+        "duration": 3600,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "BLINDNESS"
+        },
+        "duration": 3600,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "WITHER"
+        },
+        "duration": 3600,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "UNLUCK"
+        },
+        "duration": 3600,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
