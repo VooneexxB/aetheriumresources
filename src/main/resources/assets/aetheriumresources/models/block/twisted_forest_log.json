@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "aetheriumresources:blocks/twistedlogup",
-    "up": "aetheriumresources:blocks/twistedlogup",
-    "north": "aetheriumresources:blocks/twistedlogside",
-    "east": "aetheriumresources:blocks/twistedlogside",
-    "south": "aetheriumresources:blocks/twistedlogside",
-    "west": "aetheriumresources:blocks/twistedlogside",
-    "particle": "aetheriumresources:blocks/twistedlogup"
+    "down": "aetheriumresources:blocks/twistedlog2",
+    "up": "aetheriumresources:blocks/twistedlog2",
+    "north": "aetheriumresources:blocks/twistedlog1",
+    "east": "aetheriumresources:blocks/twistedlog1",
+    "south": "aetheriumresources:blocks/twistedlog1",
+    "west": "aetheriumresources:blocks/twistedlog1",
+    "particle": "aetheriumresources:blocks/twistedlog2"
   }
 }

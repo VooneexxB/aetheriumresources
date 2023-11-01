@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "aetheriumresources:polished_twisted_matter"
+    },
+    "4": {
+      "item": "aetheriumresources:polished_twisted_matter"
+    },
+    "5": {
+      "item": "aetheriumresources:polished_twisted_matter"
+    },
+    "6": {
+      "item": "aetheriumresources:polished_twisted_matter"
+    },
+    "7": {
+      "item": "aetheriumresources:polished_twisted_matter"
+    },
+    "8": {
+      "item": "aetheriumresources:polished_twisted_matter"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:polished_twisted_matter_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:TwistedMatterBricks"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:PolishedTwistedMatter"
+    },
+    "name": "polished_twisted_matter_recipe",
+    "namespace": "mod"
+  }
+}

@@ -31,6 +31,10 @@ public class BORDERDimension {
 			replaceableBlocks.add(AetheriumresourcesModBlocks.DARKMATTER.get());
 			replaceableBlocks.add(AetheriumresourcesModBlocks.DARKMATTER.get());
 			replaceableBlocks.add(AetheriumresourcesModBlocks.DARKMATTER.get());
+			replaceableBlocks.add(AetheriumresourcesModBlocks.TWISTED_MATTER.get());
+			replaceableBlocks.add(AetheriumresourcesModBlocks.TWISTED_MATTER.get());
+			replaceableBlocks.add(AetheriumresourcesModBlocks.TWISTED_MATTER.get());
+			replaceableBlocks.add(AetheriumresourcesModBlocks.TWISTED_MATTER.get());
 			replaceableBlocks.add(AetheriumresourcesModBlocks.DARKMATTER.get());
 			replaceableBlocks.add(AetheriumresourcesModBlocks.DARKMATTER.get());
 			event.enqueueWork(() -> {

@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "aetheriumresources:blocks/twisteddoorbottom",
+    "top": "aetheriumresources:blocks/twisteddoortop"
+  }
+}

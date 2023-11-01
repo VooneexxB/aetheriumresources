@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aetheriumresources:block/twisted_matter_tiles_slab"
+    },
+    "type=top": {
+      "model": "aetheriumresources:block/twisted_matter_tiles_slab_top"
+    },
+    "type=double": {
+      "model": "aetheriumresources:block/twisted_matter_tiles_slab_full"
+    }
+  }
+}

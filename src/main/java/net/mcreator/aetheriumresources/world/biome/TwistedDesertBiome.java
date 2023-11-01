@@ -16,14 +16,14 @@ public class TwistedDesertBiome {
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-16316922).waterColor(-15066598).waterFogColor(-15263977)
 				.skyColor(-16316922).foliageColorOverride(-6029329).grassColorOverride(-1513240)
-				.ambientLoopSound(new SoundEvent(new ResourceLocation("ambient.warped_forest.loop")))
-				.ambientMoodSound(new AmbientMoodSettings(new SoundEvent(new ResourceLocation("ambient.warped_forest.mood")), 6000, 8, 2))
-				.ambientAdditionsSound(new AmbientAdditionsSettings(new SoundEvent(new ResourceLocation("ambient.warped_forest.additions")), 0.0111D))
+				.ambientLoopSound(new SoundEvent(new ResourceLocation("aetheriumresources:twistedambience")))
+				.ambientMoodSound(new AmbientMoodSettings(new SoundEvent(new ResourceLocation("aetheriumresources:moodtwisted")), 6000, 8, 2))
+				.ambientAdditionsSound(
+						new AmbientAdditionsSettings(new SoundEvent(new ResourceLocation("aetheriumresources:twistedadditions")), 0.0111D))
 				.ambientParticle(new AmbientParticleSettings(ParticleTypes.SNOWFLAKE, 0.007f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).temperature(1.5f)
-				.downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build())
-				.build();
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.SNOW).biomeCategory(Biome.BiomeCategory.NONE).temperature(0f).downfall(0.5f)
+				.specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();
 	}
 }

@@ -83,7 +83,14 @@
     "spawnWorldTypes": [
       "CUSTOM:BORDER"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Darkdesert"
+      },
+      {
+        "value": "CUSTOM:Darkforest"
+      }
+    ],
     "patchSize": 32,
     "generateAtAnyHeight": false
   }

@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "aetheriumresources:blocks/aaa8",
+    "particle": "aetheriumresources:blocks/aaa8"
+  }
+}

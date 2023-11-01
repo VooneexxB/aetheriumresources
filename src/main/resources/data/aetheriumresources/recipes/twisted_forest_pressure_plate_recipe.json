@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:twisted_forest_planks"
+    },
+    "1": {
+      "item": "aetheriumresources:twisted_forest_planks"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:twisted_forest_pressure_plate",
+    "count": 1
+  }
+}

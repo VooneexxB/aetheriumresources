@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "aetheriumresources:blocks/aaa9",
+    "top": "aetheriumresources:blocks/aaa9",
+    "side": "aetheriumresources:blocks/aaa9"
+  }
+}

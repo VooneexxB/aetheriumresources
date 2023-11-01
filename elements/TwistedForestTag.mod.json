@@ -9,6 +9,12 @@
       },
       {
         "value": "CUSTOM:TwistedForestWood"
+      },
+      {
+        "value": "CUSTOM:StrippedTwistedForestLog"
+      },
+      {
+        "value": "CUSTOM:StrippedTwistedForestWood"
       }
     ],
     "blocks": [],

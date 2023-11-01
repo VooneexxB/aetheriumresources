@@ -51,7 +51,7 @@
     },
     "particlesProbability": 0.7,
     "rainingPossibility": 0.5,
-    "temperature": 1.5,
+    "temperature": 2.0,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "spawnBiome": false,
@@ -103,9 +103,7 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "defaultFeatures": [
-      "Caves"
-    ],
+    "defaultFeatures": [],
     "spawnEntries": []
   }
 }

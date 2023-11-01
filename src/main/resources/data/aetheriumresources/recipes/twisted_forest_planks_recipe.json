@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "tag": "twistedforest_log"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:twisted_forest_planks",
+    "count": 4
+  }
+}

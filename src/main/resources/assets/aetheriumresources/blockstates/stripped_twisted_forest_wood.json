@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "aetheriumresources:block/stripped_twisted_forest_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "aetheriumresources:block/stripped_twisted_forest_wood"
+    },
+    "axis=z": {
+      "model": "aetheriumresources:block/stripped_twisted_forest_wood",
+      "x": 90
+    }
+  }
+}

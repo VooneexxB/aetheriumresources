@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "aetheriumresources:twisted_matter_tiles"
+  },
+  "result": "aetheriumresources:twisted_matter_tiles_slab"
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "aetheriumresources:dark_matter_forest_fence_gate"
+    "aetheriumresources:dark_matter_forest_fence_gate",
+    "aetheriumresources:twisted_forest_fence_gate"
   ]
 }

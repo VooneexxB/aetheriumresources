@@ -86,6 +86,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:TwistedDesert"
+      },
+      {
+        "value": "CUSTOM:TwistedForest"
       }
     ],
     "patchSize": 20,

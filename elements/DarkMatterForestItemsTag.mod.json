@@ -9,6 +9,12 @@
       },
       {
         "value": "CUSTOM:DarkMatterForestLog"
+      },
+      {
+        "value": "CUSTOM:StrippedDarkMatterForestLog"
+      },
+      {
+        "value": "CUSTOM:StrippedDarkMatterForestWood"
       }
     ],
     "blocks": [],

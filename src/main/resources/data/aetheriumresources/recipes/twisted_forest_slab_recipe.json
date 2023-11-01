@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:twisted_forest_planks"
+    },
+    "1": {
+      "item": "aetheriumresources:twisted_forest_planks"
+    },
+    "2": {
+      "item": "aetheriumresources:twisted_forest_planks"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:twisted_forest_slab",
+    "count": 6
+  }
+}

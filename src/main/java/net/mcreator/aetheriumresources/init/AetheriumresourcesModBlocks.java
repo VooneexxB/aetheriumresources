@@ -14,11 +14,36 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.aetheriumresources.block.TwistedTrapdoorBlock;
+import net.mcreator.aetheriumresources.block.TwistedMatterTilesWallBlock;
+import net.mcreator.aetheriumresources.block.TwistedMatterTilesStairsBlock;
+import net.mcreator.aetheriumresources.block.TwistedMatterTilesSlabBlock;
+import net.mcreator.aetheriumresources.block.TwistedMatterTilesBlock;
+import net.mcreator.aetheriumresources.block.TwistedMatterBricksWallBlock;
+import net.mcreator.aetheriumresources.block.TwistedMatterBricksStairsBlock;
+import net.mcreator.aetheriumresources.block.TwistedMatterBricksSlabBlock;
+import net.mcreator.aetheriumresources.block.TwistedMatterBricksBlock;
 import net.mcreator.aetheriumresources.block.TwistedMatterBlock;
 import net.mcreator.aetheriumresources.block.TwistedGrassBlock;
 import net.mcreator.aetheriumresources.block.TwistedForestWoodBlock;
+import net.mcreator.aetheriumresources.block.TwistedForestStairsBlock;
+import net.mcreator.aetheriumresources.block.TwistedForestSlabBlock;
+import net.mcreator.aetheriumresources.block.TwistedForestPressurePlateBlock;
+import net.mcreator.aetheriumresources.block.TwistedForestPlanksBlock;
 import net.mcreator.aetheriumresources.block.TwistedForestLogBlock;
+import net.mcreator.aetheriumresources.block.TwistedForestLeavesBlock;
+import net.mcreator.aetheriumresources.block.TwistedForestFenceGateBlock;
+import net.mcreator.aetheriumresources.block.TwistedForestFenceBlock;
+import net.mcreator.aetheriumresources.block.TwistedForestDoorBlock;
+import net.mcreator.aetheriumresources.block.TwistedForestButtonBlock;
+import net.mcreator.aetheriumresources.block.StrippedTwistedForestWoodBlock;
+import net.mcreator.aetheriumresources.block.StrippedTwistedForestLogBlock;
+import net.mcreator.aetheriumresources.block.StrippedDarkMatterForestWoodBlock;
 import net.mcreator.aetheriumresources.block.StrippedDarkMatterForestLogBlock;
+import net.mcreator.aetheriumresources.block.PolishedTwistedMatterWallBlock;
+import net.mcreator.aetheriumresources.block.PolishedTwistedMatterStairsBlock;
+import net.mcreator.aetheriumresources.block.PolishedTwistedMatterSlabBlock;
+import net.mcreator.aetheriumresources.block.PolishedTwistedMatterBlock;
 import net.mcreator.aetheriumresources.block.PolishedDarkMatterWallBlock;
 import net.mcreator.aetheriumresources.block.PolishedDarkMatterStairsBlock;
 import net.mcreator.aetheriumresources.block.PolishedDarkMatterSlabBlock;
@@ -90,6 +115,8 @@ public class AetheriumresourcesModBlocks {
 			() -> new DarkMatterForestLogBlock());
 	public static final RegistryObject<Block> STRIPPED_DARK_MATTER_FOREST_LOG = REGISTRY.register("stripped_dark_matter_forest_log",
 			() -> new StrippedDarkMatterForestLogBlock());
+	public static final RegistryObject<Block> STRIPPED_DARK_MATTER_FOREST_WOOD = REGISTRY.register("stripped_dark_matter_forest_wood",
+			() -> new StrippedDarkMatterForestWoodBlock());
 	public static final RegistryObject<Block> DARK_MATTER_FOREST_PLANKS = REGISTRY.register("dark_matter_forest_planks",
 			() -> new DarkMatterForestPlanksBlock());
 	public static final RegistryObject<Block> DARK_MATTER_FOREST_LEAVES = REGISTRY.register("dark_matter_forest_leaves",
@@ -110,14 +137,57 @@ public class AetheriumresourcesModBlocks {
 			() -> new DarkMatterForestPressurePlateBlock());
 	public static final RegistryObject<Block> DARK_MATTER_FOREST_BUTTON = REGISTRY.register("dark_matter_forest_button",
 			() -> new DarkMatterForestButtonBlock());
-	public static final RegistryObject<Block> AMETHYST_MACHINE = REGISTRY.register("amethyst_machine", () -> new AmethystMachineBlock());
-	public static final RegistryObject<Block> EGGBED = REGISTRY.register("eggbed", () -> new AaBlock());
-	public static final RegistryObject<Block> DARK_MATTER_GEM_BLOCK = REGISTRY.register("dark_matter_gem_block", () -> new DarkMatterGemBlockBlock());
-	public static final RegistryObject<Block> BORDER_PORTAL = REGISTRY.register("border_portal", () -> new BORDERPortalBlock());
 	public static final RegistryObject<Block> TWISTED_MATTER = REGISTRY.register("twisted_matter", () -> new TwistedMatterBlock());
 	public static final RegistryObject<Block> TWISTED_GRASS = REGISTRY.register("twisted_grass", () -> new TwistedGrassBlock());
 	public static final RegistryObject<Block> TWISTED_FOREST_LOG = REGISTRY.register("twisted_forest_log", () -> new TwistedForestLogBlock());
 	public static final RegistryObject<Block> TWISTED_FOREST_WOOD = REGISTRY.register("twisted_forest_wood", () -> new TwistedForestWoodBlock());
+	public static final RegistryObject<Block> STRIPPED_TWISTED_FOREST_LOG = REGISTRY.register("stripped_twisted_forest_log",
+			() -> new StrippedTwistedForestLogBlock());
+	public static final RegistryObject<Block> STRIPPED_TWISTED_FOREST_WOOD = REGISTRY.register("stripped_twisted_forest_wood",
+			() -> new StrippedTwistedForestWoodBlock());
+	public static final RegistryObject<Block> TWISTED_FOREST_PLANKS = REGISTRY.register("twisted_forest_planks",
+			() -> new TwistedForestPlanksBlock());
+	public static final RegistryObject<Block> TWISTED_FOREST_STAIRS = REGISTRY.register("twisted_forest_stairs",
+			() -> new TwistedForestStairsBlock());
+	public static final RegistryObject<Block> TWISTED_FOREST_SLAB = REGISTRY.register("twisted_forest_slab", () -> new TwistedForestSlabBlock());
+	public static final RegistryObject<Block> TWISTED_FOREST_FENCE = REGISTRY.register("twisted_forest_fence", () -> new TwistedForestFenceBlock());
+	public static final RegistryObject<Block> AMETHYST_MACHINE = REGISTRY.register("amethyst_machine", () -> new AmethystMachineBlock());
+	public static final RegistryObject<Block> EGGBED = REGISTRY.register("eggbed", () -> new AaBlock());
+	public static final RegistryObject<Block> DARK_MATTER_GEM_BLOCK = REGISTRY.register("dark_matter_gem_block", () -> new DarkMatterGemBlockBlock());
+	public static final RegistryObject<Block> BORDER_PORTAL = REGISTRY.register("border_portal", () -> new BORDERPortalBlock());
+	public static final RegistryObject<Block> TWISTED_FOREST_LEAVES = REGISTRY.register("twisted_forest_leaves",
+			() -> new TwistedForestLeavesBlock());
+	public static final RegistryObject<Block> TWISTED_FOREST_FENCE_GATE = REGISTRY.register("twisted_forest_fence_gate",
+			() -> new TwistedForestFenceGateBlock());
+	public static final RegistryObject<Block> TWISTED_FOREST_PRESSURE_PLATE = REGISTRY.register("twisted_forest_pressure_plate",
+			() -> new TwistedForestPressurePlateBlock());
+	public static final RegistryObject<Block> TWISTED_FOREST_BUTTON = REGISTRY.register("twisted_forest_button",
+			() -> new TwistedForestButtonBlock());
+	public static final RegistryObject<Block> TWISTED_TRAPDOOR = REGISTRY.register("twisted_trapdoor", () -> new TwistedTrapdoorBlock());
+	public static final RegistryObject<Block> TWISTED_FOREST_DOOR = REGISTRY.register("twisted_forest_door", () -> new TwistedForestDoorBlock());
+	public static final RegistryObject<Block> TWISTED_MATTER_BRICKS = REGISTRY.register("twisted_matter_bricks",
+			() -> new TwistedMatterBricksBlock());
+	public static final RegistryObject<Block> TWISTED_MATTER_BRICKS_SLAB = REGISTRY.register("twisted_matter_bricks_slab",
+			() -> new TwistedMatterBricksSlabBlock());
+	public static final RegistryObject<Block> TWISTED_MATTER_BRICKS_WALL = REGISTRY.register("twisted_matter_bricks_wall",
+			() -> new TwistedMatterBricksWallBlock());
+	public static final RegistryObject<Block> TWISTED_MATTER_BRICKS_STAIRS = REGISTRY.register("twisted_matter_bricks_stairs",
+			() -> new TwistedMatterBricksStairsBlock());
+	public static final RegistryObject<Block> TWISTED_MATTER_TILES = REGISTRY.register("twisted_matter_tiles", () -> new TwistedMatterTilesBlock());
+	public static final RegistryObject<Block> TWISTED_MATTER_TILES_SLAB = REGISTRY.register("twisted_matter_tiles_slab",
+			() -> new TwistedMatterTilesSlabBlock());
+	public static final RegistryObject<Block> TWISTED_MATTER_TILES_WALL = REGISTRY.register("twisted_matter_tiles_wall",
+			() -> new TwistedMatterTilesWallBlock());
+	public static final RegistryObject<Block> TWISTED_MATTER_TILES_STAIRS = REGISTRY.register("twisted_matter_tiles_stairs",
+			() -> new TwistedMatterTilesStairsBlock());
+	public static final RegistryObject<Block> POLISHED_TWISTED_MATTER = REGISTRY.register("polished_twisted_matter",
+			() -> new PolishedTwistedMatterBlock());
+	public static final RegistryObject<Block> POLISHED_TWISTED_MATTER_SLAB = REGISTRY.register("polished_twisted_matter_slab",
+			() -> new PolishedTwistedMatterSlabBlock());
+	public static final RegistryObject<Block> POLISHED_TWISTED_MATTER_WALL = REGISTRY.register("polished_twisted_matter_wall",
+			() -> new PolishedTwistedMatterWallBlock());
+	public static final RegistryObject<Block> POLISHED_TWISTED_MATTER_STAIRS = REGISTRY.register("polished_twisted_matter_stairs",
+			() -> new PolishedTwistedMatterStairsBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -129,9 +199,11 @@ public class AetheriumresourcesModBlocks {
 			DarkForestPlanksTrapdoorBlock.registerRenderLayer();
 			DarkForestPlanksDoorBlock.registerRenderLayer();
 			DarkMatterForestButtonBlock.registerRenderLayer();
+			TwistedGrassBlock.registerRenderLayer();
 			AaBlock.registerRenderLayer();
 			BORDERPortalBlock.registerRenderLayer();
-			TwistedGrassBlock.registerRenderLayer();
+			TwistedForestLeavesBlock.registerRenderLayer();
+			TwistedTrapdoorBlock.registerRenderLayer();
 		}
 	}
 }

@@ -1,0 +1,111 @@
+{
+  "_fv": 34,
+  "_type": "biome",
+  "definition": {
+    "name": "Twisted Forest",
+    "groundBlock": {
+      "value": "CUSTOM:TwistedMatter"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:TwistedMatter"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -5376004,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -1513240,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -6029329,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -15066598,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -15263977,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "CUSTOM:twistedambience"
+    },
+    "additionsSound": {
+      "value": "CUSTOM:twistedadditions"
+    },
+    "music": {
+      "value": "CUSTOM:twistedmusic"
+    },
+    "moodSound": {
+      "value": "CUSTOM:moodtwisted"
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "SNOWFLAKE"
+    },
+    "particlesProbability": 0.7,
+    "rainingPossibility": 0.5,
+    "temperature": 1.5,
+    "baseHeight": 0.2,
+    "heightVariation": 0.4,
+    "spawnBiome": false,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 13,
+    "grassPerChunk": 0,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 2,
+    "vanillaTreeType": "Savanna trees",
+    "treeType": 1,
+    "minHeight": 4,
+    "treeStem": {
+      "value": "CUSTOM:TwistedForestLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:TwistedForestLeaves"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves"
+    ],
+    "spawnEntries": []
+  }
+}

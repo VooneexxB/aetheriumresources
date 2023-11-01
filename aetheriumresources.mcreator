@@ -3,7 +3,7 @@
     {
       "name": "BorderswordLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 58,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bordersword_living_entity_is_hit_with_tool",
@@ -27,7 +27,7 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Armas"
     },
     {
       "name": "Error",
@@ -41,7 +41,7 @@
     {
       "name": "AetheriumTab",
       "type": "tab",
-      "sortid": 59,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aetherium_tab",
@@ -50,7 +50,7 @@
     {
       "name": "Glitchytale",
       "type": "musicdisc",
-      "sortid": 55,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glitchytale",
@@ -68,7 +68,7 @@
     {
       "name": "Aa",
       "type": "block",
-      "sortid": 36,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eggbed",
@@ -77,7 +77,7 @@
     {
       "name": "Efeito",
       "type": "potioneffect",
-      "sortid": 60,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "efeito",
@@ -86,7 +86,7 @@
     {
       "name": "Pocaoefeito",
       "type": "potion",
-      "sortid": 61,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pocaoefeito",
@@ -95,7 +95,7 @@
     {
       "name": "ErrorEntityWalksOnTheBlock",
       "type": "procedure",
-      "sortid": 62,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "error_entity_walks_on_the_block",
@@ -107,12 +107,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Blocos"
     },
     {
       "name": "EfeitoOnEffectActiveTick",
       "type": "procedure",
-      "sortid": 63,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "efeito_on_effect_active_tick",
@@ -140,12 +140,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Effect"
     },
     {
       "name": "Efeito2OnEffectActiveTick",
       "type": "procedure",
-      "sortid": 64,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "efeito_2_on_effect_active_tick",
@@ -173,12 +173,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Effect"
     },
     {
       "name": "Efeito2",
       "type": "potioneffect",
-      "sortid": 65,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "efeito_2",
@@ -205,7 +205,7 @@
     {
       "name": "Seringa",
       "type": "item",
-      "sortid": 39,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringa",
@@ -214,7 +214,7 @@
     {
       "name": "SeringaGlitch",
       "type": "item",
-      "sortid": 40,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringa_glitch",
@@ -223,7 +223,7 @@
     {
       "name": "MateriaorganicaPlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 66,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "materiaorganica_player_finishes_using_item",
@@ -235,12 +235,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Effect"
     },
     {
       "name": "Materiaorganica",
       "type": "item",
-      "sortid": 42,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "materiaorganica",
@@ -249,7 +249,7 @@
     {
       "name": "Seringaglitchreceita",
       "type": "recipe",
-      "sortid": 67,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringaglitchreceita",
@@ -258,7 +258,7 @@
     {
       "name": "Glitchreceita",
       "type": "recipe",
-      "sortid": 68,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glitchreceita",
@@ -267,7 +267,7 @@
     {
       "name": "Glitch2receita",
       "type": "recipe",
-      "sortid": 69,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glitch_2receita",
@@ -276,7 +276,7 @@
     {
       "name": "SeringaGlitchLivingEntityIsHitWithItem",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringa_glitch_living_entity_is_hit_with_item",
@@ -292,12 +292,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Seringa"
     },
     {
       "name": "Seringareceita",
       "type": "recipe",
-      "sortid": 71,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringareceita",
@@ -306,7 +306,7 @@
     {
       "name": "SeringaGlitchPlayerFinishesUsingItem",
       "type": "procedure",
-      "sortid": 72,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringa_glitch_player_finishes_using_item",
@@ -334,12 +334,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Seringa"
     },
     {
       "name": "Erroretapa1",
       "type": "potion",
-      "sortid": 73,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "erroretapa_1",
@@ -348,7 +348,7 @@
     {
       "name": "Erroretapa1craftinbg",
       "type": "recipe",
-      "sortid": 74,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "erroretapa_1craftinbg",
@@ -357,7 +357,7 @@
     {
       "name": "Erroretapa2",
       "type": "potion",
-      "sortid": 75,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "erroretapa_2",
@@ -366,7 +366,7 @@
     {
       "name": "Activatedrecipe",
       "type": "recipe",
-      "sortid": 76,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "activatedrecipe",
@@ -375,7 +375,7 @@
     {
       "name": "Errorrecipe",
       "type": "recipe",
-      "sortid": 77,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "errorrecipe",
@@ -384,7 +384,7 @@
     {
       "name": "Errordrop",
       "type": "loottable",
-      "sortid": 78,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "errordrop",
@@ -393,7 +393,7 @@
     {
       "name": "Errordrop2",
       "type": "loottable",
-      "sortid": 79,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "errordrop_2",
@@ -402,7 +402,7 @@
     {
       "name": "Seringadesangue",
       "type": "item",
-      "sortid": 37,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringadesangue",
@@ -411,7 +411,7 @@
     {
       "name": "Bloodglitch",
       "type": "procedure",
-      "sortid": 80,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloodglitch",
@@ -427,12 +427,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Seringa"
     },
     {
       "name": "Disco2",
       "type": "musicdisc",
-      "sortid": 49,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "disco_2",
@@ -441,7 +441,7 @@
     {
       "name": "Disco3",
       "type": "musicdisc",
-      "sortid": 50,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "disco_3",
@@ -450,7 +450,7 @@
     {
       "name": "Disco1recipe",
       "type": "recipe",
-      "sortid": 81,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "disco_1recipe",
@@ -459,7 +459,7 @@
     {
       "name": "Disco2recipe",
       "type": "recipe",
-      "sortid": 82,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "disco_2recipe",
@@ -468,7 +468,7 @@
     {
       "name": "AmethystMachineGUI",
       "type": "gui",
-      "sortid": 83,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_machine_gui",
@@ -477,7 +477,7 @@
     {
       "name": "Realitymisfortune",
       "type": "tool",
-      "sortid": 41,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "realitymisfortune",
@@ -486,7 +486,7 @@
     {
       "name": "RealitymisfortuneToolInHandTick",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "realitymisfortune_tool_in_hand_tick",
@@ -498,12 +498,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Armas"
     },
     {
       "name": "AmethystMachine",
       "type": "block",
-      "sortid": 35,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_machine",
@@ -512,7 +512,7 @@
     {
       "name": "Amethystmachinerecipe",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethystmachinerecipe",
@@ -530,7 +530,7 @@
     {
       "name": "Darkdesert",
       "type": "biome",
-      "sortid": 86,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkdesert",
@@ -539,7 +539,7 @@
     {
       "name": "BORDER",
       "type": "dimension",
-      "sortid": 48,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "border",
@@ -560,7 +560,7 @@
     {
       "name": "PARASYTE",
       "type": "musicdisc",
-      "sortid": 51,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "parasyte",
@@ -569,7 +569,7 @@
     {
       "name": "ParasiteMatterPieces",
       "type": "item",
-      "sortid": 45,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "parasite_matter_pieces",
@@ -578,7 +578,7 @@
     {
       "name": "Parasitediscrecipe",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "parasitediscrecipe",
@@ -587,7 +587,7 @@
     {
       "name": "Thunderstorm",
       "type": "musicdisc",
-      "sortid": 53,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thunderstorm",
@@ -596,7 +596,7 @@
     {
       "name": "BloodySky",
       "type": "musicdisc",
-      "sortid": 54,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloody_sky",
@@ -605,7 +605,7 @@
     {
       "name": "Simulacra",
       "type": "musicdisc",
-      "sortid": 52,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "simulacra",
@@ -614,7 +614,7 @@
     {
       "name": "Bloodyskycrafting",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloodyskycrafting",
@@ -623,7 +623,7 @@
     {
       "name": "Simulacracrafting",
       "type": "recipe",
-      "sortid": 90,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "simulacracrafting",
@@ -632,7 +632,7 @@
     {
       "name": "Thunderstormcrafting",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thunderstormcrafting",
@@ -641,7 +641,7 @@
     {
       "name": "SeringaAntidoto",
       "type": "item",
-      "sortid": 38,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringa_antidoto",
@@ -650,7 +650,7 @@
     {
       "name": "Antidotohit",
       "type": "procedure",
-      "sortid": 92,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antidotohit",
@@ -666,12 +666,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Seringa"
     },
     {
       "name": "Antidotouso",
       "type": "procedure",
-      "sortid": 94,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antidotouso",
@@ -683,12 +683,12 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Seringa"
     },
     {
       "name": "Darkforest",
       "type": "biome",
-      "sortid": 95,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkforest",
@@ -697,7 +697,7 @@
     {
       "name": "DarkMatterForestWood",
       "type": "block",
-      "sortid": 22,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_wood",
@@ -706,7 +706,7 @@
     {
       "name": "DarkMatterForestLog",
       "type": "block",
-      "sortid": 23,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_log",
@@ -787,7 +787,7 @@
     {
       "name": "DarkMatterForestItemsTag",
       "type": "tag",
-      "sortid": 96,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_items_tag",
@@ -796,7 +796,7 @@
     {
       "name": "DarkMatterForestWoodRecipe",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_wood_recipe",
@@ -805,7 +805,7 @@
     {
       "name": "DarkMatterForestPlanksRecipe",
       "type": "recipe",
-      "sortid": 98,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_planks_recipe",
@@ -814,7 +814,7 @@
     {
       "name": "DarkMatterForestStairsRecipe",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_stairs_recipe",
@@ -823,7 +823,7 @@
     {
       "name": "DarkMatterForestSlabRecipe",
       "type": "recipe",
-      "sortid": 100,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_slab_recipe",
@@ -832,7 +832,7 @@
     {
       "name": "DarkMatterForestFenceRecipe",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_fence_recipe",
@@ -841,7 +841,7 @@
     {
       "name": "DarkMatterForestFenceGateRecipe",
       "type": "recipe",
-      "sortid": 102,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_fence_gate_recipe",
@@ -850,7 +850,7 @@
     {
       "name": "DarkMatterForestPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_pressure_plate_recipe",
@@ -859,7 +859,7 @@
     {
       "name": "DarkMatterForestButtonRecipe",
       "type": "recipe",
-      "sortid": 104,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_button_recipe",
@@ -868,7 +868,7 @@
     {
       "name": "DarkMatterForestStickRecipe",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_stick_recipe",
@@ -877,7 +877,7 @@
     {
       "name": "Fencetag",
       "type": "tag",
-      "sortid": 106,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fencetag",
@@ -886,7 +886,7 @@
     {
       "name": "Fencegatetag",
       "type": "tag",
-      "sortid": 107,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fencegatetag",
@@ -895,7 +895,7 @@
     {
       "name": "Grasstag",
       "type": "tag",
-      "sortid": 108,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grasstag",
@@ -904,7 +904,7 @@
     {
       "name": "Elektrodeath",
       "type": "musicdisc",
-      "sortid": 57,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elektrodeath",
@@ -913,7 +913,7 @@
     {
       "name": "Theend",
       "type": "musicdisc",
-      "sortid": 56,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "theend",
@@ -922,7 +922,7 @@
     {
       "name": "Elektrocrafting",
       "type": "recipe",
-      "sortid": 109,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "elektrocrafting",
@@ -931,7 +931,7 @@
     {
       "name": "Theendcrafting",
       "type": "recipe",
-      "sortid": 110,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "theendcrafting",
@@ -940,7 +940,7 @@
     {
       "name": "Darkmatteritem",
       "type": "item",
-      "sortid": 47,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatteritem",
@@ -949,7 +949,7 @@
     {
       "name": "Darkmatterdrop",
       "type": "loottable",
-      "sortid": 111,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatterdrop",
@@ -958,7 +958,7 @@
     {
       "name": "Darkmatterblockrecipe",
       "type": "recipe",
-      "sortid": 112,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatterblockrecipe",
@@ -967,7 +967,7 @@
     {
       "name": "Darkmatterbrick",
       "type": "item",
-      "sortid": 46,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatterbrick",
@@ -976,7 +976,7 @@
     {
       "name": "Darkmatterbrickrecipe",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatterbrickrecipe",
@@ -1003,7 +1003,7 @@
     {
       "name": "Darkmatterbricksrecipe",
       "type": "recipe",
-      "sortid": 114,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatterbricksrecipe",
@@ -1012,7 +1012,7 @@
     {
       "name": "Darkmattertilesrecipe",
       "type": "recipe",
-      "sortid": 115,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmattertilesrecipe",
@@ -1075,7 +1075,7 @@
     {
       "name": "DarkMatterBricksWallRecipe",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_bricks_wall_recipe",
@@ -1084,7 +1084,7 @@
     {
       "name": "DarkMatterBricksSlabRecipe",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_bricks_slab_recipe",
@@ -1093,7 +1093,7 @@
     {
       "name": "DarkMatterBricksStairsRecipe",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_bricks_stairs_recipe",
@@ -1102,7 +1102,7 @@
     {
       "name": "DarkMatterTilesSlabRecipe",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_tiles_slab_recipe",
@@ -1111,7 +1111,7 @@
     {
       "name": "DarkMatterTilesWallRecipe",
       "type": "recipe",
-      "sortid": 120,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_tiles_wall_recipe",
@@ -1120,7 +1120,7 @@
     {
       "name": "DarkMatterTilesStairsRecipe",
       "type": "recipe",
-      "sortid": 121,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_tiles_stairs_recipe",
@@ -1129,7 +1129,7 @@
     {
       "name": "DarkMatterTileCutterRecipe",
       "type": "recipe",
-      "sortid": 122,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_tile_cutter_recipe",
@@ -1138,7 +1138,7 @@
     {
       "name": "DarkMatterBrickWallCutterRecipe",
       "type": "recipe",
-      "sortid": 123,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_brick_wall_cutter_recipe",
@@ -1147,7 +1147,7 @@
     {
       "name": "DarkMatterBricksStairsCutterRecipe",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_bricks_stairs_cutter_recipe",
@@ -1156,7 +1156,7 @@
     {
       "name": "DarkMatterBricksSlabCutterRecipe",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_bricks_slab_cutter_recipe",
@@ -1165,7 +1165,7 @@
     {
       "name": "DarkMatterTilesWallCutterRecipe",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_tiles_wall_cutter_recipe",
@@ -1174,7 +1174,7 @@
     {
       "name": "DarkMatterTilesStairsCutterRecipe",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_tiles_stairs_cutter_recipe",
@@ -1183,7 +1183,7 @@
     {
       "name": "DarkMatterTilesSlabCutterRecipe",
       "type": "recipe",
-      "sortid": 128,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_tiles_slab_cutter_recipe",
@@ -1228,7 +1228,7 @@
     {
       "name": "PolishedDarkMatterRecipeBricks",
       "type": "recipe",
-      "sortid": 129,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_dark_matter_recipe_bricks",
@@ -1237,7 +1237,7 @@
     {
       "name": "PolishedDarkMatterRecipeTiles",
       "type": "recipe",
-      "sortid": 130,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_dark_matter_recipe_tiles",
@@ -1246,7 +1246,7 @@
     {
       "name": "DarkMatterBricksRecipeCutter",
       "type": "recipe",
-      "sortid": 131,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_bricks_recipe_cutter",
@@ -1255,7 +1255,7 @@
     {
       "name": "PolishedDarkMatterStairsRecipe",
       "type": "recipe",
-      "sortid": 132,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_dark_matter_stairs_recipe",
@@ -1264,7 +1264,7 @@
     {
       "name": "PolishedDarkMatterWallRecipe",
       "type": "recipe",
-      "sortid": 133,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_dark_matter_wall_recipe",
@@ -1273,7 +1273,7 @@
     {
       "name": "PolishedDarkMatterSlabRecipe",
       "type": "recipe",
-      "sortid": 134,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_dark_matter_slab_recipe",
@@ -1282,7 +1282,7 @@
     {
       "name": "PolishedDarkMatterSlabCutter",
       "type": "recipe",
-      "sortid": 135,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_dark_matter_slab_cutter",
@@ -1291,7 +1291,7 @@
     {
       "name": "PolishedDarkMatterStairsCutter",
       "type": "recipe",
-      "sortid": 136,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_dark_matter_stairs_cutter",
@@ -1300,7 +1300,7 @@
     {
       "name": "PolishedDarkMatterWallCutter",
       "type": "recipe",
-      "sortid": 137,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_dark_matter_wall_cutter",
@@ -1309,7 +1309,7 @@
     {
       "name": "PolishedDarkMatterRecipe",
       "type": "recipe",
-      "sortid": 138,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_dark_matter_recipe",
@@ -1318,7 +1318,7 @@
     {
       "name": "Walltag",
       "type": "tag",
-      "sortid": 139,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "walltag",
@@ -1336,7 +1336,7 @@
     {
       "name": "DarkMatterGem",
       "type": "item",
-      "sortid": 43,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_gem",
@@ -1345,7 +1345,7 @@
     {
       "name": "EnrichedDarkMatterDrop",
       "type": "loottable",
-      "sortid": 140,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enriched_dark_matter_drop",
@@ -1354,7 +1354,7 @@
     {
       "name": "DarkMatterGemBlock",
       "type": "block",
-      "sortid": 44,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_gem_block",
@@ -1363,33 +1363,16 @@
     {
       "name": "Darkgemblockcrafting",
       "type": "recipe",
-      "sortid": 141,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkgemblockcrafting",
       "path": "~/Crafting"
     },
     {
-      "name": "DarkflameEntityWalksOnTheBlock",
-      "type": "procedure",
-      "sortid": 142,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "darkflame_entity_walks_on_the_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "StrippedDarkMatterForestLog",
       "type": "block",
-      "sortid": 24,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_dark_matter_forest_log",
@@ -1398,7 +1381,7 @@
     {
       "name": "Strippingdarklog",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "strippingdarklog",
@@ -1426,7 +1409,7 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Procedures/Blocos"
     },
     {
       "name": "DarkForestPlanksTrapdoor",
@@ -1449,7 +1432,7 @@
     {
       "name": "ChiseledDarkMatterCrafting",
       "type": "recipe",
-      "sortid": 144,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_dark_matter_crafting",
@@ -1458,7 +1441,7 @@
     {
       "name": "ChiseledDarkMatterCutter",
       "type": "recipe",
-      "sortid": 145,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_dark_matter_cutter",
@@ -1476,7 +1459,7 @@
     {
       "name": "TwistedMatter",
       "type": "block",
-      "sortid": 146,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_matter",
@@ -1485,7 +1468,7 @@
     {
       "name": "TwistedMatterItem",
       "type": "item",
-      "sortid": 147,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_matter_item",
@@ -1494,7 +1477,7 @@
     {
       "name": "TwistedMatterBrick",
       "type": "item",
-      "sortid": 148,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_matter_brick",
@@ -1503,7 +1486,7 @@
     {
       "name": "Darkgemuncrafting",
       "type": "recipe",
-      "sortid": 149,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkgemuncrafting",
@@ -1512,7 +1495,7 @@
     {
       "name": "TwistedMatterBlockCraft",
       "type": "recipe",
-      "sortid": 150,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_matter_block_craft",
@@ -1521,7 +1504,7 @@
     {
       "name": "TwistedBrickRecipe",
       "type": "recipe",
-      "sortid": 151,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_brick_recipe",
@@ -1530,7 +1513,7 @@
     {
       "name": "ErrorEtapa3",
       "type": "potion",
-      "sortid": 152,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "error_etapa_3",
@@ -1539,7 +1522,7 @@
     {
       "name": "Erroretapa3recipe",
       "type": "recipe",
-      "sortid": 153,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "erroretapa_3recipe",
@@ -1548,7 +1531,7 @@
     {
       "name": "Erroretapa4",
       "type": "potion",
-      "sortid": 154,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "erroretapa_4",
@@ -1557,7 +1540,7 @@
     {
       "name": "Erroretapa4recipe",
       "type": "recipe",
-      "sortid": 155,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "erroretapa_4recipe",
@@ -1566,7 +1549,7 @@
     {
       "name": "Erroretapafinal",
       "type": "potion",
-      "sortid": 156,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "erroretapafinal",
@@ -1575,7 +1558,7 @@
     {
       "name": "Erroretapafinalrecipe",
       "type": "recipe",
-      "sortid": 157,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "erroretapafinalrecipe",
@@ -1584,7 +1567,7 @@
     {
       "name": "Antidotorecipe",
       "type": "recipe",
-      "sortid": 158,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antidotorecipe",
@@ -1593,7 +1576,7 @@
     {
       "name": "TwistedDesert",
       "type": "biome",
-      "sortid": 159,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_desert",
@@ -1602,7 +1585,7 @@
     {
       "name": "TwistedGrass",
       "type": "plant",
-      "sortid": 160,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_grass",
@@ -1611,7 +1594,7 @@
     {
       "name": "TwistedForestLog",
       "type": "block",
-      "sortid": 161,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_forest_log",
@@ -1620,7 +1603,7 @@
     {
       "name": "TwistedForestWood",
       "type": "block",
-      "sortid": 163,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_forest_wood",
@@ -1629,7 +1612,7 @@
     {
       "name": "TwistedForestWoodRecipe",
       "type": "recipe",
-      "sortid": 164,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_forest_wood_recipe",
@@ -1638,7 +1621,7 @@
     {
       "name": "TwistedForestTag",
       "type": "tag",
-      "sortid": 165,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_forest_tag",
@@ -1647,11 +1630,686 @@
     {
       "name": "TwistedMatterDrop",
       "type": "loottable",
-      "sortid": 166,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_matter_drop",
       "path": "~/GUI e Misc"
+    },
+    {
+      "name": "StrippedTwistedForestLog",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_twisted_forest_log",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "StrippedDarkMatterForestWood",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_dark_matter_forest_wood",
+      "path": "~/Blocos/BorderDimension/DarkForest"
+    },
+    {
+      "name": "StrippedDarkMatterForestWoodRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_dark_matter_forest_wood_recipe",
+      "path": "~/Crafting/DarkForest"
+    },
+    {
+      "name": "StrippedDarkWood",
+      "type": "procedure",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_dark_wood",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocos"
+    },
+    {
+      "name": "StrippedTwistedForestWood",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_twisted_forest_wood",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "TwistedForestPlanks",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_planks",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "TwistedForestLeaves",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_leaves",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "DarkMatterForestTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_matter_forest_trapdoor_recipe",
+      "path": "~/Crafting/DarkForest"
+    },
+    {
+      "name": "DarkMatterForestDoorRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_matter_forest_door_recipe",
+      "path": "~/Crafting/DarkForest"
+    },
+    {
+      "name": "TwistedForestSlab",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_slab",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "TwistedForestStairs",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_stairs",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "TwistedForestFence",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_fence",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "TwistedForestFenceGate",
+      "type": "block",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_fence_gate",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "TwistedForestPressurePlate",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_pressure_plate",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "TwistedForestButton",
+      "type": "block",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_button",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "TwistedTrapdoor",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_trapdoor",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "TwistedForestDoor",
+      "type": "block",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_door",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "Strippingtwistedlog",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strippingtwistedlog",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocos"
+    },
+    {
+      "name": "StrippedTwistedWood",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_twisted_wood",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Blocos"
+    },
+    {
+      "name": "TwistedForestPlanksRecipe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_planks_recipe",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "TwistedForestStairsRecipe",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_stairs_recipe",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "TwistedForestSlabRecipe",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_slab_recipe",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "TwistedForestFenceRecipe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_fence_recipe",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "TwistedForestFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_fence_gate_recipe",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "TwistedForestPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_pressure_plate_recipe",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "TwistedForestButtonRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_button_recipe",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "TwistedForestPlanksStickRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_planks_stick_recipe",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "StrippedTwistedForestWoodRecipe",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_twisted_forest_wood_recipe",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "TwistedForestTrapdoorRecipe",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_trapdoor_recipe",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "TwistedForestDoorRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest_door_recipe",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "TwistedForest",
+      "type": "biome",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_forest",
+      "path": "~/Biomas e Dimensoes"
+    },
+    {
+      "name": "TwistedCraftingStationCrafting",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_crafting_station_crafting",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "TwistedMatterBricks",
+      "type": "block",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_matter_bricks",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "TwistedMatterBricksSlab",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_matter_bricks_slab",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "TwistedMatterBricksWall",
+      "type": "block",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_matter_bricks_wall",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "TwistedMatterBricksStairs",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_matter_bricks_stairs",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "TwistedBricksRecipe",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bricks_recipe",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedBricksSlabRecipe",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bricks_slab_recipe",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedBricksStairsRecipe",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bricks_stairs_recipe",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedBricksWallRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bricks_wall_recipe",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedMatterTiles",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_matter_tiles",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "TwistedMatterTilesSlab",
+      "type": "block",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_matter_tiles_slab",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "TwistedMatterTilesWall",
+      "type": "block",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_matter_tiles_wall",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "TwistedMatterTilesStairs",
+      "type": "block",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_matter_tiles_stairs",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "PolishedTwistedMatter",
+      "type": "block",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_twisted_matter",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "PolishedTwistedMatterSlab",
+      "type": "block",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_twisted_matter_slab",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "PolishedTwistedMatterWall",
+      "type": "block",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_twisted_matter_wall",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "PolishedTwistedMatterStairs",
+      "type": "block",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_twisted_matter_stairs",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "TwistedTilesRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_tiles_recipe",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedTilesSlabRecipe",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_tiles_slab_recipe",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedTilesStairsRecipe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_tiles_stairs_recipe",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedTilesWallRecipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_tiles_wall_recipe",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "PolishedTwistedMatterRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_twisted_matter_recipe",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "PolishedTwistedMatterSlabRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_twisted_matter_slab_recipe",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "PolishedTwistedMatterStairsRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_twisted_matter_stairs_recipe",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "PolishedTwistedMatterWallRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_twisted_matter_wall_recipe",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedBricksSlabCutter",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bricks_slab_cutter",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedBricksStairsCutter",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bricks_stairs_cutter",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedBricksWallCutter",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bricks_wall_cutter",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedTilesCutter",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_tiles_cutter",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "PolishedTwistedCutter",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_twisted_cutter",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedTilesSlabCutter",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_tiles_slab_cutter",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedTilesStairsCutter",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_tiles_stairs_cutter",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedTilesWallCutter",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_tiles_wall_cutter",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "PolishedTwistedCutterSlab",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_twisted_cutter_slab",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "PolishedTwistedCutterStairs",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_twisted_cutter_stairs",
+      "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "PolishedTwistedCutterWall",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_twisted_cutter_wall",
+      "path": "~/Crafting/TwistedMatter"
     }
   ],
   "variable_elements": [],
@@ -1855,6 +2513,64 @@
       ],
       "category": "record",
       "subtitle": ""
+    },
+    {
+      "name": "twistedambience",
+      "files": [
+        "ecneibma"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "moodtwisted",
+      "files": [
+        "1doom",
+        "2doom",
+        "3doom",
+        "4doom",
+        "5doom",
+        "6doom",
+        "7doom",
+        "8doom",
+        "9doom"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "twistedadditions",
+      "files": [
+        "addition1",
+        "addition2",
+        "addition3",
+        "addition4",
+        "addition5",
+        "addition6",
+        "creak1",
+        "creak2",
+        "creak3",
+        "creak4",
+        "creak5",
+        "enish1",
+        "enish2",
+        "enish3",
+        "help1",
+        "help2",
+        "here1",
+        "here2",
+        "here3"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "twistedmusic",
+      "files": [
+        "um_final_feliz-_mp3cut.net_"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1863,27 +2579,37 @@
       "block.aetheriumresources.polished_dark_matter_stairs": "Polished Dark Matter Stairs",
       "itemGroup.tabaetherium_tab": "Aetherium Resources",
       "item.aetheriumresources.disco_3.desc": "Andrii Floria - Chaos1",
+      "subtitles.twistedmusic": "",
       "subtitles.error-placing": "",
       "block.aetheriumresources.polished_dark_matter_slab": "Polished Dark Matter Slab",
       "subtitles.place": "",
       "item.aetheriumresources.thunderstorm": "Thunderstorm Night",
+      "block.aetheriumresources.stripped_dark_matter_forest_wood": "Stripped Dark Forest Log",
+      "block.aetheriumresources.twisted_matter_tiles_wall": "Twisted Matter Tiles Wall",
+      "block.aetheriumresources.twisted_forest_slab": "Twisted Slab",
       "block.aetheriumresources.dark_matter_forest_leaves": "Dark Forest Leaves",
       "subtitles.error-fall": "",
+      "block.aetheriumresources.twisted_forest_leaves": "Twisted Leaves",
+      "block.aetheriumresources.twisted_matter_tiles": "Twisted Matter Tiles",
       "item.aetheriumresources.disco_2.desc": "Andrii Floria - God of Hopelessness",
       "block.aetheriumresources.twisted_forest_log": "Twisted Forest Log",
       "item.aetheriumresources.seringadesangue": "Seringa (Sangue)",
       "item.aetheriumresources.seringa": "Seringa",
       "block.aetheriumresources.error_2": "F41LUR3",
+      "block.aetheriumresources.stripped_twisted_forest_wood": "Twisted Forest Log",
       "block.aetheriumresources.twisted_grass": "Twisted Grass",
       "item.aetheriumresources.theend": "The End",
       "block.aetheriumresources.dark_matter_forest_pressure_plate": "Dark Forest Pressure Plate",
       "block.aetheriumresources.dark_matter_gem_block": "Dark Gem Block (WIP)",
       "item.minecraft.tipped_arrow.effect.erroretapa_4": "Arrow of Dark Condensed Parasite",
+      "block.aetheriumresources.twisted_forest_stairs": "Twisted Stairs",
       "item.aetheriumresources.darkmatteritem": "Dark Matter",
+      "block.aetheriumresources.twisted_trapdoor": "Twisted Trapdoor",
       "item.minecraft.tipped_arrow.effect.pocaoefeito": "Arrow of 3RR0R",
       "item.aetheriumresources.dark_matter_gem": "Dark Gem (WIP)",
       "subtitles.failure-breaking": "",
       "block.aetheriumresources.darkmatter": "Dark Matter Block",
+      "block.aetheriumresources.twisted_matter_bricks_slab": "Twisted Matter Bricks Slab",
       "block.aetheriumresources.failure_decorativo": "F41LUR3 (Decorativo)",
       "block.aetheriumresources.dark_matter_forest_fence_gate": "Dark Forest Gate",
       "item.minecraft.tipped_arrow.effect.erroretapa_2": "Arrow of Activated Strange Bottle",
@@ -1895,8 +2621,10 @@
       "block.aetheriumresources.dark_matter_tiles_stairs": "Dark Matter Tiles Stairs",
       "block.aetheriumresources.error_decorativo": "3RR0R (Decorativo)",
       "subtitles.parasita": "",
+      "block.aetheriumresources.twisted_matter_tiles_stairs": "Twisted Matter Tiles Stairs",
       "item.minecraft.lingering_potion.effect.erroretapa_1": "Lingering Strange Bottle",
       "item.minecraft.lingering_potion.effect.erroretapa_2": "Lingering Activated Strange Bottle",
+      "block.aetheriumresources.polished_twisted_matter_wall": "Polished Twisted Matter Wall",
       "item.minecraft.lingering_potion.effect.erroretapa_4": "Lingering Potion of Dark Condensed Parasite",
       "subtitles.thunderstorm": "",
       "block.aetheriumresources.darkgrass": "Dark Grass",
@@ -1907,7 +2635,9 @@
       "item.aetheriumresources.elektrodeath": "Elektro Corruption",
       "item.aetheriumresources.parasyte": "P4RAS1TA",
       "item.aetheriumresources.glitchytale.desc": "Andrii Floria - God of Fear",
+      "block.aetheriumresources.polished_twisted_matter": "Polished Twisted Matter",
       "item.aetheriumresources.darkmatterbrick": "Dark Matter Brick",
+      "block.aetheriumresources.twisted_matter_bricks": "Twisted Matter Bricks",
       "block.aetheriumresources.polished_dark_matter_wall": "Polished Dark Matter Wall",
       "block.aetheriumresources.dark_forest_planks_door": "Dark Forest Door",
       "subtitles.step": "",
@@ -1918,9 +2648,12 @@
       "item.aetheriumresources.glitchytale": "F4LS3H0P3",
       "block.aetheriumresources.polished_dark_matter": "Polished Dark Matter",
       "subtitles.truedeath": "",
+      "block.aetheriumresources.stripped_twisted_forest_log": "Twisted Forest Log",
       "block.aetheriumresources.dark_matter_forest_slab": "Dark Forest Slab",
       "block.aetheriumresources.dark_matter_forest_log": "Dark Forest Log",
+      "subtitles.twistedadditions": "",
       "item.minecraft.potion.effect.erroretapa_4": "Potion of Dark Condensed Parasite",
+      "block.aetheriumresources.twisted_forest_fence": "Twisted Fence",
       "item.minecraft.potion.effect.erroretapa_2": "Activated Strange Bottle",
       "block.aetheriumresources.dark_forest_planks_trapdoor": "Dark Forest Trapdoor",
       "subtitles.failure-fall": "",
@@ -1929,6 +2662,7 @@
       "item.aetheriumresources.thunderstorm.desc": "kimdc2 - Thunderstorm Night",
       "block.aetheriumresources.darkmattertileswalls": "Dark Matter Tiles Wall",
       "block.aetheriumresources.dark_matter_bricks": "Dark Matter Bricks",
+      "block.aetheriumresources.twisted_forest_door": "Twisted Door",
       "item.minecraft.potion.effect.erroretapafinal": "Bottle of Dark Mixture",
       "item.aetheriumresources.bloody_sky.desc": "Andrii Floria - Screams Under Red Sky",
       "block.aetheriumresources.twisted_forest_wood": "Twisted Forest Wood",
@@ -1938,7 +2672,9 @@
       "biome.aetheriumresources.twisted_desert": "Twisted Desert",
       "block.aetheriumresources.amethyst_machine": "Amethyst Purifier (WIP)",
       "subtitles.elektrodeath": "",
+      "block.aetheriumresources.twisted_forest_button": "Twisted Button",
       "effect.aetheriumresources.efeito": "H34D4CH3",
+      "block.aetheriumresources.twisted_matter_bricks_wall": "Twisted Matter Bricks Wall",
       "subtitles.simulacra": "",
       "block.aetheriumresources.error": "3RR0R",
       "block.aetheriumresources.stripped_dark_matter_forest_log": "Stripped Dark Forest Log",
@@ -1951,21 +2687,30 @@
       "item.minecraft.splash_potion.effect.error_etapa_3": "Splash Potion of Condensed Parasite",
       "subtitles.failure-hit": "",
       "item.aetheriumresources.disco_2": "TRU3DE4TH",
+      "block.aetheriumresources.twisted_forest_planks": "Twisted Planks",
       "item.minecraft.lingering_potion.effect.erroretapafinal": "Lingering Bottle of Dark Mixture",
+      "block.aetheriumresources.polished_twisted_matter_stairs": "Polished Twisted Matter Stairs",
       "item.aetheriumresources.theend.desc": "kimdc2 - The End",
       "item.minecraft.potion.effect.error_etapa_3": "Potion of Condensed Parasite",
+      "block.aetheriumresources.twisted_matter_bricks_stairs": "Twisted Matter Bricks Stairs",
+      "block.aetheriumresources.twisted_matter_tiles_slab": "Twisted Matter Tiles Slab",
       "block.aetheriumresources.twisted_matter": "Twisted Matter Block",
       "subtitles.failure-step": "",
       "subtitles.swordslash1": "",
+      "subtitles.twistedambience": "",
+      "subtitles.moodtwisted": "",
       "biome.aetheriumresources.darkforest": "Dark Forest",
       "item.aetheriumresources.elektrodeath.desc": "kimdc2 - Elektrocorruption",
       "block.aetheriumresources.enriched_dark_matter": "Enriched Dark Matter (WIP)",
       "item.aetheriumresources.materiaorganica": "M4TÉR1A",
       "subtitles.error-hit": "",
+      "block.aetheriumresources.twisted_forest_fence_gate": "Twisted Gate",
       "biome.aetheriumresources.darkdesert": "Dark Desert",
       "block.aetheriumresources.dark_matter_forest_fence": "Dark Forest Fence",
       "item.aetheriumresources.parasite_matter_pieces": "Parasite Matter (WIP)",
       "item.minecraft.lingering_potion.effect.error_etapa_3": "Lingering Potion of Condensed Parasite",
+      "biome.aetheriumresources.twisted_forest": "Twisted Forest",
+      "block.aetheriumresources.twisted_forest_pressure_plate": "Twisted Pressure Plate",
       "subtitles.death": "",
       "item.aetheriumresources.parasyte.desc": "Andrii Floria - Scurrying Around",
       "item.aetheriumresources.border": "Border Access (WIP)",
@@ -1974,6 +2719,7 @@
       "item.aetheriumresources.twisted_matter_item": "Twisted Matter",
       "block.aetheriumresources.dark_matter_forest_planks": "Dark Forest Planks",
       "effect.aetheriumresources.efeito_2": "GU3RR31R0",
+      "block.aetheriumresources.polished_twisted_matter_slab": "Polished Twisted Matter Slab",
       "subtitles.error-breaking": "",
       "block.aetheriumresources.dark_matter_forest_wood": "Dark Forest Wood",
       "item.minecraft.splash_potion.effect.erroretapa_1": "Splash Strange Bottle",
@@ -2046,7 +2792,24 @@
       },
       {
         "name": "Procedures",
-        "children": []
+        "children": [
+          {
+            "name": "Effect",
+            "children": []
+          },
+          {
+            "name": "Seringa",
+            "children": []
+          },
+          {
+            "name": "Blocos",
+            "children": []
+          },
+          {
+            "name": "Armas",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Discos",

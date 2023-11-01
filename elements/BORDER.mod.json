@@ -8,6 +8,12 @@
       },
       {
         "value": "CUSTOM:Darkforest"
+      },
+      {
+        "value": "CUSTOM:TwistedDesert"
+      },
+      {
+        "value": "CUSTOM:TwistedForest"
       }
     ],
     "worldGenType": "Normal world gen",

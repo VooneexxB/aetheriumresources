@@ -33,16 +33,16 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "ambient.warped_forest.loop"
+      "value": "CUSTOM:twistedambience"
     },
     "additionsSound": {
-      "value": "ambient.warped_forest.additions"
+      "value": "CUSTOM:twistedadditions"
     },
     "music": {
       "value": ""
     },
     "moodSound": {
-      "value": "ambient.warped_forest.mood"
+      "value": "CUSTOM:moodtwisted"
     },
     "moodSoundDelay": 6000,
     "spawnParticles": true,
@@ -51,7 +51,7 @@
     },
     "particlesProbability": 0.7,
     "rainingPossibility": 0.5,
-    "temperature": 1.5,
+    "temperature": 0.0,
     "baseHeight": 0.1,
     "heightVariation": 0.2,
     "spawnBiome": false,

@@ -13,6 +13,15 @@
       },
       {
         "value": "CUSTOM:PolishedDarkMatterWall"
+      },
+      {
+        "value": "CUSTOM:TwistedMatterBricksWall"
+      },
+      {
+        "value": "CUSTOM:TwistedMatterTilesWall"
+      },
+      {
+        "value": "CUSTOM:PolishedTwistedMatterWall"
       }
     ],
     "functions": [],

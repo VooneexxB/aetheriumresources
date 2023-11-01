@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:polished_twisted_matter"
+    },
+    "1": {
+      "item": "aetheriumresources:polished_twisted_matter"
+    },
+    "2": {
+      "item": "aetheriumresources:polished_twisted_matter"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:polished_twisted_matter_slab",
+    "count": 6
+  }
+}

@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "aetheriumresources:blocks/twistedmatter",
-    "up": "aetheriumresources:blocks/twistedmatter",
-    "north": "aetheriumresources:blocks/twistedmatter",
-    "east": "aetheriumresources:blocks/twistedmatter",
-    "south": "aetheriumresources:blocks/twistedmatter",
-    "west": "aetheriumresources:blocks/twistedmatter",
-    "particle": "aetheriumresources:blocks/twistedmatter"
+    "all": "aetheriumresources:blocks/twistedmatterblock1",
+    "particle": "aetheriumresources:blocks/twistedmatterblock1"
   }
 }

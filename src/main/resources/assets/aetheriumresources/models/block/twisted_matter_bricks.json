@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheriumresources:blocks/aaa6",
+    "up": "aetheriumresources:blocks/aaa6",
+    "north": "aetheriumresources:blocks/aaa6",
+    "east": "aetheriumresources:blocks/aaa6",
+    "south": "aetheriumresources:blocks/aaa6",
+    "west": "aetheriumresources:blocks/aaa6",
+    "particle": "aetheriumresources:blocks/aaa6"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StrippedTwistedForestLog"
+      },
+      {
+        "value": "CUSTOM:StrippedTwistedForestLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StrippedTwistedForestLog"
+      },
+      {
+        "value": "CUSTOM:StrippedTwistedForestLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StrippedTwistedForestWood"
+    },
+    "name": "stripped_twisted_forest_wood_recipe",
+    "namespace": "mod"
+  }
+}

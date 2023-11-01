@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TwistedMatterBricks"
+      },
+      {
+        "value": "CUSTOM:TwistedMatterBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TwistedMatterBricks"
+      },
+      {
+        "value": "CUSTOM:TwistedMatterBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TwistedMatterTiles"
+    },
+    "name": "twisted_tiles_recipe",
+    "namespace": "mod"
+  }
+}

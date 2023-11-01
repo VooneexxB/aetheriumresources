@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:twisted_forest_planks"
+    },
+    "1": {
+      "item": "aetheriumresources:twisted_forest_planks"
+    },
+    "2": {
+      "item": "aetheriumresources:twisted_forest_planks"
+    },
+    "3": {
+      "item": "aetheriumresources:twisted_forest_planks"
+    },
+    "4": {
+      "item": "aetheriumresources:twisted_forest_planks"
+    },
+    "5": {
+      "item": "aetheriumresources:twisted_forest_planks"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:twisted_trapdoor",
+    "count": 2
+  }
+}

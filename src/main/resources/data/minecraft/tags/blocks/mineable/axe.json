@@ -4,8 +4,20 @@
     "aetheriumresources:dark_matter_forest_wood",
     "aetheriumresources:dark_matter_forest_log",
     "aetheriumresources:stripped_dark_matter_forest_log",
+    "aetheriumresources:stripped_dark_matter_forest_wood",
     "aetheriumresources:dark_matter_forest_planks",
     "aetheriumresources:twisted_forest_log",
-    "aetheriumresources:twisted_forest_wood"
+    "aetheriumresources:twisted_forest_wood",
+    "aetheriumresources:stripped_twisted_forest_log",
+    "aetheriumresources:stripped_twisted_forest_wood",
+    "aetheriumresources:twisted_forest_planks",
+    "aetheriumresources:twisted_forest_stairs",
+    "aetheriumresources:twisted_forest_slab",
+    "aetheriumresources:twisted_forest_fence",
+    "aetheriumresources:twisted_forest_fence_gate",
+    "aetheriumresources:twisted_forest_pressure_plate",
+    "aetheriumresources:twisted_forest_button",
+    "aetheriumresources:twisted_trapdoor",
+    "aetheriumresources:twisted_forest_door"
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "aetheriumresources:blocks/strippedvoidlogside",
+    "particle": "aetheriumresources:blocks/strippedvoidlogside"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:dark_matter_forest_planks"
+    },
+    "1": {
+      "item": "aetheriumresources:dark_matter_forest_planks"
+    },
+    "2": {
+      "item": "aetheriumresources:dark_matter_forest_planks"
+    },
+    "3": {
+      "item": "aetheriumresources:dark_matter_forest_planks"
+    },
+    "4": {
+      "item": "aetheriumresources:dark_matter_forest_planks"
+    },
+    "5": {
+      "item": "aetheriumresources:dark_matter_forest_planks"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:dark_forest_planks_door",
+    "count": 3
+  }
+}

@@ -315,5 +315,145 @@
         "stream": true
       }
     ]
+  },
+  "twistedambience": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aetheriumresources:ecneibma",
+        "stream": false
+      }
+    ]
+  },
+  "moodtwisted": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "aetheriumresources:1doom",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:2doom",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3doom",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:4doom",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:5doom",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:6doom",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:7doom",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:8doom",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:9doom",
+        "stream": false
+      }
+    ]
+  },
+  "twistedadditions": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "aetheriumresources:addition1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:addition2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:addition3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:addition4",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:addition5",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:addition6",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:creak1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:creak2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:creak3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:creak4",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:creak5",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:enish1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:enish2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:enish3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:help1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:help2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:here1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:here2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:here3",
+        "stream": false
+      }
+    ]
+  },
+  "twistedmusic": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "aetheriumresources:um_final_feliz-_mp3cut.net_",
+        "stream": true
+      }
+    ]
   }
 }

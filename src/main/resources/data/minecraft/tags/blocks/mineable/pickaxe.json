@@ -20,6 +20,18 @@
     "aetheriumresources:polished_dark_matter_wall",
     "aetheriumresources:chiseled_dark_matter",
     "aetheriumresources:amethyst_machine",
-    "aetheriumresources:dark_matter_gem_block"
+    "aetheriumresources:dark_matter_gem_block",
+    "aetheriumresources:twisted_matter_bricks",
+    "aetheriumresources:twisted_matter_bricks_slab",
+    "aetheriumresources:twisted_matter_bricks_wall",
+    "aetheriumresources:twisted_matter_bricks_stairs",
+    "aetheriumresources:twisted_matter_tiles",
+    "aetheriumresources:twisted_matter_tiles_slab",
+    "aetheriumresources:twisted_matter_tiles_wall",
+    "aetheriumresources:twisted_matter_tiles_stairs",
+    "aetheriumresources:polished_twisted_matter",
+    "aetheriumresources:polished_twisted_matter_slab",
+    "aetheriumresources:polished_twisted_matter_wall",
+    "aetheriumresources:polished_twisted_matter_stairs"
   ]
 }

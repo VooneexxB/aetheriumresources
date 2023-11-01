@@ -1,8 +1,11 @@
 {
   "replace": false,
   "values": [
+    "aetheriumresources:twisted_matter_tiles_wall",
     "aetheriumresources:darkmatterbrickswall",
     "aetheriumresources:darkmattertileswalls",
-    "aetheriumresources:polished_dark_matter_wall"
+    "aetheriumresources:polished_twisted_matter_wall",
+    "aetheriumresources:polished_dark_matter_wall",
+    "aetheriumresources:twisted_matter_bricks_wall"
   ]
 }

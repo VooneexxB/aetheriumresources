@@ -57,6 +57,14 @@ public class AetheriumresourcesModSounds {
 		REGISTRY.put(new ResourceLocation("aetheriumresources", "theend"), new SoundEvent(new ResourceLocation("aetheriumresources", "theend")));
 		REGISTRY.put(new ResourceLocation("aetheriumresources", "elektrodeath"),
 				new SoundEvent(new ResourceLocation("aetheriumresources", "elektrodeath")));
+		REGISTRY.put(new ResourceLocation("aetheriumresources", "twistedambience"),
+				new SoundEvent(new ResourceLocation("aetheriumresources", "twistedambience")));
+		REGISTRY.put(new ResourceLocation("aetheriumresources", "moodtwisted"),
+				new SoundEvent(new ResourceLocation("aetheriumresources", "moodtwisted")));
+		REGISTRY.put(new ResourceLocation("aetheriumresources", "twistedadditions"),
+				new SoundEvent(new ResourceLocation("aetheriumresources", "twistedadditions")));
+		REGISTRY.put(new ResourceLocation("aetheriumresources", "twistedmusic"),
+				new SoundEvent(new ResourceLocation("aetheriumresources", "twistedmusic")));
 	}
 
 	@SubscribeEvent

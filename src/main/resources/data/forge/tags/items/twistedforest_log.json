@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "aetheriumresources:twisted_forest_wood",
+    "aetheriumresources:stripped_twisted_forest_log",
+    "aetheriumresources:stripped_twisted_forest_wood",
     "aetheriumresources:twisted_forest_log"
   ]
 }

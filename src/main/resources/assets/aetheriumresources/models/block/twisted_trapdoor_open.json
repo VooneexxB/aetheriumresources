@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "aetheriumresources:blocks/twistedtrapdoor",
+    "particle": "aetheriumresources:blocks/twistedtrapdoor"
+  }
+}

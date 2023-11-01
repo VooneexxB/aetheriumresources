@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "aetheriumresources:dark_matter_forest_log",
-    "aetheriumresources:dark_matter_forest_wood"
+    "aetheriumresources:dark_matter_forest_wood",
+    "aetheriumresources:stripped_dark_matter_forest_wood",
+    "aetheriumresources:stripped_dark_matter_forest_log"
   ]
 }

@@ -7,6 +7,9 @@
     "blocks": [
       {
         "value": "CUSTOM:DarkMatterForestFence"
+      },
+      {
+        "value": "CUSTOM:TwistedForestFence"
       }
     ],
     "functions": [],

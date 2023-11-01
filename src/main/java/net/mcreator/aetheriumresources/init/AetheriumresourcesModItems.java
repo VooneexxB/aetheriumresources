@@ -82,6 +82,8 @@ public class AetheriumresourcesModItems {
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> STRIPPED_DARK_MATTER_FOREST_LOG = block(AetheriumresourcesModBlocks.STRIPPED_DARK_MATTER_FOREST_LOG,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> STRIPPED_DARK_MATTER_FOREST_WOOD = block(AetheriumresourcesModBlocks.STRIPPED_DARK_MATTER_FOREST_WOOD,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARK_MATTER_FOREST_PLANKS = block(AetheriumresourcesModBlocks.DARK_MATTER_FOREST_PLANKS,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARK_MATTER_FOREST_LEAVES = block(AetheriumresourcesModBlocks.DARK_MATTER_FOREST_LEAVES,
@@ -102,6 +104,26 @@ public class AetheriumresourcesModItems {
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> DARK_MATTER_FOREST_BUTTON = block(AetheriumresourcesModBlocks.DARK_MATTER_FOREST_BUTTON,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_MATTER = block(AetheriumresourcesModBlocks.TWISTED_MATTER,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_GRASS = block(AetheriumresourcesModBlocks.TWISTED_GRASS,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_FOREST_LOG = block(AetheriumresourcesModBlocks.TWISTED_FOREST_LOG,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_FOREST_WOOD = block(AetheriumresourcesModBlocks.TWISTED_FOREST_WOOD,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> STRIPPED_TWISTED_FOREST_LOG = block(AetheriumresourcesModBlocks.STRIPPED_TWISTED_FOREST_LOG,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> STRIPPED_TWISTED_FOREST_WOOD = block(AetheriumresourcesModBlocks.STRIPPED_TWISTED_FOREST_WOOD,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_FOREST_PLANKS = block(AetheriumresourcesModBlocks.TWISTED_FOREST_PLANKS,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_FOREST_STAIRS = block(AetheriumresourcesModBlocks.TWISTED_FOREST_STAIRS,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_FOREST_SLAB = block(AetheriumresourcesModBlocks.TWISTED_FOREST_SLAB,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_FOREST_FENCE = block(AetheriumresourcesModBlocks.TWISTED_FOREST_FENCE,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> AMETHYST_MACHINE = block(AetheriumresourcesModBlocks.AMETHYST_MACHINE,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> EGGBED = block(AetheriumresourcesModBlocks.EGGBED, AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
@@ -118,6 +140,8 @@ public class AetheriumresourcesModItems {
 			() -> new ParasiteMatterPiecesItem());
 	public static final RegistryObject<Item> DARKMATTERBRICK = REGISTRY.register("darkmatterbrick", () -> new DarkmatterbrickItem());
 	public static final RegistryObject<Item> DARKMATTERITEM = REGISTRY.register("darkmatteritem", () -> new DarkmatteritemItem());
+	public static final RegistryObject<Item> TWISTED_MATTER_BRICK = REGISTRY.register("twisted_matter_brick", () -> new TwistedMatterBrickItem());
+	public static final RegistryObject<Item> TWISTED_MATTER_ITEM = REGISTRY.register("twisted_matter_item", () -> new TwistedMatterItemItem());
 	public static final RegistryObject<Item> BORDER = REGISTRY.register("border", () -> new BORDERItem());
 	public static final RegistryObject<Item> DISCO_2 = REGISTRY.register("disco_2", () -> new Disco2Item());
 	public static final RegistryObject<Item> DISCO_3 = REGISTRY.register("disco_3", () -> new Disco3Item());
@@ -128,15 +152,41 @@ public class AetheriumresourcesModItems {
 	public static final RegistryObject<Item> GLITCHYTALE = REGISTRY.register("glitchytale", () -> new GlitchytaleItem());
 	public static final RegistryObject<Item> THEEND = REGISTRY.register("theend", () -> new TheendItem());
 	public static final RegistryObject<Item> ELEKTRODEATH = REGISTRY.register("elektrodeath", () -> new ElektrodeathItem());
-	public static final RegistryObject<Item> TWISTED_MATTER = block(AetheriumresourcesModBlocks.TWISTED_MATTER,
+	public static final RegistryObject<Item> TWISTED_FOREST_LEAVES = block(AetheriumresourcesModBlocks.TWISTED_FOREST_LEAVES,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> TWISTED_MATTER_ITEM = REGISTRY.register("twisted_matter_item", () -> new TwistedMatterItemItem());
-	public static final RegistryObject<Item> TWISTED_MATTER_BRICK = REGISTRY.register("twisted_matter_brick", () -> new TwistedMatterBrickItem());
-	public static final RegistryObject<Item> TWISTED_GRASS = block(AetheriumresourcesModBlocks.TWISTED_GRASS,
+	public static final RegistryObject<Item> TWISTED_FOREST_FENCE_GATE = block(AetheriumresourcesModBlocks.TWISTED_FOREST_FENCE_GATE,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> TWISTED_FOREST_LOG = block(AetheriumresourcesModBlocks.TWISTED_FOREST_LOG,
+	public static final RegistryObject<Item> TWISTED_FOREST_PRESSURE_PLATE = block(AetheriumresourcesModBlocks.TWISTED_FOREST_PRESSURE_PLATE,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> TWISTED_FOREST_WOOD = block(AetheriumresourcesModBlocks.TWISTED_FOREST_WOOD,
+	public static final RegistryObject<Item> TWISTED_FOREST_BUTTON = block(AetheriumresourcesModBlocks.TWISTED_FOREST_BUTTON,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_TRAPDOOR = block(AetheriumresourcesModBlocks.TWISTED_TRAPDOOR,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_FOREST_DOOR = doubleBlock(AetheriumresourcesModBlocks.TWISTED_FOREST_DOOR,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_MATTER_BRICKS = block(AetheriumresourcesModBlocks.TWISTED_MATTER_BRICKS,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_MATTER_BRICKS_SLAB = block(AetheriumresourcesModBlocks.TWISTED_MATTER_BRICKS_SLAB,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_MATTER_BRICKS_WALL = block(AetheriumresourcesModBlocks.TWISTED_MATTER_BRICKS_WALL,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_MATTER_BRICKS_STAIRS = block(AetheriumresourcesModBlocks.TWISTED_MATTER_BRICKS_STAIRS,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_MATTER_TILES = block(AetheriumresourcesModBlocks.TWISTED_MATTER_TILES,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_MATTER_TILES_SLAB = block(AetheriumresourcesModBlocks.TWISTED_MATTER_TILES_SLAB,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_MATTER_TILES_WALL = block(AetheriumresourcesModBlocks.TWISTED_MATTER_TILES_WALL,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_MATTER_TILES_STAIRS = block(AetheriumresourcesModBlocks.TWISTED_MATTER_TILES_STAIRS,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> POLISHED_TWISTED_MATTER = block(AetheriumresourcesModBlocks.POLISHED_TWISTED_MATTER,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> POLISHED_TWISTED_MATTER_SLAB = block(AetheriumresourcesModBlocks.POLISHED_TWISTED_MATTER_SLAB,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> POLISHED_TWISTED_MATTER_WALL = block(AetheriumresourcesModBlocks.POLISHED_TWISTED_MATTER_WALL,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> POLISHED_TWISTED_MATTER_STAIRS = block(AetheriumresourcesModBlocks.POLISHED_TWISTED_MATTER_STAIRS,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

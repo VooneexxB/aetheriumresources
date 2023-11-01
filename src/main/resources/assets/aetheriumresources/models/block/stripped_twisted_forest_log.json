@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheriumresources:blocks/strippedtwistedlog2",
+    "up": "aetheriumresources:blocks/strippedtwistedlog2",
+    "north": "aetheriumresources:blocks/strippedtwistedlog",
+    "east": "aetheriumresources:blocks/strippedtwistedlog",
+    "south": "aetheriumresources:blocks/strippedtwistedlog",
+    "west": "aetheriumresources:blocks/strippedtwistedlog",
+    "particle": "aetheriumresources:blocks/strippedtwistedlog2"
+  }
+}
