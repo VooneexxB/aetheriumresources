@@ -244,7 +244,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "materiaorganica",
-      "path": "~/Itens"
+      "path": "~/Itens/Crafting"
     },
     {
       "name": "Seringaglitchreceita",
@@ -481,7 +481,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "realitymisfortune",
-      "path": "~/Itens"
+      "path": "~/Itens/Equipamento"
     },
     {
       "name": "RealitymisfortuneToolInHandTick",
@@ -573,7 +573,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "parasite_matter_pieces",
-      "path": "~/Itens"
+      "path": "~/Itens/Crafting"
     },
     {
       "name": "Parasitediscrecipe",
@@ -944,7 +944,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatteritem",
-      "path": "~/Itens"
+      "path": "~/Itens/Crafting"
     },
     {
       "name": "Darkmatterdrop",
@@ -971,7 +971,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatterbrick",
-      "path": "~/Itens"
+      "path": "~/Itens/Crafting"
     },
     {
       "name": "Darkmatterbrickrecipe",
@@ -1340,7 +1340,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_gem",
-      "path": "~/Itens"
+      "path": "~/Itens/Crafting"
     },
     {
       "name": "EnrichedDarkMatterDrop",
@@ -1358,7 +1358,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_gem_block",
-      "path": "~/Itens"
+      "path": "~/Blocos/WIP"
     },
     {
       "name": "Darkgemblockcrafting",
@@ -1472,7 +1472,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_matter_item",
-      "path": "~/Itens"
+      "path": "~/Itens/Crafting"
     },
     {
       "name": "TwistedMatterBrick",
@@ -1481,7 +1481,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_matter_brick",
-      "path": "~/Itens"
+      "path": "~/Itens/Crafting"
     },
     {
       "name": "Darkgemuncrafting",
@@ -2842,7 +2842,16 @@
       },
       {
         "name": "Itens",
-        "children": []
+        "children": [
+          {
+            "name": "Equipamento",
+            "children": []
+          },
+          {
+            "name": "Crafting",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Biomas e Dimensoes",
