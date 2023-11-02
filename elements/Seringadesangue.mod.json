@@ -6,7 +6,7 @@
     "texture": "sangue",
     "customModelName": "model:default",
     "name": "Seringa (Sangue)",
-    "rarity": "EPIC",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:AetheriumTab"
     },

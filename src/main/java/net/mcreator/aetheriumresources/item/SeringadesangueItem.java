@@ -15,7 +15,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class SeringadesangueItem extends Item {
 	public SeringadesangueItem() {
-		super(new Item.Properties().tab(AetheriumresourcesModTabs.TAB_AETHERIUM_TAB).stacksTo(1).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(AetheriumresourcesModTabs.TAB_AETHERIUM_TAB).stacksTo(1).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override
