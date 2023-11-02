@@ -582,7 +582,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "parasitediscrecipe",
-      "path": "~/Crafting"
+      "path": "~/Crafting/Discos"
     },
     {
       "name": "Thunderstorm",
@@ -1490,7 +1490,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkgemuncrafting",
-      "path": "~/Crafting"
+      "path": "~/Crafting/Discos"
     },
     {
       "name": "TwistedMatterBlockCraft",
@@ -2446,6 +2446,33 @@
       "locked_code": false,
       "registry_name": "metal_pipe_item",
       "path": "~/Itens/Equipamento"
+    },
+    {
+      "name": "Ametistapurificada",
+      "type": "item",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ametistapurificada",
+      "path": "~/Itens/Crafting"
+    },
+    {
+      "name": "BlocoAmetistaPurificada",
+      "type": "block",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloco_ametista_purificada",
+      "path": "~/Blocos/Glitch"
+    },
+    {
+      "name": "BlocoAmetistaPurificadaRecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloco_ametista_purificada_recipe",
+      "path": "~/Crafting"
     }
   ],
   "variable_elements": [],
@@ -2896,11 +2923,13 @@
       "item.aetheriumresources.twisted_matter_item": "Twisted Matter",
       "block.aetheriumresources.dark_matter_forest_planks": "Dark Forest Planks",
       "subtitles.metalpipethrow": "",
+      "block.aetheriumresources.bloco_ametista_purificada": "Bloco de Ametista Purificada (WIP)",
       "effect.aetheriumresources.efeito_2": "GU3RR31R0",
       "block.aetheriumresources.polished_twisted_matter_slab": "Polished Twisted Matter Slab",
       "subtitles.error-breaking": "",
       "block.aetheriumresources.dark_matter_forest_wood": "Dark Forest Wood",
       "item.minecraft.splash_potion.effect.erroretapa_1": "Splash Strange Bottle",
+      "item.aetheriumresources.ametistapurificada": "Ametista Purificada (WIP)",
       "item.aetheriumresources.bloody_sky": "Burning Skies",
       "item.aetheriumresources.simulacra.desc": "Andrii Floria - 9l1tch",
       "item.minecraft.tipped_arrow.effect.erroretapafinal": "Arrow of Dark Mixture",

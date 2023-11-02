@@ -38,6 +38,7 @@ import net.mcreator.aetheriumresources.item.DarkmatterbrickItem;
 import net.mcreator.aetheriumresources.item.DarkMatterGemItem;
 import net.mcreator.aetheriumresources.item.BloodySkyItem;
 import net.mcreator.aetheriumresources.item.BORDERItem;
+import net.mcreator.aetheriumresources.item.AmetistapurificadaItem;
 import net.mcreator.aetheriumresources.AetheriumresourcesMod;
 
 public class AetheriumresourcesModItems {
@@ -192,6 +193,9 @@ public class AetheriumresourcesModItems {
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> METAL_PIPE = REGISTRY.register("metal_pipe", () -> new MetalPipeItem());
 	public static final RegistryObject<Item> METAL_PIPE_ITEM = REGISTRY.register("metal_pipe_item", () -> new MetalPipeItemItem());
+	public static final RegistryObject<Item> AMETISTAPURIFICADA = REGISTRY.register("ametistapurificada", () -> new AmetistapurificadaItem());
+	public static final RegistryObject<Item> BLOCO_AMETISTA_PURIFICADA = block(AetheriumresourcesModBlocks.BLOCO_AMETISTA_PURIFICADA,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

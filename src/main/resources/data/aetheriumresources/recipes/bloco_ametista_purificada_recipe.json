@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:ametistapurificada"
+    },
+    "1": {
+      "item": "aetheriumresources:ametistapurificada"
+    },
+    "2": {
+      "item": "aetheriumresources:ametistapurificada"
+    },
+    "3": {
+      "item": "aetheriumresources:ametistapurificada"
+    },
+    "4": {
+      "item": "aetheriumresources:ametistapurificada"
+    },
+    "5": {
+      "item": "aetheriumresources:ametistapurificada"
+    },
+    "6": {
+      "item": "aetheriumresources:ametistapurificada"
+    },
+    "7": {
+      "item": "aetheriumresources:ametistapurificada"
+    },
+    "8": {
+      "item": "aetheriumresources:ametistapurificada"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:bloco_ametista_purificada",
+    "count": 1
+  }
+}

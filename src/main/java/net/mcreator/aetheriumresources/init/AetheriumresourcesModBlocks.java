@@ -77,6 +77,7 @@ import net.mcreator.aetheriumresources.block.DarkMatterBricksBlock;
 import net.mcreator.aetheriumresources.block.DarkForestPlanksTrapdoorBlock;
 import net.mcreator.aetheriumresources.block.DarkForestPlanksDoorBlock;
 import net.mcreator.aetheriumresources.block.ChiseledDarkMatterBlock;
+import net.mcreator.aetheriumresources.block.BlocoAmetistaPurificadaBlock;
 import net.mcreator.aetheriumresources.block.BORDERPortalBlock;
 import net.mcreator.aetheriumresources.block.AmethystMachineBlock;
 import net.mcreator.aetheriumresources.block.AaBlock;
@@ -188,6 +189,8 @@ public class AetheriumresourcesModBlocks {
 			() -> new PolishedTwistedMatterWallBlock());
 	public static final RegistryObject<Block> POLISHED_TWISTED_MATTER_STAIRS = REGISTRY.register("polished_twisted_matter_stairs",
 			() -> new PolishedTwistedMatterStairsBlock());
+	public static final RegistryObject<Block> BLOCO_AMETISTA_PURIFICADA = REGISTRY.register("bloco_ametista_purificada",
+			() -> new BlocoAmetistaPurificadaBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

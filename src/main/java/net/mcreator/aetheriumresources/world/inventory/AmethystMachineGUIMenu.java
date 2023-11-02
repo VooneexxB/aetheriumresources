@@ -75,13 +75,13 @@ public class AmethystMachineGUIMenu extends AbstractContainerMenu implements Sup
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 77, 8) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 78, 9) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 48, 32) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 44, 30) {
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 106, 32) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 112, 30) {
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 77, 59) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 78, 52) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
