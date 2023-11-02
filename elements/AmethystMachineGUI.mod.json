@@ -11,19 +11,6 @@
     "doesPauseGame": false,
     "components": [
       {
-        "type": "label",
-        "data": {
-          "text": "Amethyst Purifier",
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "name": "Amethyst Purifier",
-          "x": 172,
-          "y": 39
-        }
-      },
-      {
         "type": "inputslot",
         "data": {
           "inputLimit": {
@@ -33,8 +20,8 @@
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 173,
-          "y": 57
+          "x": 202,
+          "y": 44
         }
       },
       {
@@ -48,18 +35,102 @@
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
           "x": 173,
-          "y": 93
+          "y": 68
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 231,
+          "y": 68
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "id": 2,
+          "id": 3,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "name": "Slot #2",
-          "x": 239,
-          "y": 75
+          "name": "Slot #3",
+          "x": 202,
+          "y": 95
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ametista_slot.png",
+          "use1Xscale": false,
+          "name": "ametista_slot.png",
+          "x": 202,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "materia_slot.png",
+          "use1Xscale": false,
+          "name": "materia_slot.png",
+          "x": 173,
+          "y": 68
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glitch_overlay.png",
+          "use1Xscale": false,
+          "name": "glitch_overlay.png",
+          "x": 124,
+          "y": 37
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "materia_slot.png",
+          "use1Xscale": false,
+          "name": "materia_slot.png",
+          "x": 231,
+          "y": 68
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progresso.png",
+          "use1Xscale": false,
+          "name": "progresso.png",
+          "x": 207,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "combustao_slot.png",
+          "use1Xscale": false,
+          "name": "combustao_slot.png",
+          "x": 174,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "combustao_slot.png",
+          "use1Xscale": false,
+          "name": "combustao_slot.png",
+          "x": 233,
+          "y": 90
         }
       }
     ],

@@ -41,31 +41,6 @@
       }
     ]
   },
-  "error-step": {
-    "category": "block",
-    "sounds": [
-      {
-        "name": "aetheriumresources:3rr0r_step1",
-        "stream": false
-      },
-      {
-        "name": "aetheriumresources:3rr0r_step2",
-        "stream": false
-      },
-      {
-        "name": "aetheriumresources:3rr0r_step3",
-        "stream": false
-      },
-      {
-        "name": "aetheriumresources:3rr0r_step4",
-        "stream": false
-      },
-      {
-        "name": "aetheriumresources:3rr0r_step5",
-        "stream": false
-      }
-    ]
-  },
   "failure-breaking": {
     "category": "block",
     "sounds": [
@@ -453,6 +428,71 @@
       {
         "name": "aetheriumresources:um_final_feliz-_mp3cut.net_",
         "stream": true
+      }
+    ]
+  },
+  "blockhitmetalpipe": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "aetheriumresources:concrete-breaking",
+        "stream": false
+      }
+    ]
+  },
+  "throwpipe": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "aetheriumresources:throw_d4cpy0g",
+        "stream": false
+      }
+    ]
+  },
+  "error-step": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "aetheriumresources:3rr0r_step1",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_step2",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_step3",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_step4",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:3rr0r_step5",
+        "stream": false
+      }
+    ]
+  },
+  "metalpipehit": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "aetheriumresources:bonk",
+        "stream": false
+      },
+      {
+        "name": "aetheriumresources:cartoon-bonk",
+        "stream": false
+      }
+    ]
+  },
+  "pipeprojectilehit": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "aetheriumresources:pipe",
+        "stream": false
       }
     ]
   }

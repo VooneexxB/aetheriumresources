@@ -49,6 +49,28 @@ public class AmethystMachineGUIScreen extends AbstractContainerScreen<AmethystMa
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/ametista_slot.png"));
+		this.blit(ms, this.leftPos + 76, this.topPos + 7, 0, 0, 18, 18, 18, 18);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/materia_slot.png"));
+		this.blit(ms, this.leftPos + 47, this.topPos + 31, 0, 0, 18, 18, 18, 18);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/glitch_overlay.png"));
+		this.blit(ms, this.leftPos + -1, this.topPos + 0, 0, 0, 176, 166, 176, 166);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/materia_slot.png"));
+		this.blit(ms, this.leftPos + 105, this.topPos + 31, 0, 0, 18, 18, 18, 18);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/progresso.png"));
+		this.blit(ms, this.leftPos + 81, this.topPos + 30, 0, 0, 7, 22, 7, 22);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/combustao_slot.png"));
+		this.blit(ms, this.leftPos + 48, this.topPos + 53, 0, 0, 14, 14, 14, 14);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/combustao_slot.png"));
+		this.blit(ms, this.leftPos + 107, this.topPos + 53, 0, 0, 14, 14, 14, 14);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -68,7 +90,6 @@ public class AmethystMachineGUIScreen extends AbstractContainerScreen<AmethystMa
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Amethyst Purifier", 46, 2, -12829636);
 	}
 
 	@Override

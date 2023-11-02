@@ -2339,23 +2339,6 @@
       "path": "~/GUI e Misc/Tags"
     },
     {
-      "name": "MetalPipeItemIsDroppedByPlayer",
-      "type": "procedure",
-      "sortid": 234,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "metal_pipe_item_is_dropped_by_player",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/GUI e Misc/Procedures/Armas"
-    },
-    {
       "name": "MetalPipeLivingEntityIsHitWithItem",
       "type": "procedure",
       "sortid": 235,
@@ -2367,6 +2350,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -2374,11 +2373,78 @@
     },
     {
       "name": "MetalPipe",
-      "type": "item",
-      "sortid": 233,
+      "type": "rangeditem",
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "metal_pipe",
+      "path": "~/Itens/Equipamento"
+    },
+    {
+      "name": "MetalPipeProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_pipe_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Armas"
+    },
+    {
+      "name": "MetalPipeProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_pipe_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Armas"
+    },
+    {
+      "name": "MetalPipeItem",
+      "type": "tool",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_pipe_item",
       "path": "~/Itens/Equipamento"
     }
   ],
@@ -2402,18 +2468,6 @@
         "3rr0r_placing2",
         "3rr0r_placing3",
         "3rr0r_placing4"
-      ],
-      "category": "block",
-      "subtitle": ""
-    },
-    {
-      "name": "error-step",
-      "files": [
-        "3rr0r_step1",
-        "3rr0r_step2",
-        "3rr0r_step3",
-        "3rr0r_step4",
-        "3rr0r_step5"
       ],
       "category": "block",
       "subtitle": ""
@@ -2641,6 +2695,51 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "blockhitmetalpipe",
+      "files": [
+        "concrete-breaking"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "throwpipe",
+      "files": [
+        "throw_d4cpy0g"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "error-step",
+      "files": [
+        "3rr0r_step1",
+        "3rr0r_step2",
+        "3rr0r_step3",
+        "3rr0r_step4",
+        "3rr0r_step5"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "metalpipehit",
+      "files": [
+        "bonk",
+        "cartoon-bonk"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "pipeprojectilehit",
+      "files": [
+        "pipe"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -2650,17 +2749,20 @@
       "itemGroup.tabaetherium_tab": "Aetherium Resources",
       "item.aetheriumresources.disco_3.desc": "Andrii Floria - Chaos1",
       "subtitles.twistedmusic": "",
-      "block.aetheriumresources.polished_dark_matter_slab": "Polished Dark Matter Slab",
+      "subtitles.pipehit": "",
       "subtitles.error-placing": "",
-      "item.aetheriumresources.thunderstorm": "Thunderstorm Night",
+      "block.aetheriumresources.polished_dark_matter_slab": "Polished Dark Matter Slab",
       "subtitles.place": "",
+      "item.aetheriumresources.thunderstorm": "Thunderstorm Night",
       "block.aetheriumresources.stripped_dark_matter_forest_wood": "Stripped Dark Forest Log",
       "block.aetheriumresources.twisted_matter_tiles_wall": "Twisted Matter Tiles Wall",
+      "subtitles.pipeprojectilehit": "",
       "block.aetheriumresources.twisted_forest_slab": "Twisted Slab",
       "block.aetheriumresources.twisted_matter_tiles": "Twisted Matter Tiles",
       "block.aetheriumresources.twisted_forest_leaves": "Twisted Leaves",
       "subtitles.error-fall": "",
       "block.aetheriumresources.dark_matter_forest_leaves": "Dark Forest Leaves",
+      "item.aetheriumresources.metal_pipe_item": "Metal Pipe (OP)",
       "item.aetheriumresources.disco_2.desc": "Andrii Floria - God of Hopelessness",
       "block.aetheriumresources.twisted_forest_log": "Twisted Forest Log",
       "item.aetheriumresources.seringadesangue": "Seringa (Sangue)",
@@ -2693,6 +2795,7 @@
       "subtitles.parasita": "",
       "block.aetheriumresources.twisted_matter_tiles_stairs": "Twisted Matter Tiles Stairs",
       "item.minecraft.lingering_potion.effect.erroretapa_1": "Lingering Strange Bottle",
+      "subtitles.blockhitmetalpipe": "",
       "item.minecraft.lingering_potion.effect.erroretapa_2": "Lingering Activated Strange Bottle",
       "block.aetheriumresources.polished_twisted_matter_wall": "Polished Twisted Matter Wall",
       "item.minecraft.lingering_potion.effect.erroretapa_4": "Lingering Potion of Dark Condensed Parasite",
@@ -2718,6 +2821,7 @@
       "item.aetheriumresources.glitchytale": "F4LS3H0P3",
       "block.aetheriumresources.polished_dark_matter": "Polished Dark Matter",
       "subtitles.truedeath": "",
+      "subtitles.metalpipehit": "",
       "block.aetheriumresources.stripped_twisted_forest_log": "Twisted Forest Log",
       "block.aetheriumresources.dark_matter_forest_slab": "Dark Forest Slab",
       "block.aetheriumresources.dark_matter_forest_log": "Dark Forest Log",
@@ -2726,7 +2830,9 @@
       "block.aetheriumresources.twisted_forest_fence": "Twisted Fence",
       "item.minecraft.potion.effect.erroretapa_2": "Activated Strange Bottle",
       "block.aetheriumresources.dark_forest_planks_trapdoor": "Dark Forest Trapdoor",
+      "subtitles.metalpipereload": "",
       "subtitles.failure-fall": "",
+      "subtitles.throwpipe": "",
       "item.minecraft.potion.effect.erroretapa_1": "Strange Bottle",
       "block.aetheriumresources.darkmatterbricksstairs": "Dark Matter Bricks Stairs",
       "item.aetheriumresources.thunderstorm.desc": "kimdc2 - Thunderstorm Night",
@@ -2736,7 +2842,7 @@
       "item.minecraft.potion.effect.erroretapafinal": "Bottle of Dark Mixture",
       "item.aetheriumresources.bloody_sky.desc": "Andrii Floria - Screams Under Red Sky",
       "block.aetheriumresources.twisted_forest_wood": "Twisted Forest Wood",
-      "item.aetheriumresources.metal_pipe": "Metal Pipe (OP)",
+      "item.aetheriumresources.metal_pipe": "Throwable Metal Pipe (OP)",
       "item.minecraft.potion.effect.pocaoefeito": "Potion of 3RR0R",
       "item.aetheriumresources.seringa_glitch": "Seringa (Glitch)",
       "block.aetheriumresources.darkmatterbricksslab": "Dark Matter Bricks Slab",
@@ -2789,6 +2895,7 @@
       "item.aetheriumresources.twisted_matter_brick": "Dark Matter Brick",
       "item.aetheriumresources.twisted_matter_item": "Twisted Matter",
       "block.aetheriumresources.dark_matter_forest_planks": "Dark Forest Planks",
+      "subtitles.metalpipethrow": "",
       "effect.aetheriumresources.efeito_2": "GU3RR31R0",
       "block.aetheriumresources.polished_twisted_matter_slab": "Polished Twisted Matter Slab",
       "subtitles.error-breaking": "",

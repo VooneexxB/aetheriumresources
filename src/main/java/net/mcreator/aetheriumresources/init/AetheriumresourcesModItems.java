@@ -26,6 +26,7 @@ import net.mcreator.aetheriumresources.item.SeringaAntidotoItem;
 import net.mcreator.aetheriumresources.item.RealitymisfortuneItem;
 import net.mcreator.aetheriumresources.item.ParasiteMatterPiecesItem;
 import net.mcreator.aetheriumresources.item.PARASYTEItem;
+import net.mcreator.aetheriumresources.item.MetalPipeItemItem;
 import net.mcreator.aetheriumresources.item.MetalPipeItem;
 import net.mcreator.aetheriumresources.item.MateriaorganicaItem;
 import net.mcreator.aetheriumresources.item.GlitchytaleItem;
@@ -190,6 +191,7 @@ public class AetheriumresourcesModItems {
 	public static final RegistryObject<Item> POLISHED_TWISTED_MATTER_STAIRS = block(AetheriumresourcesModBlocks.POLISHED_TWISTED_MATTER_STAIRS,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> METAL_PIPE = REGISTRY.register("metal_pipe", () -> new MetalPipeItem());
+	public static final RegistryObject<Item> METAL_PIPE_ITEM = REGISTRY.register("metal_pipe_item", () -> new MetalPipeItemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
