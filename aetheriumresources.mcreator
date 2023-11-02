@@ -27,7 +27,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Armas"
+      "path": "~/GUI e Misc/Procedures/Armas"
     },
     {
       "name": "Error",
@@ -45,7 +45,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "aetherium_tab",
-      "path": "~/GUI e Misc"
+      "path": "~/GUI e Misc/GUI"
     },
     {
       "name": "Glitchytale",
@@ -54,7 +54,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "glitchytale",
-      "path": "~/Discos"
+      "path": "~/Itens/Discos"
     },
     {
       "name": "Error2",
@@ -107,7 +107,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos"
     },
     {
       "name": "EfeitoOnEffectActiveTick",
@@ -140,7 +140,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Effect"
+      "path": "~/GUI e Misc/Procedures/Effect"
     },
     {
       "name": "Efeito2OnEffectActiveTick",
@@ -173,7 +173,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Effect"
+      "path": "~/GUI e Misc/Procedures/Effect"
     },
     {
       "name": "Efeito2",
@@ -209,7 +209,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringa",
-      "path": "~/Seringas"
+      "path": "~/Itens/Seringas"
     },
     {
       "name": "SeringaGlitch",
@@ -218,7 +218,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringa_glitch",
-      "path": "~/Seringas"
+      "path": "~/Itens/Seringas"
     },
     {
       "name": "MateriaorganicaPlayerFinishesUsingItem",
@@ -235,7 +235,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Effect"
+      "path": "~/GUI e Misc/Procedures/Effect"
     },
     {
       "name": "Materiaorganica",
@@ -253,7 +253,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringaglitchreceita",
-      "path": "~/Seringas"
+      "path": "~/Itens/Seringas"
     },
     {
       "name": "Glitchreceita",
@@ -292,7 +292,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Seringa"
+      "path": "~/GUI e Misc/Procedures/Seringa"
     },
     {
       "name": "Seringareceita",
@@ -334,7 +334,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Seringa"
+      "path": "~/GUI e Misc/Procedures/Seringa"
     },
     {
       "name": "Erroretapa1",
@@ -388,7 +388,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "errordrop",
-      "path": "~/GUI e Misc"
+      "path": "~/GUI e Misc/LootTable"
     },
     {
       "name": "Errordrop2",
@@ -397,7 +397,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "errordrop_2",
-      "path": "~/GUI e Misc"
+      "path": "~/GUI e Misc/LootTable"
     },
     {
       "name": "Seringadesangue",
@@ -406,7 +406,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringadesangue",
-      "path": "~/Seringas"
+      "path": "~/Itens/Seringas"
     },
     {
       "name": "Bloodglitch",
@@ -427,7 +427,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Seringa"
+      "path": "~/GUI e Misc/Procedures/Seringa"
     },
     {
       "name": "Disco2",
@@ -436,7 +436,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "disco_2",
-      "path": "~/Discos"
+      "path": "~/Itens/Discos"
     },
     {
       "name": "Disco3",
@@ -445,7 +445,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "disco_3",
-      "path": "~/Discos"
+      "path": "~/Itens/Discos"
     },
     {
       "name": "Disco1recipe",
@@ -472,7 +472,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_machine_gui",
-      "path": "~/GUI e Misc"
+      "path": "~/GUI e Misc/GUI"
     },
     {
       "name": "Realitymisfortune",
@@ -498,7 +498,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Armas"
+      "path": "~/GUI e Misc/Procedures/Armas"
     },
     {
       "name": "AmethystMachine",
@@ -564,7 +564,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "parasyte",
-      "path": "~/Discos"
+      "path": "~/Itens/Discos"
     },
     {
       "name": "ParasiteMatterPieces",
@@ -591,7 +591,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thunderstorm",
-      "path": "~/Discos"
+      "path": "~/Itens/Discos"
     },
     {
       "name": "BloodySky",
@@ -600,7 +600,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloody_sky",
-      "path": "~/Discos"
+      "path": "~/Itens/Discos"
     },
     {
       "name": "Simulacra",
@@ -609,7 +609,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "simulacra",
-      "path": "~/Discos"
+      "path": "~/Itens/Discos"
     },
     {
       "name": "Bloodyskycrafting",
@@ -645,7 +645,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "seringa_antidoto",
-      "path": "~/Seringas"
+      "path": "~/Itens/Seringas"
     },
     {
       "name": "Antidotohit",
@@ -666,7 +666,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Seringa"
+      "path": "~/GUI e Misc/Procedures/Seringa"
     },
     {
       "name": "Antidotouso",
@@ -683,7 +683,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Seringa"
+      "path": "~/GUI e Misc/Procedures/Seringa"
     },
     {
       "name": "Darkforest",
@@ -791,7 +791,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_items_tag",
-      "path": "~/Tags"
+      "path": "~/GUI e Misc/Tags"
     },
     {
       "name": "DarkMatterForestWoodRecipe",
@@ -881,7 +881,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fencetag",
-      "path": "~/Tags"
+      "path": "~/GUI e Misc/Tags"
     },
     {
       "name": "Fencegatetag",
@@ -890,7 +890,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fencegatetag",
-      "path": "~/Tags"
+      "path": "~/GUI e Misc/Tags"
     },
     {
       "name": "Grasstag",
@@ -899,7 +899,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "grasstag",
-      "path": "~/Tags"
+      "path": "~/GUI e Misc/Tags"
     },
     {
       "name": "Elektrodeath",
@@ -908,7 +908,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "elektrodeath",
-      "path": "~/Discos"
+      "path": "~/Itens/Discos"
     },
     {
       "name": "Theend",
@@ -917,7 +917,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "theend",
-      "path": "~/Discos"
+      "path": "~/Itens/Discos"
     },
     {
       "name": "Elektrocrafting",
@@ -953,7 +953,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkmatterdrop",
-      "path": "~/GUI e Misc"
+      "path": "~/GUI e Misc/LootTable"
     },
     {
       "name": "Darkmatterblockrecipe",
@@ -1322,7 +1322,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "walltag",
-      "path": "~/Tags"
+      "path": "~/GUI e Misc/Tags"
     },
     {
       "name": "EnrichedDarkMatter",
@@ -1349,7 +1349,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "enriched_dark_matter_drop",
-      "path": "~/GUI e Misc"
+      "path": "~/GUI e Misc/LootTable"
     },
     {
       "name": "DarkMatterGemBlock",
@@ -1409,7 +1409,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos"
     },
     {
       "name": "DarkForestPlanksTrapdoor",
@@ -1571,7 +1571,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "antidotorecipe",
-      "path": "~/Seringas"
+      "path": "~/Itens/Seringas"
     },
     {
       "name": "TwistedDesert",
@@ -1625,7 +1625,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_forest_tag",
-      "path": "~/Tags"
+      "path": "~/GUI e Misc/Tags"
     },
     {
       "name": "TwistedMatterDrop",
@@ -1634,7 +1634,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_matter_drop",
-      "path": "~/GUI e Misc"
+      "path": "~/GUI e Misc/LootTable"
     },
     {
       "name": "StrippedTwistedForestLog",
@@ -1694,7 +1694,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos"
     },
     {
       "name": "StrippedTwistedForestWood",
@@ -1844,7 +1844,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos"
     },
     {
       "name": "StrippedTwistedWood",
@@ -1877,7 +1877,7 @@
           }
         ]
       },
-      "path": "~/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos"
     },
     {
       "name": "TwistedForestPlanksRecipe",
@@ -2310,6 +2310,76 @@
       "locked_code": false,
       "registry_name": "polished_twisted_cutter_wall",
       "path": "~/Crafting/TwistedMatter"
+    },
+    {
+      "name": "TwistedGrassDrop",
+      "type": "loottable",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_grass_drop",
+      "path": "~/GUI e Misc/LootTable"
+    },
+    {
+      "name": "DarkGrassDrop",
+      "type": "loottable",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_grass_drop",
+      "path": "~/GUI e Misc/LootTable"
+    },
+    {
+      "name": "Lavalaketag",
+      "type": "tag",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavalaketag",
+      "path": "~/GUI e Misc/Tags"
+    },
+    {
+      "name": "MetalPipeItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_pipe_item_is_dropped_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Armas"
+    },
+    {
+      "name": "MetalPipeLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_pipe_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Armas"
+    },
+    {
+      "name": "MetalPipe",
+      "type": "item",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_pipe",
+      "path": "~/Itens/Equipamento"
     }
   ],
   "variable_elements": [],
@@ -2666,6 +2736,7 @@
       "item.minecraft.potion.effect.erroretapafinal": "Bottle of Dark Mixture",
       "item.aetheriumresources.bloody_sky.desc": "Andrii Floria - Screams Under Red Sky",
       "block.aetheriumresources.twisted_forest_wood": "Twisted Forest Wood",
+      "item.aetheriumresources.metal_pipe": "Metal Pipe (OP)",
       "item.minecraft.potion.effect.pocaoefeito": "Potion of 3RR0R",
       "item.aetheriumresources.seringa_glitch": "Seringa (Glitch)",
       "block.aetheriumresources.darkmatterbricksslab": "Dark Matter Bricks Slab",
@@ -2753,10 +2824,6 @@
         ]
       },
       {
-        "name": "Seringas",
-        "children": []
-      },
-      {
         "name": "Blocos",
         "children": [
           {
@@ -2789,31 +2856,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Procedures",
-        "children": [
-          {
-            "name": "Effect",
-            "children": []
-          },
-          {
-            "name": "Seringa",
-            "children": []
-          },
-          {
-            "name": "Blocos",
-            "children": []
-          },
-          {
-            "name": "Armas",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Discos",
-        "children": []
       },
       {
         "name": "Crafting",
@@ -2850,6 +2892,14 @@
           {
             "name": "Crafting",
             "children": []
+          },
+          {
+            "name": "Seringas",
+            "children": []
+          },
+          {
+            "name": "Discos",
+            "children": []
           }
         ]
       },
@@ -2859,11 +2909,41 @@
       },
       {
         "name": "GUI e Misc",
-        "children": []
-      },
-      {
-        "name": "Tags",
-        "children": []
+        "children": [
+          {
+            "name": "LootTable",
+            "children": []
+          },
+          {
+            "name": "Tags",
+            "children": []
+          },
+          {
+            "name": "Procedures",
+            "children": [
+              {
+                "name": "Effect",
+                "children": []
+              },
+              {
+                "name": "Seringa",
+                "children": []
+              },
+              {
+                "name": "Blocos",
+                "children": []
+              },
+              {
+                "name": "Armas",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "GUI",
+            "children": []
+          }
+        ]
       }
     ]
   },

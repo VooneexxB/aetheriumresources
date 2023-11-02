@@ -59,7 +59,7 @@
     "fallSound": {
       "value": ""
     },
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "customDrop": {
       "value": ""
     },
