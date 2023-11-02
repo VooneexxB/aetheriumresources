@@ -32,7 +32,7 @@ import java.util.stream.IntStream;
 import io.netty.buffer.Unpooled;
 
 public class AmethystMachineBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(3, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(5, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public AmethystMachineBlockEntity(BlockPos position, BlockState state) {

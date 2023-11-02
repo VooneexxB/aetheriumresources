@@ -48,6 +48,7 @@ import net.mcreator.aetheriumresources.block.PolishedDarkMatterWallBlock;
 import net.mcreator.aetheriumresources.block.PolishedDarkMatterStairsBlock;
 import net.mcreator.aetheriumresources.block.PolishedDarkMatterSlabBlock;
 import net.mcreator.aetheriumresources.block.PolishedDarkMatterBlock;
+import net.mcreator.aetheriumresources.block.MicroscopioBlock;
 import net.mcreator.aetheriumresources.block.FailureDecorativoBlock;
 import net.mcreator.aetheriumresources.block.ErrorDecorativoBlock;
 import net.mcreator.aetheriumresources.block.ErrorBlock;
@@ -191,6 +192,7 @@ public class AetheriumresourcesModBlocks {
 			() -> new PolishedTwistedMatterStairsBlock());
 	public static final RegistryObject<Block> BLOCO_AMETISTA_PURIFICADA = REGISTRY.register("bloco_ametista_purificada",
 			() -> new BlocoAmetistaPurificadaBlock());
+	public static final RegistryObject<Block> MICROSCOPIO = REGISTRY.register("microscopio", () -> new MicroscopioBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -207,6 +209,7 @@ public class AetheriumresourcesModBlocks {
 			BORDERPortalBlock.registerRenderLayer();
 			TwistedForestLeavesBlock.registerRenderLayer();
 			TwistedTrapdoorBlock.registerRenderLayer();
+			MicroscopioBlock.registerRenderLayer();
 		}
 	}
 }

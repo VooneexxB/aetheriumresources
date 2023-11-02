@@ -196,6 +196,8 @@ public class AetheriumresourcesModItems {
 	public static final RegistryObject<Item> AMETISTAPURIFICADA = REGISTRY.register("ametistapurificada", () -> new AmetistapurificadaItem());
 	public static final RegistryObject<Item> BLOCO_AMETISTA_PURIFICADA = block(AetheriumresourcesModBlocks.BLOCO_AMETISTA_PURIFICADA,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> MICROSCOPIO = block(AetheriumresourcesModBlocks.MICROSCOPIO,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

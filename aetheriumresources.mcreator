@@ -2473,6 +2473,15 @@
       "locked_code": false,
       "registry_name": "bloco_ametista_purificada_recipe",
       "path": "~/Crafting"
+    },
+    {
+      "name": "Microscopio",
+      "type": "block",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microscopio",
+      "path": "~/Blocos/WIP"
     }
   ],
   "variable_elements": [],
@@ -2841,6 +2850,7 @@
       "block.aetheriumresources.polished_dark_matter_wall": "Polished Dark Matter Wall",
       "block.aetheriumresources.dark_forest_planks_door": "Dark Forest Door",
       "subtitles.step": "",
+      "block.aetheriumresources.microscopio": "Microscopio (WIP)",
       "block.aetheriumresources.dark_matter_forest_button": "Dark Forest Button",
       "block.aetheriumresources.chiseled_dark_matter": "Chiseled Dark Matter",
       "subtitles.potionerror": "",

@@ -66,11 +66,71 @@
       {
         "type": "image",
         "data": {
-          "image": "amethyst_machine_gui1.png",
+          "image": "combustao_slot.png",
           "use1Xscale": false,
-          "name": "amethyst_machine_gui1.png",
-          "x": 124,
-          "y": 36
+          "name": "combustao_slot.png",
+          "x": 171,
+          "y": 49
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "combustao_slot.png",
+          "use1Xscale": false,
+          "name": "combustao_slot.png",
+          "x": 239,
+          "y": 49
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "materia_slot.png",
+          "use1Xscale": false,
+          "name": "materia_slot.png",
+          "x": 169,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "materia_slot.png",
+          "use1Xscale": false,
+          "name": "materia_slot.png",
+          "x": 237,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ametista_slot.png",
+          "use1Xscale": false,
+          "name": "ametista_slot.png",
+          "x": 203,
+          "y": 45
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progresso.png",
+          "use1Xscale": false,
+          "name": "progresso.png",
+          "x": 208,
+          "y": 64
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glitch_overlay.png",
+          "use1Xscale": false,
+          "name": "glitch_overlay.png",
+          "x": 125,
+          "y": 38
         }
       }
     ],
