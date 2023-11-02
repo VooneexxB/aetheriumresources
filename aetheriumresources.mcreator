@@ -534,7 +534,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkdesert",
-      "path": "~/Biomas e Dimensoes"
+      "path": "~/Biomas e Dimensoes/Biomas"
     },
     {
       "name": "BORDER",
@@ -692,7 +692,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkforest",
-      "path": "~/Biomas e Dimensoes"
+      "path": "~/Biomas e Dimensoes/Biomas"
     },
     {
       "name": "DarkMatterForestWood",
@@ -1580,7 +1580,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_desert",
-      "path": "~/Biomas e Dimensoes"
+      "path": "~/Biomas e Dimensoes/Biomas"
     },
     {
       "name": "TwistedGrass",
@@ -1985,7 +1985,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_forest",
-      "path": "~/Biomas e Dimensoes"
+      "path": "~/Biomas e Dimensoes/Biomas"
     },
     {
       "name": "TwistedCraftingStationCrafting",
@@ -2482,6 +2482,90 @@
       "locked_code": false,
       "registry_name": "microscopio",
       "path": "~/Blocos/WIP"
+    },
+    {
+      "name": "MetalPipeRangedItemUsed",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_pipe_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures"
+    },
+    {
+      "name": "MicroscopioGUI",
+      "type": "gui",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "microscopio_gui",
+      "path": "~/GUI e Misc/GUI"
+    },
+    {
+      "name": "DarkmatterPillar1",
+      "type": "structure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_pillar_1",
+      "path": "~/Biomas e Dimensoes/Estruturas"
+    },
+    {
+      "name": "DarkmatterRuins1",
+      "type": "structure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_ruins_1",
+      "path": "~/Biomas e Dimensoes/Estruturas"
+    },
+    {
+      "name": "TwistedmatterRuins1",
+      "type": "structure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twistedmatter_ruins_1",
+      "path": "~/Biomas e Dimensoes/Estruturas"
+    },
+    {
+      "name": "TwistedmatterPillar1",
+      "type": "structure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twistedmatter_pillar_1",
+      "path": "~/Biomas e Dimensoes/Estruturas"
+    },
+    {
+      "name": "ErrorPath",
+      "type": "structure",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "error_path",
+      "path": "~/Biomas e Dimensoes/Estruturas"
+    },
+    {
+      "name": "InvertedErrorPath",
+      "type": "structure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inverted_error_path",
+      "path": "~/Biomas e Dimensoes/Estruturas"
     }
   ],
   "variable_elements": [],
@@ -3051,7 +3135,16 @@
       },
       {
         "name": "Biomas e Dimensoes",
-        "children": []
+        "children": [
+          {
+            "name": "Biomas",
+            "children": []
+          },
+          {
+            "name": "Estruturas",
+            "children": []
+          }
+        ]
       },
       {
         "name": "GUI e Misc",

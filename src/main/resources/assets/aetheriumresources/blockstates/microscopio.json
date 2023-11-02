@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "aetheriumresources:block/microscopio"
+    },
+    "facing=east": {
+      "model": "aetheriumresources:block/microscopio",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aetheriumresources:block/microscopio",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aetheriumresources:block/microscopio",
+      "y": 270
     }
   }
 }

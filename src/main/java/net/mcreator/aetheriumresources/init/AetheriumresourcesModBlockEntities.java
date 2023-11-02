@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.aetheriumresources.block.entity.MicroscopioBlockEntity;
 import net.mcreator.aetheriumresources.block.entity.AmethystMachineBlockEntity;
 import net.mcreator.aetheriumresources.AetheriumresourcesMod;
 
@@ -19,6 +20,8 @@ public class AetheriumresourcesModBlockEntities {
 			AetheriumresourcesMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> AMETHYST_MACHINE = register("amethyst_machine",
 			AetheriumresourcesModBlocks.AMETHYST_MACHINE, AmethystMachineBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> MICROSCOPIO = register("microscopio", AetheriumresourcesModBlocks.MICROSCOPIO,
+			MicroscopioBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

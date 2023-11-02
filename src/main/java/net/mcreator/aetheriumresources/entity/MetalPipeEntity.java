@@ -21,7 +21,6 @@ import net.minecraft.network.protocol.Packet;
 
 import net.mcreator.aetheriumresources.procedures.MetalPipeProjectileHitsLivingEntityProcedure;
 import net.mcreator.aetheriumresources.procedures.MetalPipeProjectileHitsBlockProcedure;
-import net.mcreator.aetheriumresources.init.AetheriumresourcesModItems;
 import net.mcreator.aetheriumresources.init.AetheriumresourcesModEntities;
 
 import java.util.Random;
@@ -52,12 +51,12 @@ public class MetalPipeEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(AetheriumresourcesModItems.METAL_PIPE_ITEM.get());
+		return ItemStack.EMPTY;
 	}
 
 	@Override
 	protected ItemStack getPickupItem() {
-		return new ItemStack(AetheriumresourcesModItems.METAL_PIPE_ITEM.get());
+		return ItemStack.EMPTY;
 	}
 
 	@Override

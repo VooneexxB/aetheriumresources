@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.mcreator.aetheriumresources.client.gui.MicroscopioGUIScreen;
 import net.mcreator.aetheriumresources.client.gui.AmethystMachineGUIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -19,6 +20,7 @@ public class AetheriumresourcesModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(AetheriumresourcesModMenus.AMETHYST_MACHINE_GUI, AmethystMachineGUIScreen::new);
+			MenuScreens.register(AetheriumresourcesModMenus.MICROSCOPIO_GUI, MicroscopioGUIScreen::new);
 		});
 	}
 }

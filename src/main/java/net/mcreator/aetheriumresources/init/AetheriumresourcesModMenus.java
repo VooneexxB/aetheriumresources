@@ -12,6 +12,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
+import net.mcreator.aetheriumresources.world.inventory.MicroscopioGUIMenu;
 import net.mcreator.aetheriumresources.world.inventory.AmethystMachineGUIMenu;
 
 import java.util.List;
@@ -22,6 +23,8 @@ public class AetheriumresourcesModMenus {
 	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
 	public static final MenuType<AmethystMachineGUIMenu> AMETHYST_MACHINE_GUI = register("amethyst_machine_gui",
 			(id, inv, extraData) -> new AmethystMachineGUIMenu(id, inv, extraData));
+	public static final MenuType<MicroscopioGUIMenu> MICROSCOPIO_GUI = register("microscopio_gui",
+			(id, inv, extraData) -> new MicroscopioGUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

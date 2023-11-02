@@ -2,7 +2,7 @@
   "parent": "aetheriumresources:custom/microscopio",
   "textures": {
     "all": "aetheriumresources:blocks/microscopio",
-    "particle": "aetheriumresources:blocks/microscopio",
+    "particle": "aetheriumresources:blocks/twistedmatter1",
     "1": "aetheriumresources:blocks/microscopio"
   }
 }
