@@ -65,7 +65,7 @@ public class ErrorPathFeature extends Feature<NoneFeatureConfiguration> {
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
-		if ((context.random().nextInt(1000000) + 1) <= 15000) {
+		if ((context.random().nextInt(1000000) + 1) <= 10000) {
 			int count = context.random().nextInt(3) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);

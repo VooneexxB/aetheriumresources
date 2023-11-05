@@ -5,7 +5,7 @@
     "structure": "darkmatter_ruins1",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 10000,
+    "spawnProbability": 5000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
@@ -15,7 +15,11 @@
     "spawnWorldTypes": [
       "CUSTOM:BORDER"
     ],
-    "restrictionBlocks": [],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:Darkmatter"
+      }
+    ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Darkforest"
@@ -24,6 +28,6 @@
         "value": "CUSTOM:Darkdesert"
       }
     ],
-    "ignoreBlocks": "STRUCTURE_BLOCK"
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
   }
 }

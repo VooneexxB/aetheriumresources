@@ -27,7 +27,6 @@ import net.mcreator.aetheriumresources.item.RealitymisfortuneItem;
 import net.mcreator.aetheriumresources.item.ParasiteMatterPiecesItem;
 import net.mcreator.aetheriumresources.item.PARASYTEItem;
 import net.mcreator.aetheriumresources.item.MetalPipeItemItem;
-import net.mcreator.aetheriumresources.item.MetalPipeItem;
 import net.mcreator.aetheriumresources.item.MateriaorganicaItem;
 import net.mcreator.aetheriumresources.item.GlitchytaleItem;
 import net.mcreator.aetheriumresources.item.ElektrodeathItem;
@@ -191,7 +190,6 @@ public class AetheriumresourcesModItems {
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> POLISHED_TWISTED_MATTER_STAIRS = block(AetheriumresourcesModBlocks.POLISHED_TWISTED_MATTER_STAIRS,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> METAL_PIPE = REGISTRY.register("metal_pipe", () -> new MetalPipeItem());
 	public static final RegistryObject<Item> METAL_PIPE_ITEM = REGISTRY.register("metal_pipe_item", () -> new MetalPipeItemItem());
 	public static final RegistryObject<Item> AMETISTAPURIFICADA = REGISTRY.register("ametistapurificada", () -> new AmetistapurificadaItem());
 	public static final RegistryObject<Item> BLOCO_AMETISTA_PURIFICADA = block(AetheriumresourcesModBlocks.BLOCO_AMETISTA_PURIFICADA,

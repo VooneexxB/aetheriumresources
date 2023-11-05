@@ -5,7 +5,7 @@
     "structure": "inverted_error_path",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 15000,
+    "spawnProbability": 10000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 3,
     "spawnLocation": "Ground",
