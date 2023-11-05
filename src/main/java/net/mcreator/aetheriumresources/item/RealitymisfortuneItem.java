@@ -29,7 +29,7 @@ public class RealitymisfortuneItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 28f;
+				return 38f;
 			}
 
 			public int getLevel() {
@@ -43,7 +43,7 @@ public class RealitymisfortuneItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().tab(AetheriumresourcesModTabs.TAB_AETHERIUM_TAB).fireResistant());
+		}, 3, -2.3f, new Item.Properties().tab(AetheriumresourcesModTabs.TAB_AETHERIUM_TAB).fireResistant());
 	}
 
 	@Override

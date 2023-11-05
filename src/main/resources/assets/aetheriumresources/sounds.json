@@ -431,24 +431,6 @@
       }
     ]
   },
-  "blockhitmetalpipe": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "aetheriumresources:concrete-breaking",
-        "stream": false
-      }
-    ]
-  },
-  "throwpipe": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "aetheriumresources:throw_d4cpy0g",
-        "stream": false
-      }
-    ]
-  },
   "error-step": {
     "category": "block",
     "sounds": [
@@ -483,15 +465,6 @@
       },
       {
         "name": "aetheriumresources:cartoon-bonk",
-        "stream": false
-      }
-    ]
-  },
-  "pipeprojectilehit": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "aetheriumresources:pipe",
         "stream": false
       }
     ]

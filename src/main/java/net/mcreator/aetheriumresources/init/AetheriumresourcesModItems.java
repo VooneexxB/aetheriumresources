@@ -26,6 +26,7 @@ import net.mcreator.aetheriumresources.item.SeringaAntidotoItem;
 import net.mcreator.aetheriumresources.item.RealitymisfortuneItem;
 import net.mcreator.aetheriumresources.item.ParasiteMatterPiecesItem;
 import net.mcreator.aetheriumresources.item.PARASYTEItem;
+import net.mcreator.aetheriumresources.item.OmicronKnifeItem;
 import net.mcreator.aetheriumresources.item.MetalPipeItemItem;
 import net.mcreator.aetheriumresources.item.MateriaorganicaItem;
 import net.mcreator.aetheriumresources.item.GlitchytaleItem;
@@ -196,6 +197,7 @@ public class AetheriumresourcesModItems {
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> MICROSCOPIO = block(AetheriumresourcesModBlocks.MICROSCOPIO,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> OMICRON_KNIFE = REGISTRY.register("omicron_knife", () -> new OmicronKnifeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

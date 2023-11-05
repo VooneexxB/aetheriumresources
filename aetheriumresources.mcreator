@@ -2557,6 +2557,15 @@
       "locked_code": false,
       "registry_name": "inverted_error_path",
       "path": "~/Biomas e Dimensoes/Estruturas"
+    },
+    {
+      "name": "OmicronKnife",
+      "type": "tool",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omicron_knife",
+      "path": "~/Itens/Equipamento"
     }
   ],
   "variable_elements": [],
@@ -2808,22 +2817,6 @@
       "subtitle": ""
     },
     {
-      "name": "blockhitmetalpipe",
-      "files": [
-        "concrete-breaking"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
-    {
-      "name": "throwpipe",
-      "files": [
-        "throw_d4cpy0g"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
-    {
       "name": "error-step",
       "files": [
         "3rr0r_step1",
@@ -2840,14 +2833,6 @@
       "files": [
         "bonk",
         "cartoon-bonk"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
-    {
-      "name": "pipeprojectilehit",
-      "files": [
-        "pipe"
       ],
       "category": "neutral",
       "subtitle": ""
@@ -2935,6 +2920,7 @@
       "subtitles.truedeath": "",
       "subtitles.metalpipehit": "",
       "block.aetheriumresources.stripped_twisted_forest_log": "Twisted Forest Log",
+      "item.aetheriumresources.omicron_knife": "Adaga Escarlate",
       "block.aetheriumresources.dark_matter_forest_slab": "Dark Forest Slab",
       "block.aetheriumresources.dark_matter_forest_log": "Dark Forest Log",
       "subtitles.twistedadditions": "",
