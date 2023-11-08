@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "aetheriumresources:darkmatter",
+    "aetheriumresources:twisted_matter",
+    "aetheriumresources:dark_matter_farmland",
+    "aetheriumresources:twisted_matter_farmland"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "aetheriumresources:custom/darkmatterfarmland",
+  "textures": {
+    "all": "aetheriumresources:blocks/darkmatter",
+    "particle": "aetheriumresources:blocks/darkmatter",
+    "0": "aetheriumresources:blocks/darkmatterfarmland",
+    "1": "aetheriumresources:blocks/darkmatter"
+  }
+}

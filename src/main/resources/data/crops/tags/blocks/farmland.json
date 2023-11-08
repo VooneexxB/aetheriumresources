@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "aetheriumresources:twisted_matter_farmland",
+    "aetheriumresources:dark_matter_farmland"
+  ]
+}

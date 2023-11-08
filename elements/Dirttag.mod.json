@@ -1,0 +1,28 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [
+      {
+        "value": "CUSTOM:Darkmatter"
+      },
+      {
+        "value": "CUSTOM:TwistedMatter"
+      }
+    ],
+    "blocks": [
+      {
+        "value": "CUSTOM:TwistedMatter"
+      },
+      {
+        "value": "CUSTOM:Darkmatter"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "dirt",
+    "namespace": "forge"
+  }
+}

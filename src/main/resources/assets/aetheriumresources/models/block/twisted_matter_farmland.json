@@ -1,0 +1,9 @@
+{
+  "parent": "aetheriumresources:custom/twistedmatterfarmland",
+  "textures": {
+    "all": "aetheriumresources:blocks/twistedmatter1",
+    "particle": "aetheriumresources:blocks/twistedmatter1",
+    "0": "aetheriumresources:blocks/twistedmatterfarmland",
+    "1": "aetheriumresources:blocks/twistedmatter1"
+  }
+}

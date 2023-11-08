@@ -791,7 +791,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_items_tag",
-      "path": "~/GUI e Misc/Tags"
+      "path": "~/GUI e Misc/Tags/Forge/Items"
     },
     {
       "name": "DarkMatterForestWoodRecipe",
@@ -881,7 +881,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fencetag",
-      "path": "~/GUI e Misc/Tags"
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
     },
     {
       "name": "Fencegatetag",
@@ -890,16 +890,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fencegatetag",
-      "path": "~/GUI e Misc/Tags"
-    },
-    {
-      "name": "Grasstag",
-      "type": "tag",
-      "sortid": 119,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grasstag",
-      "path": "~/GUI e Misc/Tags"
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
     },
     {
       "name": "Elektrodeath",
@@ -1322,7 +1313,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "walltag",
-      "path": "~/GUI e Misc/Tags"
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
     },
     {
       "name": "EnrichedDarkMatter",
@@ -1358,7 +1349,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_gem_block",
-      "path": "~/Blocos/WIP"
+      "path": "~/Blocos/Gems"
     },
     {
       "name": "Darkgemblockcrafting",
@@ -1625,7 +1616,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_forest_tag",
-      "path": "~/GUI e Misc/Tags"
+      "path": "~/GUI e Misc/Tags/Forge/Items"
     },
     {
       "name": "TwistedMatterDrop",
@@ -2466,27 +2457,6 @@
       "path": "~/Blocos/WIP"
     },
     {
-      "name": "MetalPipeRangedItemUsed",
-      "type": "procedure",
-      "sortid": 244,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "metal_pipe_ranged_item_used",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "itemstack",
-            "type": "itemstack"
-          }
-        ]
-      },
-      "path": "~/GUI e Misc/Procedures"
-    },
-    {
       "name": "MicroscopioGUI",
       "type": "gui",
       "sortid": 245,
@@ -2496,60 +2466,6 @@
       "path": "~/GUI e Misc/GUI"
     },
     {
-      "name": "DarkmatterPillar1",
-      "type": "structure",
-      "sortid": 246,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "darkmatter_pillar_1",
-      "path": "~/Biomas e Dimensoes/Estruturas"
-    },
-    {
-      "name": "DarkmatterRuins1",
-      "type": "structure",
-      "sortid": 247,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "darkmatter_ruins_1",
-      "path": "~/Biomas e Dimensoes/Estruturas"
-    },
-    {
-      "name": "TwistedmatterRuins1",
-      "type": "structure",
-      "sortid": 248,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "twistedmatter_ruins_1",
-      "path": "~/Biomas e Dimensoes/Estruturas"
-    },
-    {
-      "name": "TwistedmatterPillar1",
-      "type": "structure",
-      "sortid": 249,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "twistedmatter_pillar_1",
-      "path": "~/Biomas e Dimensoes/Estruturas"
-    },
-    {
-      "name": "ErrorPath",
-      "type": "structure",
-      "sortid": 250,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "error_path",
-      "path": "~/Biomas e Dimensoes/Estruturas"
-    },
-    {
-      "name": "InvertedErrorPath",
-      "type": "structure",
-      "sortid": 251,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "inverted_error_path",
-      "path": "~/Biomas e Dimensoes/Estruturas"
-    },
-    {
       "name": "OmicronKnife",
       "type": "tool",
       "sortid": 252,
@@ -2557,6 +2473,391 @@
       "locked_code": false,
       "registry_name": "omicron_knife",
       "path": "~/Itens/Equipamento"
+    },
+    {
+      "name": "Logstag",
+      "type": "tag",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logstag",
+      "path": "~/GUI e Misc/Tags/Minecraft/Items"
+    },
+    {
+      "name": "Plankstag",
+      "type": "tag",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plankstag",
+      "path": "~/GUI e Misc/Tags/Minecraft/Items"
+    },
+    {
+      "name": "Dirttag",
+      "type": "tag",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirttag",
+      "path": "~/GUI e Misc/Tags/Forge/Blocks"
+    },
+    {
+      "name": "Dirtminecrafttag",
+      "type": "tag",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtminecrafttag",
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "Darkseeds",
+      "type": "item",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkseeds",
+      "path": "~/Itens/Comida"
+    },
+    {
+      "name": "DarkCarrot",
+      "type": "item",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_carrot",
+      "path": "~/Itens/Comida"
+    },
+    {
+      "name": "EnrichedTwistedMatter",
+      "type": "block",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enriched_twisted_matter",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "TwistedMatterGem",
+      "type": "item",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_matter_gem",
+      "path": "~/Itens/Crafting"
+    },
+    {
+      "name": "TwistedMatterGemBlock",
+      "type": "block",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_matter_gem_block",
+      "path": "~/Blocos/Gems"
+    },
+    {
+      "name": "EnrichedTwistedMatterDrop",
+      "type": "loottable",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enriched_twisted_matter_drop",
+      "path": "~/GUI e Misc/LootTable"
+    },
+    {
+      "name": "TwistedGemBlockCrafting",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_gem_block_crafting",
+      "path": "~/Crafting"
+    },
+    {
+      "name": "DarkCarrotStage0BlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_carrot_stage_0_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Crop"
+    },
+    {
+      "name": "DarkCarrotStage0",
+      "type": "block",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_carrot_stage_0",
+      "path": "~/Blocos/Crops/DarkCarrot"
+    },
+    {
+      "name": "DarkCarrotStage1",
+      "type": "block",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_carrot_stage_1",
+      "path": "~/Blocos/Crops/DarkCarrot"
+    },
+    {
+      "name": "DarkCarrotStage2",
+      "type": "block",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_carrot_stage_2",
+      "path": "~/Blocos/Crops/DarkCarrot"
+    },
+    {
+      "name": "DarkCarrotStage3",
+      "type": "block",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_carrot_stage_3",
+      "path": "~/Blocos/Crops/DarkCarrot"
+    },
+    {
+      "name": "DarkCarrotStage0UpdateTick",
+      "type": "procedure",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_carrot_stage_0_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Crop"
+    },
+    {
+      "name": "DarkCarrotStage0BlockAdded",
+      "type": "procedure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_carrot_stage_0_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Crop"
+    },
+    {
+      "name": "DarkCarrotDrop",
+      "type": "loottable",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_carrot_drop",
+      "path": "~/GUI e Misc/LootTable"
+    },
+    {
+      "name": "DarkSeedsDrop",
+      "type": "loottable",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_seeds_drop",
+      "path": "~/GUI e Misc/LootTable"
+    },
+    {
+      "name": "DarkmatterFarmlandDrop",
+      "type": "loottable",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_farmland_drop",
+      "path": "~/GUI e Misc/LootTable"
+    },
+    {
+      "name": "DarkMatterFarmland",
+      "type": "block",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_matter_farmland",
+      "path": "~/Blocos/BorderDimension/DarkMatter"
+    },
+    {
+      "name": "Farmlandtag",
+      "type": "tag",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmlandtag",
+      "path": "~/GUI e Misc/Tags/Forge/Blocks"
+    },
+    {
+      "name": "Farmlandprocedure",
+      "type": "procedure",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmlandprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Blocos"
+    },
+    {
+      "name": "TwistedMatterFarmland",
+      "type": "block",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_matter_farmland",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "Twistedfarmlandprocedure",
+      "type": "procedure",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twistedfarmlandprocedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Blocos"
+    },
+    {
+      "name": "Twistedmatterfarmlanddrop",
+      "type": "loottable",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twistedmatterfarmlanddrop",
+      "path": "~/GUI e Misc/LootTable"
+    },
+    {
+      "name": "DarkseedsRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkseeds_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Crop"
     }
   ],
   "variable_elements": [],
@@ -2849,6 +3150,7 @@
       "block.aetheriumresources.twisted_forest_leaves": "Twisted Leaves",
       "subtitles.error-fall": "",
       "block.aetheriumresources.dark_matter_forest_leaves": "Dark Forest Leaves",
+      "item.aetheriumresources.darkseeds": "Dark Seeds (WIP)",
       "item.aetheriumresources.metal_pipe_item": "Metal Pipe (OP)",
       "item.aetheriumresources.disco_2.desc": "Andrii Floria - God of Hopelessness",
       "block.aetheriumresources.twisted_forest_log": "Twisted Forest Log",
@@ -2859,13 +3161,14 @@
       "block.aetheriumresources.twisted_grass": "Twisted Grass",
       "item.aetheriumresources.theend": "The End",
       "block.aetheriumresources.dark_matter_forest_pressure_plate": "Dark Forest Pressure Plate",
-      "block.aetheriumresources.dark_matter_gem_block": "Dark Gem Block (WIP)",
+      "block.aetheriumresources.dark_matter_gem_block": "Dark Gem Block",
+      "item.aetheriumresources.twisted_matter_gem": "Twisted Gem",
       "item.minecraft.tipped_arrow.effect.erroretapa_4": "Arrow of Dark Condensed Parasite",
       "block.aetheriumresources.twisted_forest_stairs": "Twisted Stairs",
       "item.aetheriumresources.darkmatteritem": "Dark Matter",
       "block.aetheriumresources.twisted_trapdoor": "Twisted Trapdoor",
       "item.minecraft.tipped_arrow.effect.pocaoefeito": "Arrow of 3RR0R",
-      "item.aetheriumresources.dark_matter_gem": "Dark Gem (WIP)",
+      "item.aetheriumresources.dark_matter_gem": "Dark Gem",
       "subtitles.failure-breaking": "",
       "block.aetheriumresources.darkmatter": "Dark Matter Block",
       "block.aetheriumresources.twisted_matter_bricks_slab": "Twisted Matter Bricks Slab",
@@ -2874,6 +3177,7 @@
       "item.minecraft.tipped_arrow.effect.erroretapa_2": "Arrow of Activated Strange Bottle",
       "item.minecraft.tipped_arrow.effect.erroretapa_1": "Arrow of Strange Bottle",
       "subtitles.breakingworld": "",
+      "block.aetheriumresources.enriched_twisted_matter": "Enriched Twisted Matter",
       "item.minecraft.splash_potion.effect.pocaoefeito": "Splash Potion of 3RR0R",
       "block.aetheriumresources.darkmatterbrickswall": "Dark Matter Bricks Wall",
       "item.aetheriumresources.simulacra": "S1MUL4CRA",
@@ -2895,11 +3199,16 @@
       "item.aetheriumresources.elektrodeath": "Elektro Corruption",
       "item.aetheriumresources.parasyte": "P4RAS1TA",
       "item.aetheriumresources.glitchytale.desc": "Andrii Floria - God of Fear",
+      "block.aetheriumresources.dark_matter_farmland": "Dark Matter Farmland",
       "block.aetheriumresources.polished_twisted_matter": "Polished Twisted Matter",
       "item.aetheriumresources.darkmatterbrick": "Dark Matter Brick",
       "block.aetheriumresources.twisted_matter_bricks": "Twisted Matter Bricks",
+      "block.aetheriumresources.dark_carrot_stage_3": "Dark Carrot Stage 3",
+      "block.aetheriumresources.dark_carrot_stage_2": "Dark Carrot Stage 2",
       "block.aetheriumresources.polished_dark_matter_wall": "Polished Dark Matter Wall",
+      "block.aetheriumresources.dark_carrot_stage_1": "Dark Carrot Stage 1",
       "block.aetheriumresources.dark_forest_planks_door": "Dark Forest Door",
+      "block.aetheriumresources.dark_carrot_stage_0": "Dark Carrot Stage 0",
       "subtitles.step": "",
       "block.aetheriumresources.microscopio": "Microscopio (WIP)",
       "block.aetheriumresources.dark_matter_forest_button": "Dark Forest Button",
@@ -2914,6 +3223,7 @@
       "item.aetheriumresources.omicron_knife": "Adaga Escarlate",
       "block.aetheriumresources.dark_matter_forest_slab": "Dark Forest Slab",
       "block.aetheriumresources.dark_matter_forest_log": "Dark Forest Log",
+      "item.aetheriumresources.dark_carrot": "Dark Carrot (WIP)",
       "subtitles.twistedadditions": "",
       "item.minecraft.potion.effect.erroretapa_4": "Potion of Dark Condensed Parasite",
       "block.aetheriumresources.twisted_forest_fence": "Twisted Fence",
@@ -2941,6 +3251,7 @@
       "effect.aetheriumresources.efeito": "H34D4CH3",
       "block.aetheriumresources.twisted_matter_bricks_wall": "Twisted Matter Bricks Wall",
       "subtitles.simulacra": "",
+      "block.aetheriumresources.twisted_matter_gem_block": "Twisted Gem Block",
       "block.aetheriumresources.error": "3RR0R",
       "block.aetheriumresources.stripped_dark_matter_forest_log": "Stripped Dark Forest Log",
       "subtitles.failure-placing": "",
@@ -2981,6 +3292,7 @@
       "item.aetheriumresources.border": "Border Access (WIP)",
       "item.minecraft.lingering_potion.effect.pocaoefeito": "Lingering Potion of 3RR0R",
       "item.aetheriumresources.twisted_matter_brick": "Dark Matter Brick",
+      "block.aetheriumresources.twisted_matter_farmland": "Twisted Matter Farmland",
       "item.aetheriumresources.twisted_matter_item": "Twisted Matter",
       "block.aetheriumresources.dark_matter_forest_planks": "Dark Forest Planks",
       "subtitles.metalpipethrow": "",
@@ -3051,6 +3363,19 @@
           {
             "name": "WIP",
             "children": []
+          },
+          {
+            "name": "Gems",
+            "children": []
+          },
+          {
+            "name": "Crops",
+            "children": [
+              {
+                "name": "DarkCarrot",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -3097,6 +3422,10 @@
           {
             "name": "Discos",
             "children": []
+          },
+          {
+            "name": "Comida",
+            "children": []
           }
         ]
       },
@@ -3105,10 +3434,6 @@
         "children": [
           {
             "name": "Biomas",
-            "children": []
-          },
-          {
-            "name": "Estruturas",
             "children": []
           }
         ]
@@ -3122,7 +3447,34 @@
           },
           {
             "name": "Tags",
-            "children": []
+            "children": [
+              {
+                "name": "Forge",
+                "children": [
+                  {
+                    "name": "Items",
+                    "children": []
+                  },
+                  {
+                    "name": "Blocks",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Minecraft",
+                "children": [
+                  {
+                    "name": "Items",
+                    "children": []
+                  },
+                  {
+                    "name": "Blocks",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           },
           {
             "name": "Procedures",
@@ -3141,6 +3493,10 @@
               },
               {
                 "name": "Armas",
+                "children": []
+              },
+              {
+                "name": "Crop",
                 "children": []
               }
             ]

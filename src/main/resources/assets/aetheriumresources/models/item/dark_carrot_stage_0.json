@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "aetheriumresources:blocks/carrots_stage0"
+  }
+}

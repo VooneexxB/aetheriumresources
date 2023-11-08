@@ -42,7 +42,7 @@
     "creativeTab": {
       "value": "CUSTOM:AetheriumTab"
     },
-    "destroyTool": "hoe",
+    "destroyTool": "shovel",
     "customDrop": {
       "value": ""
     },
@@ -54,7 +54,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 15,
     "material": {
-      "value": "EARTH"
+      "value": "GRASS"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "ASH"
@@ -123,6 +123,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "Farmlandprocedure"
+    },
     "spawnWorldTypes": [
       "CUSTOM:BORDER"
     ],

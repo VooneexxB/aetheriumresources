@@ -15,6 +15,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.aetheriumresources.item.TwistedMatterItemItem;
+import net.mcreator.aetheriumresources.item.TwistedMatterGemItem;
 import net.mcreator.aetheriumresources.item.TwistedMatterBrickItem;
 import net.mcreator.aetheriumresources.item.ThunderstormItem;
 import net.mcreator.aetheriumresources.item.TheendItem;
@@ -33,9 +34,11 @@ import net.mcreator.aetheriumresources.item.GlitchytaleItem;
 import net.mcreator.aetheriumresources.item.ElektrodeathItem;
 import net.mcreator.aetheriumresources.item.Disco3Item;
 import net.mcreator.aetheriumresources.item.Disco2Item;
+import net.mcreator.aetheriumresources.item.DarkseedsItem;
 import net.mcreator.aetheriumresources.item.DarkmatteritemItem;
 import net.mcreator.aetheriumresources.item.DarkmatterbrickItem;
 import net.mcreator.aetheriumresources.item.DarkMatterGemItem;
+import net.mcreator.aetheriumresources.item.DarkCarrotItem;
 import net.mcreator.aetheriumresources.item.BloodySkyItem;
 import net.mcreator.aetheriumresources.item.BORDERItem;
 import net.mcreator.aetheriumresources.item.AmetistapurificadaItem;
@@ -198,6 +201,19 @@ public class AetheriumresourcesModItems {
 	public static final RegistryObject<Item> MICROSCOPIO = block(AetheriumresourcesModBlocks.MICROSCOPIO,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> OMICRON_KNIFE = REGISTRY.register("omicron_knife", () -> new OmicronKnifeItem());
+	public static final RegistryObject<Item> DARKSEEDS = REGISTRY.register("darkseeds", () -> new DarkseedsItem());
+	public static final RegistryObject<Item> DARK_CARROT = REGISTRY.register("dark_carrot", () -> new DarkCarrotItem());
+	public static final RegistryObject<Item> ENRICHED_TWISTED_MATTER = block(AetheriumresourcesModBlocks.ENRICHED_TWISTED_MATTER,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_MATTER_GEM = REGISTRY.register("twisted_matter_gem", () -> new TwistedMatterGemItem());
+	public static final RegistryObject<Item> TWISTED_MATTER_GEM_BLOCK = block(AetheriumresourcesModBlocks.TWISTED_MATTER_GEM_BLOCK,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> DARK_CARROT_STAGE_0 = block(AetheriumresourcesModBlocks.DARK_CARROT_STAGE_0, null);
+	public static final RegistryObject<Item> DARK_CARROT_STAGE_1 = block(AetheriumresourcesModBlocks.DARK_CARROT_STAGE_1, null);
+	public static final RegistryObject<Item> DARK_CARROT_STAGE_2 = block(AetheriumresourcesModBlocks.DARK_CARROT_STAGE_2, null);
+	public static final RegistryObject<Item> DARK_CARROT_STAGE_3 = block(AetheriumresourcesModBlocks.DARK_CARROT_STAGE_3, null);
+	public static final RegistryObject<Item> DARK_MATTER_FARMLAND = block(AetheriumresourcesModBlocks.DARK_MATTER_FARMLAND, null);
+	public static final RegistryObject<Item> TWISTED_MATTER_FARMLAND = block(AetheriumresourcesModBlocks.TWISTED_MATTER_FARMLAND, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

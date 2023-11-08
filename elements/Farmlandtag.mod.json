@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:DarkMatterFarmland"
+      },
+      {
+        "value": "CUSTOM:TwistedMatterFarmland"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "farmland",
+    "namespace": "crops"
+  }
+}
