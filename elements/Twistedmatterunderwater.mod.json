@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:AetheriumTab"
+      "value": "No creative tab entry"
     },
     "destroyTool": "shovel",
     "customDrop": {
@@ -65,7 +65,7 @@
     },
     "colorOnMap": "BLACK",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:TwistedMatter"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

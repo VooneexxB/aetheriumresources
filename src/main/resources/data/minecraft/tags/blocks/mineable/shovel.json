@@ -4,6 +4,8 @@
     "aetheriumresources:darkmatter",
     "aetheriumresources:twisted_matter",
     "aetheriumresources:dark_matter_farmland",
-    "aetheriumresources:twisted_matter_farmland"
+    "aetheriumresources:twisted_matter_farmland",
+    "aetheriumresources:twistedmatterunderwater",
+    "aetheriumresources:darkmatter_underwater"
   ]
 }

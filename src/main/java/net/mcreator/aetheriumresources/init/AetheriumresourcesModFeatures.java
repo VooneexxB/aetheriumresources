@@ -19,10 +19,13 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.aetheriumresources.world.features.plants.TwistedGrassFeature;
 import net.mcreator.aetheriumresources.world.features.plants.DarkgrassFeature;
+import net.mcreator.aetheriumresources.world.features.ores.TwistedmatterunderwaterFeature;
 import net.mcreator.aetheriumresources.world.features.ores.TwistedMatterFeature;
 import net.mcreator.aetheriumresources.world.features.ores.EnrichedTwistedMatterFeature;
 import net.mcreator.aetheriumresources.world.features.ores.EnrichedDarkMatterFeature;
+import net.mcreator.aetheriumresources.world.features.ores.DarkmatterUnderwaterFeature;
 import net.mcreator.aetheriumresources.world.features.ores.DarkmatterFeature;
+import net.mcreator.aetheriumresources.world.features.TwistedlabstructureFeature;
 import net.mcreator.aetheriumresources.AetheriumresourcesMod;
 
 import java.util.function.Supplier;
@@ -48,6 +51,15 @@ public class AetheriumresourcesModFeatures {
 	public static final RegistryObject<Feature<?>> ENRICHED_TWISTED_MATTER = register("enriched_twisted_matter",
 			EnrichedTwistedMatterFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 					EnrichedTwistedMatterFeature.GENERATE_BIOMES, EnrichedTwistedMatterFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TWISTEDMATTERUNDERWATER = register("twistedmatterunderwater",
+			TwistedmatterunderwaterFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+					TwistedmatterunderwaterFeature.GENERATE_BIOMES, TwistedmatterunderwaterFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TWISTEDLABSTRUCTURE = register("twistedlabstructure", TwistedlabstructureFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, TwistedlabstructureFeature.GENERATE_BIOMES,
+					TwistedlabstructureFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DARKMATTER_UNDERWATER = register("darkmatter_underwater", DarkmatterUnderwaterFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, DarkmatterUnderwaterFeature.GENERATE_BIOMES,
+					DarkmatterUnderwaterFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

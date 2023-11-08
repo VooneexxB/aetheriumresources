@@ -2,12 +2,12 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "twistedmatter1",
-    "textureTop": "twistedmatter",
-    "textureLeft": "twistedmatter",
-    "textureFront": "twistedmatter",
-    "textureRight": "twistedmatter",
-    "textureBack": "twistedmatter",
+    "texture": "darkmatter",
+    "textureTop": "darkmatter",
+    "textureLeft": "darkmatter",
+    "textureFront": "darkmatter",
+    "textureRight": "darkmatter",
+    "textureBack": "darkmatter",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Twisted Matter Block",
+    "name": "Dark Matter Block",
     "specialInfo": [],
     "hardness": 1.5,
     "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:AetheriumTab"
+      "value": "No creative tab entry"
     },
     "destroyTool": "shovel",
     "customDrop": {
@@ -65,7 +65,7 @@
     },
     "colorOnMap": "BLACK",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:Darkmatter"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SOUL_SOIL"
+      "value": "SOUL_SAND"
     },
     "breakSound": {
       "value": ""

@@ -14,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.aetheriumresources.block.TwistedmatterunderwaterBlock;
 import net.mcreator.aetheriumresources.block.TwistedTrapdoorBlock;
 import net.mcreator.aetheriumresources.block.TwistedMatterTilesWallBlock;
 import net.mcreator.aetheriumresources.block.TwistedMatterTilesStairsBlock;
@@ -62,6 +63,7 @@ import net.mcreator.aetheriumresources.block.DarkmattertilesslabBlock;
 import net.mcreator.aetheriumresources.block.DarkmatterbrickswallBlock;
 import net.mcreator.aetheriumresources.block.DarkmatterbricksstairsBlock;
 import net.mcreator.aetheriumresources.block.DarkmatterbricksslabBlock;
+import net.mcreator.aetheriumresources.block.DarkmatterUnderwaterBlock;
 import net.mcreator.aetheriumresources.block.DarkmatterBlock;
 import net.mcreator.aetheriumresources.block.DarkgrassBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterTilesStairsBlock;
@@ -212,6 +214,10 @@ public class AetheriumresourcesModBlocks {
 	public static final RegistryObject<Block> DARK_MATTER_FARMLAND = REGISTRY.register("dark_matter_farmland", () -> new DarkMatterFarmlandBlock());
 	public static final RegistryObject<Block> TWISTED_MATTER_FARMLAND = REGISTRY.register("twisted_matter_farmland",
 			() -> new TwistedMatterFarmlandBlock());
+	public static final RegistryObject<Block> TWISTEDMATTERUNDERWATER = REGISTRY.register("twistedmatterunderwater",
+			() -> new TwistedmatterunderwaterBlock());
+	public static final RegistryObject<Block> DARKMATTER_UNDERWATER = REGISTRY.register("darkmatter_underwater",
+			() -> new DarkmatterUnderwaterBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

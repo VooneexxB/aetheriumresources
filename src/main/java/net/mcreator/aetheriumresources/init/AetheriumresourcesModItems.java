@@ -17,6 +17,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.aetheriumresources.item.TwistedMatterItemItem;
 import net.mcreator.aetheriumresources.item.TwistedMatterGemItem;
 import net.mcreator.aetheriumresources.item.TwistedMatterBrickItem;
+import net.mcreator.aetheriumresources.item.TwistedDarkCarrotItem;
 import net.mcreator.aetheriumresources.item.ThunderstormItem;
 import net.mcreator.aetheriumresources.item.TheendItem;
 import net.mcreator.aetheriumresources.item.SimulacraItem;
@@ -40,6 +41,7 @@ import net.mcreator.aetheriumresources.item.DarkmatterbrickItem;
 import net.mcreator.aetheriumresources.item.DarkMatterGemItem;
 import net.mcreator.aetheriumresources.item.DarkCarrotItem;
 import net.mcreator.aetheriumresources.item.BloodySkyItem;
+import net.mcreator.aetheriumresources.item.BloodyDarkCarrotItem;
 import net.mcreator.aetheriumresources.item.BORDERItem;
 import net.mcreator.aetheriumresources.item.AmetistapurificadaItem;
 import net.mcreator.aetheriumresources.AetheriumresourcesMod;
@@ -214,6 +216,10 @@ public class AetheriumresourcesModItems {
 	public static final RegistryObject<Item> DARK_CARROT_STAGE_3 = block(AetheriumresourcesModBlocks.DARK_CARROT_STAGE_3, null);
 	public static final RegistryObject<Item> DARK_MATTER_FARMLAND = block(AetheriumresourcesModBlocks.DARK_MATTER_FARMLAND, null);
 	public static final RegistryObject<Item> TWISTED_MATTER_FARMLAND = block(AetheriumresourcesModBlocks.TWISTED_MATTER_FARMLAND, null);
+	public static final RegistryObject<Item> BLOODY_DARK_CARROT = REGISTRY.register("bloody_dark_carrot", () -> new BloodyDarkCarrotItem());
+	public static final RegistryObject<Item> TWISTED_DARK_CARROT = REGISTRY.register("twisted_dark_carrot", () -> new TwistedDarkCarrotItem());
+	public static final RegistryObject<Item> TWISTEDMATTERUNDERWATER = block(AetheriumresourcesModBlocks.TWISTEDMATTERUNDERWATER, null);
+	public static final RegistryObject<Item> DARKMATTER_UNDERWATER = block(AetheriumresourcesModBlocks.DARKMATTER_UNDERWATER, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

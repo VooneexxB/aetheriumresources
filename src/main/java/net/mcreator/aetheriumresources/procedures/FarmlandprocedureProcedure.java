@@ -1,6 +1,10 @@
 package net.mcreator.aetheriumresources.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
@@ -17,11 +21,25 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.aetheriumresources.init.AetheriumresourcesModBlocks;
 
+import javax.annotation.Nullable;
+
 import java.util.Random;
 import java.util.Map;
 
+@Mod.EventBusSubscriber
 public class FarmlandprocedureProcedure {
+	@SubscribeEvent
+	public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
+		if (event.getHand() != event.getPlayer().getUsedItemHand())
+			return;
+		execute(event, event.getWorld(), event.getPos().getX(), event.getPos().getY(), event.getPos().getZ(), event.getPlayer());
+	}
+
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
+		execute(null, world, x, y, z, entity);
+	}
+
+	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
 		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == AetheriumresourcesModBlocks.DARKMATTER.get()) {

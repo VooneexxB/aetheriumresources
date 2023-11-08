@@ -3,6 +3,7 @@ package net.mcreator.aetheriumresources.block;
 
 import net.minecraftforge.common.IPlantable;
 
+import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
@@ -11,12 +12,15 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-public class TwistedMatterBlock extends Block {
-	public TwistedMatterBlock() {
+import net.mcreator.aetheriumresources.init.AetheriumresourcesModBlocks;
+
+public class TwistedmatterunderwaterBlock extends Block {
+	public TwistedmatterunderwaterBlock() {
 		super(BlockBehaviour.Properties.of(Material.GRASS, MaterialColor.COLOR_BLACK).sound(SoundType.SOUL_SOIL).strength(1.5f, 6f)
 				.requiresCorrectToolForDrops());
 	}
@@ -24,6 +28,11 @@ public class TwistedMatterBlock extends Block {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
+		return new ItemStack(AetheriumresourcesModBlocks.TWISTED_MATTER.get());
 	}
 
 	@Override

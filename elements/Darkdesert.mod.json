@@ -10,7 +10,7 @@
       "value": "CUSTOM:Darkmatter"
     },
     "underwaterBlock": {
-      "value": ""
+      "value": "CUSTOM:DarkmatterUnderwater"
     },
     "airColor": {
       "value": -7895161,
@@ -57,7 +57,7 @@
     "spawnBiome": false,
     "spawnBiomeNether": false,
     "spawnInCaves": false,
-    "biomeWeight": 8,
+    "biomeWeight": 9,
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 0,

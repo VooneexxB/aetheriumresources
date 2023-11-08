@@ -1358,7 +1358,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkgemblockcrafting",
-      "path": "~/Crafting"
+      "path": "~/Crafting/Gem"
     },
     {
       "name": "StrippedDarkMatterForestLog",
@@ -2571,7 +2571,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_gem_block_crafting",
-      "path": "~/Crafting"
+      "path": "~/Crafting/Gem"
     },
     {
       "name": "DarkCarrotStage0BlockValidPlacementCondition",
@@ -2858,6 +2858,121 @@
         ]
       },
       "path": "~/GUI e Misc/Procedures/Crop"
+    },
+    {
+      "name": "BloodyDarkCarrot",
+      "type": "item",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloody_dark_carrot",
+      "path": "~/Itens/Comida"
+    },
+    {
+      "name": "BloodyDarkCarrotPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloody_dark_carrot_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Effect"
+    },
+    {
+      "name": "TwistedDarkCarrot",
+      "type": "item",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_dark_carrot",
+      "path": "~/Itens/Comida"
+    },
+    {
+      "name": "TwistedDarkCarrotPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_dark_carrot_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Effect"
+    },
+    {
+      "name": "BloodyCarrotCrafting",
+      "type": "recipe",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloody_carrot_crafting",
+      "path": "~/Crafting/Gem"
+    },
+    {
+      "name": "TwistedcarrotCrafting",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twistedcarrot_crafting",
+      "path": "~/Crafting/Gem"
+    },
+    {
+      "name": "Twistedmatterunderwater",
+      "type": "block",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twistedmatterunderwater",
+      "path": "~/Blocos/BorderDimension/TwistedMatter"
+    },
+    {
+      "name": "TwistedMatterUnderwaterLoot",
+      "type": "loottable",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_matter_underwater_loot",
+      "path": "~/GUI e Misc/LootTable"
+    },
+    {
+      "name": "Twistedlabstructure",
+      "type": "structure",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twistedlabstructure",
+      "path": "~/Biomas e Dimensoes/Structures"
+    },
+    {
+      "name": "DarkmatterUnderwater",
+      "type": "block",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatter_underwater",
+      "path": "~/Blocos/BorderDimension/DarkMatter"
+    },
+    {
+      "name": "Darkmatterwaterdrop",
+      "type": "loottable",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "darkmatterwaterdrop",
+      "path": "~/GUI e Misc/LootTable"
     }
   ],
   "variable_elements": [],
@@ -3199,6 +3314,7 @@
       "item.aetheriumresources.elektrodeath": "Elektro Corruption",
       "item.aetheriumresources.parasyte": "P4RAS1TA",
       "item.aetheriumresources.glitchytale.desc": "Andrii Floria - God of Fear",
+      "block.aetheriumresources.twistedmatterunderwater": "Twisted Matter Block",
       "block.aetheriumresources.dark_matter_farmland": "Dark Matter Farmland",
       "block.aetheriumresources.polished_twisted_matter": "Polished Twisted Matter",
       "item.aetheriumresources.darkmatterbrick": "Dark Matter Brick",
@@ -3214,6 +3330,7 @@
       "block.aetheriumresources.dark_matter_forest_button": "Dark Forest Button",
       "block.aetheriumresources.chiseled_dark_matter": "Chiseled Dark Matter",
       "subtitles.potionerror": "",
+      "block.aetheriumresources.darkmatter_underwater": "Dark Matter Block",
       "subtitles.error-step": "",
       "item.aetheriumresources.glitchytale": "F4LS3H0P3",
       "block.aetheriumresources.polished_dark_matter": "Polished Dark Matter",
@@ -3264,8 +3381,10 @@
       "subtitles.failure-hit": "",
       "item.aetheriumresources.disco_2": "TRU3DE4TH",
       "block.aetheriumresources.twisted_forest_planks": "Twisted Planks",
+      "item.aetheriumresources.twisted_dark_carrot": "Twisted Dark Carrot (WIP)",
       "item.minecraft.lingering_potion.effect.erroretapafinal": "Lingering Bottle of Dark Mixture",
       "block.aetheriumresources.polished_twisted_matter_stairs": "Polished Twisted Matter Stairs",
+      "item.aetheriumresources.bloody_dark_carrot": "Bloody Dark Carrot (WIP)",
       "item.aetheriumresources.theend.desc": "kimdc2 - The End",
       "item.minecraft.potion.effect.error_etapa_3": "Potion of Condensed Parasite",
       "block.aetheriumresources.twisted_matter_bricks_stairs": "Twisted Matter Bricks Stairs",
@@ -3401,6 +3520,10 @@
           {
             "name": "TwistedForest",
             "children": []
+          },
+          {
+            "name": "Gem",
+            "children": []
           }
         ]
       },
@@ -3434,6 +3557,10 @@
         "children": [
           {
             "name": "Biomas",
+            "children": []
+          },
+          {
+            "name": "Structures",
             "children": []
           }
         ]

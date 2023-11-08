@@ -91,24 +91,24 @@
           "biome": "aetheriumresources:darkdesert",
           "parameters": {
             "temperature": [
-              0.685714285714,
-              0.914285714286
+              0.671428571429,
+              0.928571428571
             ],
             "humidity": [
-              -1.114285714286,
-              -0.885714285714
+              -1.128571428571,
+              -0.871428571429
             ],
             "continentalness": [
-              0.395714285714,
-              0.624285714286
+              0.381428571429,
+              0.638571428571
             ],
             "weirdness": [
-              0.628728298081,
-              0.857299726653
+              0.614442583796,
+              0.871585440938
             ],
             "erosion": [
-              0.685714285714,
-              0.914285714286
+              0.671428571429,
+              0.928571428571
             ],
             "depth": 0,
             "offset": 0
@@ -3088,7 +3088,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "aetheriumresources:darkmatter"
+                            "Name": "aetheriumresources:darkmatter_underwater"
                           }
                         }
                       ]
@@ -3160,7 +3160,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "aetheriumresources:twisted_matter"
+                            "Name": "aetheriumresources:twistedmatterunderwater"
                           }
                         }
                       ]
@@ -3232,7 +3232,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "aetheriumresources:twisted_matter"
+                            "Name": "aetheriumresources:twistedmatterunderwater"
                           }
                         }
                       ]
@@ -3304,7 +3304,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "aetheriumresources:darkmatter"
+                            "Name": "aetheriumresources:darkmatter_underwater"
                           }
                         }
                       ]
