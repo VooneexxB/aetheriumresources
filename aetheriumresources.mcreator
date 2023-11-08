@@ -2330,15 +2330,6 @@
       "path": "~/GUI e Misc/LootTable"
     },
     {
-      "name": "Lavalaketag",
-      "type": "tag",
-      "sortid": 233,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lavalaketag",
-      "path": "~/GUI e Misc/Tags"
-    },
-    {
       "name": "MetalPipeLivingEntityIsHitWithItem",
       "type": "procedure",
       "sortid": 235,
