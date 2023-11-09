@@ -69,7 +69,7 @@ public class AmethystMachineGUIScreen extends AbstractContainerScreen<AmethystMa
 		this.blit(ms, this.leftPos + 82, this.topPos + 27, 0, 0, 7, 22, 7, 22);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/glitch_overlay.png"));
-		this.blit(ms, this.leftPos + 0, this.topPos + 1, 0, 0, 176, 166, 176, 166);
+		this.blit(ms, this.leftPos + 0, this.topPos + -1, 0, 0, 176, 166, 176, 166);
 
 		RenderSystem.disableBlend();
 	}

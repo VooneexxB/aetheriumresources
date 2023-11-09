@@ -2566,6 +2566,35 @@
       "locked_code": false,
       "registry_name": "inverted_error_path",
       "path": "~/Biomas e Dimensoes/Estruturas"
+    },
+    {
+      "name": "FuelLogicAmethyst",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fuel_logic_amethyst",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocos/Glitch"
     }
   ],
   "variable_elements": [],
@@ -3170,7 +3199,12 @@
               },
               {
                 "name": "Blocos",
-                "children": []
+                "children": [
+                  {
+                    "name": "AmethystPurifier",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Armas",
