@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "aetheriumresources:enriched_twisted_matter",
+    "aetheriumresources:polished_twisted_matter",
+    "aetheriumresources:dark_matter_forest_log",
+    "aetheriumresources:twisted_matter_tiles",
+    "aetheriumresources:darkmatter",
+    "aetheriumresources:twistedmatterunderwater",
+    "aetheriumresources:twisted_forest_log",
+    "aetheriumresources:twisted_matter_bricks",
+    "aetheriumresources:twisted_matter",
+    "aetheriumresources:enriched_dark_matter",
+    "aetheriumresources:darkmatter_underwater"
+  ]
+}

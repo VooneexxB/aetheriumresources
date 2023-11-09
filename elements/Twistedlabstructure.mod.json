@@ -9,7 +9,7 @@
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": -14,
+    "spawnHeightOffset": -16,
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
@@ -28,6 +28,6 @@
         "value": "CUSTOM:TwistedForest"
       }
     ],
-    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
+    "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

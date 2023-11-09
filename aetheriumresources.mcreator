@@ -866,15 +866,6 @@
       "path": "~/Crafting/DarkForest"
     },
     {
-      "name": "DarkMatterForestStickRecipe",
-      "type": "recipe",
-      "sortid": 116,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_matter_forest_stick_recipe",
-      "path": "~/Crafting/DarkForest"
-    },
-    {
       "name": "Fencetag",
       "type": "tag",
       "sortid": 117,
@@ -1934,15 +1925,6 @@
       "path": "~/Crafting/TwistedForest"
     },
     {
-      "name": "TwistedForestPlanksStickRecipe",
-      "type": "recipe",
-      "sortid": 188,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "twisted_forest_planks_stick_recipe",
-      "path": "~/Crafting/TwistedForest"
-    },
-    {
       "name": "StrippedTwistedForestWoodRecipe",
       "type": "recipe",
       "sortid": 189,
@@ -2982,6 +2964,168 @@
       "locked_code": false,
       "registry_name": "anaraugfruit",
       "path": "~/Itens/Comida"
+    },
+    {
+      "name": "Leavestag",
+      "type": "tag",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leavestag",
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "Logstagblocks",
+      "type": "tag",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logstagblocks",
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "Taglavapool",
+      "type": "tag",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taglavapool",
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "TwistedLogFuel",
+      "type": "itemextension",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_log_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "TwistedWoodFuel",
+      "type": "itemextension",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_wood_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "TwistedStrippedLogFuel",
+      "type": "itemextension",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_stripped_log_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "TwistedStrippedWoodFuel",
+      "type": "itemextension",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_stripped_wood_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "TwistedPlanksFuel",
+      "type": "itemextension",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_planks_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "TwistedPressurePlateFuel",
+      "type": "itemextension",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_pressure_plate_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "TwistedFenceFuel",
+      "type": "itemextension",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_fence_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "TwistedGateFuel",
+      "type": "itemextension",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_gate_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "TwistedSlabFuel",
+      "type": "itemextension",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_slab_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "TwistedStairsFuel",
+      "type": "itemextension",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_stairs_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "TwistedTrapdoorFuel",
+      "type": "itemextension",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_trapdoor_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "TwistedButtonFuel",
+      "type": "itemextension",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_button_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "TwistedDoorFuel",
+      "type": "itemextension",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_door_fuel",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Extensions"
+    },
+    {
+      "name": "CharcoalTwisted",
+      "type": "recipe",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charcoal_twisted",
+      "path": "~/Crafting/TwistedForest"
+    },
+    {
+      "name": "CharcoalDark",
+      "type": "recipe",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charcoal_dark",
+      "path": "~/Crafting/DarkForest"
     }
   ],
   "variable_elements": [],
@@ -3481,7 +3625,12 @@
               },
               {
                 "name": "TwistedForest",
-                "children": []
+                "children": [
+                  {
+                    "name": "Extensions",
+                    "children": []
+                  }
+                ]
               }
             ]
           },

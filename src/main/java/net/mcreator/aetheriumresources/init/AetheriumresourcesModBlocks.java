@@ -225,14 +225,12 @@ public class AetheriumresourcesModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			FailureDecorativoBlock.registerRenderLayer();
 			DarkgrassBlock.registerRenderLayer();
-			DarkMatterForestLeavesBlock.registerRenderLayer();
 			DarkForestPlanksTrapdoorBlock.registerRenderLayer();
 			DarkForestPlanksDoorBlock.registerRenderLayer();
 			DarkMatterForestButtonBlock.registerRenderLayer();
 			TwistedGrassBlock.registerRenderLayer();
 			AaBlock.registerRenderLayer();
 			BORDERPortalBlock.registerRenderLayer();
-			TwistedForestLeavesBlock.registerRenderLayer();
 			TwistedTrapdoorBlock.registerRenderLayer();
 			MicroscopioBlock.registerRenderLayer();
 			DarkCarrotStage0Block.registerRenderLayer();

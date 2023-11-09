@@ -1,0 +1,39 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:DarkMatterForestLog"
+      },
+      {
+        "value": "CUSTOM:TwistedForestLog"
+      },
+      {
+        "value": "CUSTOM:TwistedForestWood"
+      },
+      {
+        "value": "CUSTOM:DarkMatterForestWood"
+      },
+      {
+        "value": "CUSTOM:StrippedDarkMatterForestLog"
+      },
+      {
+        "value": "CUSTOM:StrippedDarkMatterForestWood"
+      },
+      {
+        "value": "CUSTOM:StrippedTwistedForestWood"
+      },
+      {
+        "value": "CUSTOM:StrippedTwistedForestLog"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}
