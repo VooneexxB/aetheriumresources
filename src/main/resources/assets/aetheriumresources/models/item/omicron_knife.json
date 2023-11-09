@@ -1,0 +1,9 @@
+{
+  "parent": "aetheriumresources:custom/gram",
+  "textures": {
+    "0": "aetheriumresources:blocks/3435426",
+    "2": "aetheriumresources:blocks/psm020011_p",
+    "3": "aetheriumresources:blocks/r_1",
+    "particle": "aetheriumresources:items/omicronknifeitem"
+  }
+}

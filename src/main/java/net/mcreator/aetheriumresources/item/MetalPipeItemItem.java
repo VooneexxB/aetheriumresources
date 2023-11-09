@@ -22,7 +22,7 @@ public class MetalPipeItemItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 78f;
+				return 98f;
 			}
 
 			public int getLevel() {

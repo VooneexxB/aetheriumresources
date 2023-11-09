@@ -6,20 +6,23 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "aetheriumresources:darkgrass",
+          "name": "aetheriumresources:deleted_mod_element",
           "weight": 1,
           "conditions": [
             {
-              "condition": "minecraft:match_tool",
-              "predicate": {
-                "enchantments": [
-                  {
-                    "enchantment": "minecraft:silk_touch",
-                    "levels": {
-                      "min": 1
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:match_tool",
+                "predicate": {
+                  "enchantments": [
+                    {
+                      "enchantment": "minecraft:silk_touch",
+                      "levels": {
+                        "min": 1
+                      }
                     }
-                  }
-                ]
+                  ]
+                }
               }
             }
           ],
@@ -27,7 +30,7 @@
             {
               "function": "set_count",
               "count": {
-                "min": 1,
+                "min": 0,
                 "max": 1
               }
             }

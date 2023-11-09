@@ -1,7 +1,0 @@
-{
-  "parent": "aetheriumresources:custom/metalpipe",
-  "textures": {
-    "0": "aetheriumresources:blocks/metalpipe",
-    "particle": "aetheriumresources:items/metalpipe"
-  }
-}

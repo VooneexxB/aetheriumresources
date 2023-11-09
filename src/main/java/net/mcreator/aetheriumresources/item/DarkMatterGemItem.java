@@ -8,6 +8,6 @@ import net.mcreator.aetheriumresources.init.AetheriumresourcesModTabs;
 
 public class DarkMatterGemItem extends Item {
 	public DarkMatterGemItem() {
-		super(new Item.Properties().tab(AetheriumresourcesModTabs.TAB_AETHERIUM_TAB).stacksTo(16).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(AetheriumresourcesModTabs.TAB_AETHERIUM_TAB).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
 	}
 }

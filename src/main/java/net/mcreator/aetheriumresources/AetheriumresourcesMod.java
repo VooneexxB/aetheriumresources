@@ -31,7 +31,6 @@ import net.mcreator.aetheriumresources.init.AetheriumresourcesModPotions;
 import net.mcreator.aetheriumresources.init.AetheriumresourcesModMobEffects;
 import net.mcreator.aetheriumresources.init.AetheriumresourcesModItems;
 import net.mcreator.aetheriumresources.init.AetheriumresourcesModFeatures;
-import net.mcreator.aetheriumresources.init.AetheriumresourcesModEntities;
 import net.mcreator.aetheriumresources.init.AetheriumresourcesModBlocks;
 import net.mcreator.aetheriumresources.init.AetheriumresourcesModBlockEntities;
 import net.mcreator.aetheriumresources.init.AetheriumresourcesModBiomes;
@@ -54,7 +53,7 @@ public class AetheriumresourcesMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		AetheriumresourcesModBlocks.REGISTRY.register(bus);
 		AetheriumresourcesModItems.REGISTRY.register(bus);
-		AetheriumresourcesModEntities.REGISTRY.register(bus);
+
 		AetheriumresourcesModBlockEntities.REGISTRY.register(bus);
 		AetheriumresourcesModFeatures.REGISTRY.register(bus);
 

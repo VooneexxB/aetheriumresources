@@ -17,7 +17,7 @@ import net.minecraft.core.BlockPos;
 
 public class DarkmatterBlock extends Block {
 	public DarkmatterBlock() {
-		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.COLOR_BLACK).sound(SoundType.SOUL_SAND).strength(1.5f, 6f)
+		super(BlockBehaviour.Properties.of(Material.GRASS, MaterialColor.COLOR_BLACK).sound(SoundType.SOUL_SAND).strength(1.5f, 6f)
 				.requiresCorrectToolForDrops());
 	}
 
@@ -34,7 +34,7 @@ public class DarkmatterBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 2;
+			return tieredItem.getTier().getLevel() >= 0;
 		return false;
 	}
 }

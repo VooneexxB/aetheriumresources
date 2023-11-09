@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "darkmatterfarmland",
+        "1": "darkmatter"
+      },
+      "name": "default"
+    }
+  }
+}

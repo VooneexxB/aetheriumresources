@@ -14,11 +14,14 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.aetheriumresources.block.TwistedmatterunderwaterBlock;
 import net.mcreator.aetheriumresources.block.TwistedTrapdoorBlock;
 import net.mcreator.aetheriumresources.block.TwistedMatterTilesWallBlock;
 import net.mcreator.aetheriumresources.block.TwistedMatterTilesStairsBlock;
 import net.mcreator.aetheriumresources.block.TwistedMatterTilesSlabBlock;
 import net.mcreator.aetheriumresources.block.TwistedMatterTilesBlock;
+import net.mcreator.aetheriumresources.block.TwistedMatterGemBlockBlock;
+import net.mcreator.aetheriumresources.block.TwistedMatterFarmlandBlock;
 import net.mcreator.aetheriumresources.block.TwistedMatterBricksWallBlock;
 import net.mcreator.aetheriumresources.block.TwistedMatterBricksStairsBlock;
 import net.mcreator.aetheriumresources.block.TwistedMatterBricksSlabBlock;
@@ -53,12 +56,14 @@ import net.mcreator.aetheriumresources.block.FailureDecorativoBlock;
 import net.mcreator.aetheriumresources.block.ErrorDecorativoBlock;
 import net.mcreator.aetheriumresources.block.ErrorBlock;
 import net.mcreator.aetheriumresources.block.Error2Block;
+import net.mcreator.aetheriumresources.block.EnrichedTwistedMatterBlock;
 import net.mcreator.aetheriumresources.block.EnrichedDarkMatterBlock;
 import net.mcreator.aetheriumresources.block.DarkmattertileswallsBlock;
 import net.mcreator.aetheriumresources.block.DarkmattertilesslabBlock;
 import net.mcreator.aetheriumresources.block.DarkmatterbrickswallBlock;
 import net.mcreator.aetheriumresources.block.DarkmatterbricksstairsBlock;
 import net.mcreator.aetheriumresources.block.DarkmatterbricksslabBlock;
+import net.mcreator.aetheriumresources.block.DarkmatterUnderwaterBlock;
 import net.mcreator.aetheriumresources.block.DarkmatterBlock;
 import net.mcreator.aetheriumresources.block.DarkgrassBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterTilesStairsBlock;
@@ -74,9 +79,14 @@ import net.mcreator.aetheriumresources.block.DarkMatterForestLeavesBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterForestFenceGateBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterForestFenceBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterForestButtonBlock;
+import net.mcreator.aetheriumresources.block.DarkMatterFarmlandBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterBricksBlock;
 import net.mcreator.aetheriumresources.block.DarkForestPlanksTrapdoorBlock;
 import net.mcreator.aetheriumresources.block.DarkForestPlanksDoorBlock;
+import net.mcreator.aetheriumresources.block.DarkCarrotStage3Block;
+import net.mcreator.aetheriumresources.block.DarkCarrotStage2Block;
+import net.mcreator.aetheriumresources.block.DarkCarrotStage1Block;
+import net.mcreator.aetheriumresources.block.DarkCarrotStage0Block;
 import net.mcreator.aetheriumresources.block.ChiseledDarkMatterBlock;
 import net.mcreator.aetheriumresources.block.BlocoAmetistaPurificadaBlock;
 import net.mcreator.aetheriumresources.block.BORDERPortalBlock;
@@ -193,6 +203,21 @@ public class AetheriumresourcesModBlocks {
 	public static final RegistryObject<Block> BLOCO_AMETISTA_PURIFICADA = REGISTRY.register("bloco_ametista_purificada",
 			() -> new BlocoAmetistaPurificadaBlock());
 	public static final RegistryObject<Block> MICROSCOPIO = REGISTRY.register("microscopio", () -> new MicroscopioBlock());
+	public static final RegistryObject<Block> ENRICHED_TWISTED_MATTER = REGISTRY.register("enriched_twisted_matter",
+			() -> new EnrichedTwistedMatterBlock());
+	public static final RegistryObject<Block> TWISTED_MATTER_GEM_BLOCK = REGISTRY.register("twisted_matter_gem_block",
+			() -> new TwistedMatterGemBlockBlock());
+	public static final RegistryObject<Block> DARK_CARROT_STAGE_0 = REGISTRY.register("dark_carrot_stage_0", () -> new DarkCarrotStage0Block());
+	public static final RegistryObject<Block> DARK_CARROT_STAGE_1 = REGISTRY.register("dark_carrot_stage_1", () -> new DarkCarrotStage1Block());
+	public static final RegistryObject<Block> DARK_CARROT_STAGE_2 = REGISTRY.register("dark_carrot_stage_2", () -> new DarkCarrotStage2Block());
+	public static final RegistryObject<Block> DARK_CARROT_STAGE_3 = REGISTRY.register("dark_carrot_stage_3", () -> new DarkCarrotStage3Block());
+	public static final RegistryObject<Block> DARK_MATTER_FARMLAND = REGISTRY.register("dark_matter_farmland", () -> new DarkMatterFarmlandBlock());
+	public static final RegistryObject<Block> TWISTED_MATTER_FARMLAND = REGISTRY.register("twisted_matter_farmland",
+			() -> new TwistedMatterFarmlandBlock());
+	public static final RegistryObject<Block> TWISTEDMATTERUNDERWATER = REGISTRY.register("twistedmatterunderwater",
+			() -> new TwistedmatterunderwaterBlock());
+	public static final RegistryObject<Block> DARKMATTER_UNDERWATER = REGISTRY.register("darkmatter_underwater",
+			() -> new DarkmatterUnderwaterBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -200,16 +225,20 @@ public class AetheriumresourcesModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			FailureDecorativoBlock.registerRenderLayer();
 			DarkgrassBlock.registerRenderLayer();
-			DarkMatterForestLeavesBlock.registerRenderLayer();
 			DarkForestPlanksTrapdoorBlock.registerRenderLayer();
 			DarkForestPlanksDoorBlock.registerRenderLayer();
 			DarkMatterForestButtonBlock.registerRenderLayer();
 			TwistedGrassBlock.registerRenderLayer();
 			AaBlock.registerRenderLayer();
 			BORDERPortalBlock.registerRenderLayer();
-			TwistedForestLeavesBlock.registerRenderLayer();
 			TwistedTrapdoorBlock.registerRenderLayer();
 			MicroscopioBlock.registerRenderLayer();
+			DarkCarrotStage0Block.registerRenderLayer();
+			DarkCarrotStage1Block.registerRenderLayer();
+			DarkCarrotStage2Block.registerRenderLayer();
+			DarkCarrotStage3Block.registerRenderLayer();
+			DarkMatterFarmlandBlock.registerRenderLayer();
+			TwistedMatterFarmlandBlock.registerRenderLayer();
 		}
 	}
 }

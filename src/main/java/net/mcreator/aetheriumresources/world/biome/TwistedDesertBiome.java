@@ -23,8 +23,8 @@ public class TwistedDesertBiome {
 				.ambientParticle(new AmbientParticleSettings(ParticleTypes.SNOWFLAKE, 0.007f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).temperature(1.5f)
-				.downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build())
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).temperature(0.3f)
+				.downfall(0.6f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build())
 				.build();
 	}
 }

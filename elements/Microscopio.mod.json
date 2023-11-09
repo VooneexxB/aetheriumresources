@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "microscopioitem",
+    "itemTexture": "",
     "particleTexture": "twistedmatter1",
     "tintType": "No tint",
     "isItemTinted": false,

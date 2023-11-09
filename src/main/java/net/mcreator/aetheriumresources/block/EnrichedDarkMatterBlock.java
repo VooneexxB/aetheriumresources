@@ -46,14 +46,14 @@ public class EnrichedDarkMatterBlock extends Block {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		for (int l = 0; l < 2; ++l) {
+		for (int l = 0; l < 1; ++l) {
 			double x0 = x + random.nextFloat();
 			double y0 = y + random.nextFloat();
 			double z0 = z + random.nextFloat();
-			double dx = (random.nextFloat() - 0.5D) * 0.1D;
-			double dy = (random.nextFloat() - 0.5D) * 0.1D;
-			double dz = (random.nextFloat() - 0.5D) * 0.1D;
-			world.addParticle(ParticleTypes.CRIT, x0, y0, z0, dx, dy, dz);
+			double dx = (random.nextFloat() - 0.5D) * 0.2D;
+			double dy = (random.nextFloat() - 0.5D) * 0.2D;
+			double dz = (random.nextFloat() - 0.5D) * 0.2D;
+			world.addParticle(ParticleTypes.CRIMSON_SPORE, x0, y0, z0, dx, dy, dz);
 		}
 	}
 }

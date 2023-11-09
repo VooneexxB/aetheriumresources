@@ -23,8 +23,7 @@ public class DarkdesertBiome {
 				.ambientParticle(new AmbientParticleSettings(ParticleTypes.ASH, 0.007f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).temperature(1.5f)
-				.downfall(0.5f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build())
-				.build();
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.NONE).biomeCategory(Biome.BiomeCategory.NONE).temperature(1.7f).downfall(0f)
+				.specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();
 	}
 }

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "twistedmatterfarmland",
+        "1": "twistedmatter1"
+      },
+      "name": "default"
+    }
+  }
+}

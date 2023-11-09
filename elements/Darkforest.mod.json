@@ -10,7 +10,7 @@
       "value": "CUSTOM:Darkmatter"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:Darkmatter"
+      "value": "CUSTOM:DarkmatterUnderwater"
     },
     "airColor": {
       "value": -14417920,
@@ -50,14 +50,14 @@
       "value": "CRIMSON_SPORE"
     },
     "particlesProbability": 0.6,
-    "rainingPossibility": 0.5,
-    "temperature": 1.5,
-    "baseHeight": 0.2,
+    "rainingPossibility": 0.2,
+    "temperature": 1.2,
+    "baseHeight": 0.1,
     "heightVariation": 0.4,
     "spawnBiome": false,
     "spawnBiomeNether": false,
     "spawnInCaves": false,
-    "biomeWeight": 8,
+    "biomeWeight": 10,
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 0,

@@ -19,15 +19,13 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.aetheriumresources.world.features.plants.TwistedGrassFeature;
 import net.mcreator.aetheriumresources.world.features.plants.DarkgrassFeature;
+import net.mcreator.aetheriumresources.world.features.ores.TwistedmatterunderwaterFeature;
 import net.mcreator.aetheriumresources.world.features.ores.TwistedMatterFeature;
+import net.mcreator.aetheriumresources.world.features.ores.EnrichedTwistedMatterFeature;
 import net.mcreator.aetheriumresources.world.features.ores.EnrichedDarkMatterFeature;
+import net.mcreator.aetheriumresources.world.features.ores.DarkmatterUnderwaterFeature;
 import net.mcreator.aetheriumresources.world.features.ores.DarkmatterFeature;
-import net.mcreator.aetheriumresources.world.features.TwistedmatterRuins1Feature;
-import net.mcreator.aetheriumresources.world.features.TwistedmatterPillar1Feature;
-import net.mcreator.aetheriumresources.world.features.InvertedErrorPathFeature;
-import net.mcreator.aetheriumresources.world.features.ErrorPathFeature;
-import net.mcreator.aetheriumresources.world.features.DarkmatterRuins1Feature;
-import net.mcreator.aetheriumresources.world.features.DarkmatterPillar1Feature;
+import net.mcreator.aetheriumresources.world.features.TwistedlabstructureFeature;
 import net.mcreator.aetheriumresources.AetheriumresourcesMod;
 
 import java.util.function.Supplier;
@@ -50,23 +48,18 @@ public class AetheriumresourcesModFeatures {
 			GenerationStep.Decoration.UNDERGROUND_ORES, TwistedMatterFeature.GENERATE_BIOMES, TwistedMatterFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> TWISTED_GRASS = register("twisted_grass", TwistedGrassFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.VEGETAL_DECORATION, TwistedGrassFeature.GENERATE_BIOMES, TwistedGrassFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> DARKMATTER_PILLAR_1 = register("darkmatter_pillar_1", DarkmatterPillar1Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, DarkmatterPillar1Feature.GENERATE_BIOMES,
-					DarkmatterPillar1Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> DARKMATTER_RUINS_1 = register("darkmatter_ruins_1", DarkmatterRuins1Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, DarkmatterRuins1Feature.GENERATE_BIOMES,
-					DarkmatterRuins1Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> TWISTEDMATTER_RUINS_1 = register("twistedmatter_ruins_1", TwistedmatterRuins1Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, TwistedmatterRuins1Feature.GENERATE_BIOMES,
-					TwistedmatterRuins1Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> TWISTEDMATTER_PILLAR_1 = register("twistedmatter_pillar_1", TwistedmatterPillar1Feature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, TwistedmatterPillar1Feature.GENERATE_BIOMES,
-					TwistedmatterPillar1Feature::placedFeature));
-	public static final RegistryObject<Feature<?>> ERROR_PATH = register("error_path", ErrorPathFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, ErrorPathFeature.GENERATE_BIOMES, ErrorPathFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> INVERTED_ERROR_PATH = register("inverted_error_path", InvertedErrorPathFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, InvertedErrorPathFeature.GENERATE_BIOMES,
-					InvertedErrorPathFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ENRICHED_TWISTED_MATTER = register("enriched_twisted_matter",
+			EnrichedTwistedMatterFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+					EnrichedTwistedMatterFeature.GENERATE_BIOMES, EnrichedTwistedMatterFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TWISTEDMATTERUNDERWATER = register("twistedmatterunderwater",
+			TwistedmatterunderwaterFeature::feature, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+					TwistedmatterunderwaterFeature.GENERATE_BIOMES, TwistedmatterunderwaterFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TWISTEDLABSTRUCTURE = register("twistedlabstructure", TwistedlabstructureFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, TwistedlabstructureFeature.GENERATE_BIOMES,
+					TwistedlabstructureFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DARKMATTER_UNDERWATER = register("darkmatter_underwater", DarkmatterUnderwaterFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, DarkmatterUnderwaterFeature.GENERATE_BIOMES,
+					DarkmatterUnderwaterFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

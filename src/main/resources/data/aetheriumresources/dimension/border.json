@@ -10,24 +10,24 @@
           "biome": "aetheriumresources:darkforest",
           "parameters": {
             "temperature": [
-              0.55238095238,
-              0.780952380952
+              0.323809523809,
+              0.609523809523
             ],
             "humidity": [
-              -0.114285714286,
-              0.114285714286
+              -0.742857142857,
+              -0.457142857143
             ],
             "continentalness": [
-              0.405714285714,
-              0.634285714286
+              0.367142857143,
+              0.652857142857
             ],
             "weirdness": [
-              0.628728298081,
-              0.857299726653
+              0.60015686951,
+              0.885871155224
             ],
             "erosion": [
-              0.485714285714,
-              0.714285714286
+              0.457142857143,
+              0.742857142857
             ],
             "depth": 0,
             "offset": 0
@@ -37,24 +37,24 @@
           "biome": "aetheriumresources:twisted_desert",
           "parameters": {
             "temperature": [
-              0.55238095238,
-              0.780952380952
+              -0.204761904763,
+              -0.061904761905
             ],
             "humidity": [
-              -0.114285714286,
-              0.114285714286
+              0.128571428571,
+              0.271428571429
             ],
             "continentalness": [
-              0.395714285714,
-              0.624285714286
+              0.438571428571,
+              0.581428571429
             ],
             "weirdness": [
-              0.628728298081,
-              0.857299726653
+              0.671585440938,
+              0.814442583796
             ],
             "erosion": [
-              0.685714285714,
-              0.914285714286
+              0.728571428571,
+              0.871428571429
             ],
             "depth": 0,
             "offset": 0
@@ -64,24 +64,24 @@
           "biome": "aetheriumresources:twisted_forest",
           "parameters": {
             "temperature": [
-              0.55238095238,
-              0.780952380952
+              -0.285714285714,
+              -0.114285714286
             ],
             "humidity": [
-              -0.114285714286,
-              0.114285714286
+              0.014285714286,
+              0.185714285714
             ],
             "continentalness": [
-              0.405714285714,
-              0.634285714286
+              0.424285714286,
+              0.595714285714
             ],
             "weirdness": [
-              0.628728298081,
-              0.857299726653
+              0.657299726653,
+              0.828728298081
             ],
             "erosion": [
-              0.485714285714,
-              0.714285714286
+              0.614285714286,
+              0.785714285714
             ],
             "depth": 0,
             "offset": 0
@@ -91,24 +91,24 @@
           "biome": "aetheriumresources:darkdesert",
           "parameters": {
             "temperature": [
-              0.55238095238,
-              0.780952380952
+              0.671428571429,
+              0.928571428571
             ],
             "humidity": [
-              -0.114285714286,
-              0.114285714286
+              -1.128571428571,
+              -0.871428571429
             ],
             "continentalness": [
-              0.395714285714,
-              0.624285714286
+              0.381428571429,
+              0.638571428571
             ],
             "weirdness": [
-              0.628728298081,
-              0.857299726653
+              0.614442583796,
+              0.871585440938
             ],
             "erosion": [
-              0.685714285714,
-              0.914285714286
+              0.671428571429,
+              0.928571428571
             ],
             "depth": 0,
             "offset": 0
@@ -3088,7 +3088,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "aetheriumresources:darkmatter"
+                            "Name": "aetheriumresources:darkmatter_underwater"
                           }
                         }
                       ]
@@ -3160,7 +3160,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "aetheriumresources:twisted_matter"
+                            "Name": "aetheriumresources:twistedmatterunderwater"
                           }
                         }
                       ]
@@ -3232,7 +3232,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "aetheriumresources:twisted_matter"
+                            "Name": "aetheriumresources:twistedmatterunderwater"
                           }
                         }
                       ]
@@ -3304,7 +3304,7 @@
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "aetheriumresources:darkmatter"
+                            "Name": "aetheriumresources:darkmatter_underwater"
                           }
                         }
                       ]

@@ -1,0 +1,48 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:DarkMatterForestLog"
+      },
+      {
+        "value": "CUSTOM:TwistedForestLog"
+      },
+      {
+        "value": "CUSTOM:TwistedMatterBricks"
+      },
+      {
+        "value": "CUSTOM:TwistedMatter"
+      },
+      {
+        "value": "CUSTOM:Darkmatter"
+      },
+      {
+        "value": "CUSTOM:EnrichedDarkMatter"
+      },
+      {
+        "value": "CUSTOM:EnrichedTwistedMatter"
+      },
+      {
+        "value": "CUSTOM:TwistedMatterTiles"
+      },
+      {
+        "value": "CUSTOM:PolishedTwistedMatter"
+      },
+      {
+        "value": "CUSTOM:Twistedmatterunderwater"
+      },
+      {
+        "value": "CUSTOM:DarkmatterUnderwater"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "lava_pool_stone_cannot_replace",
+    "namespace": "minecraft"
+  }
+}

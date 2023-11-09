@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "darkmattergem",
+    "texture": "darkgem",
     "customModelName": "Normal",
-    "name": "Dark Gem (WIP)",
+    "name": "Dark Gem",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:AetheriumTab"
     },
-    "stackSize": 16,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

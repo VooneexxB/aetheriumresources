@@ -63,16 +63,10 @@ public class AetheriumresourcesModSounds {
 				new SoundEvent(new ResourceLocation("aetheriumresources", "twistedadditions")));
 		REGISTRY.put(new ResourceLocation("aetheriumresources", "twistedmusic"),
 				new SoundEvent(new ResourceLocation("aetheriumresources", "twistedmusic")));
-		REGISTRY.put(new ResourceLocation("aetheriumresources", "blockhitmetalpipe"),
-				new SoundEvent(new ResourceLocation("aetheriumresources", "blockhitmetalpipe")));
-		REGISTRY.put(new ResourceLocation("aetheriumresources", "throwpipe"),
-				new SoundEvent(new ResourceLocation("aetheriumresources", "throwpipe")));
 		REGISTRY.put(new ResourceLocation("aetheriumresources", "error-step"),
 				new SoundEvent(new ResourceLocation("aetheriumresources", "error-step")));
 		REGISTRY.put(new ResourceLocation("aetheriumresources", "metalpipehit"),
 				new SoundEvent(new ResourceLocation("aetheriumresources", "metalpipehit")));
-		REGISTRY.put(new ResourceLocation("aetheriumresources", "pipeprojectilehit"),
-				new SoundEvent(new ResourceLocation("aetheriumresources", "pipeprojectilehit")));
 	}
 
 	@SubscribeEvent
