@@ -3026,7 +3026,7 @@
       "name": "DarkCarrotStage2",
       "type": "block",
       "sortid": 265,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dark_carrot_stage_2",
       "path": "~/Blocos/Crops/DarkCarrot"
@@ -3035,7 +3035,7 @@
       "name": "DarkCarrotStage1",
       "type": "block",
       "sortid": 264,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dark_carrot_stage_1",
       "path": "~/Blocos/Crops/DarkCarrot"
@@ -3089,7 +3089,7 @@
       "name": "DarkCarrotStage0",
       "type": "block",
       "sortid": 263,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "dark_carrot_stage_0",
       "path": "~/Blocos/Crops/DarkCarrot"
@@ -3435,8 +3435,8 @@
       "item.aetheriumresources.disco_3.desc": "Andrii Floria - Chaos1",
       "subtitles.twistedmusic": "",
       "subtitles.pipehit": "",
-      "block.aetheriumresources.polished_dark_matter_slab": "Polished Dark Matter Slab",
       "subtitles.error-placing": "",
+      "block.aetheriumresources.polished_dark_matter_slab": "Polished Dark Matter Slab",
       "subtitles.place": "",
       "item.aetheriumresources.thunderstorm": "Thunderstorm Night",
       "block.aetheriumresources.stripped_dark_matter_forest_wood": "Stripped Dark Forest Log",
