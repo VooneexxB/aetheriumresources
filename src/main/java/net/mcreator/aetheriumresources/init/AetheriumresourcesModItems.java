@@ -43,6 +43,7 @@ import net.mcreator.aetheriumresources.item.DarkCarrotItem;
 import net.mcreator.aetheriumresources.item.BloodySkyItem;
 import net.mcreator.aetheriumresources.item.BloodyDarkCarrotItem;
 import net.mcreator.aetheriumresources.item.BORDERItem;
+import net.mcreator.aetheriumresources.item.AnaraugfruitItem;
 import net.mcreator.aetheriumresources.item.AmetistapurificadaItem;
 import net.mcreator.aetheriumresources.AetheriumresourcesMod;
 
@@ -220,6 +221,7 @@ public class AetheriumresourcesModItems {
 	public static final RegistryObject<Item> TWISTED_DARK_CARROT = REGISTRY.register("twisted_dark_carrot", () -> new TwistedDarkCarrotItem());
 	public static final RegistryObject<Item> TWISTEDMATTERUNDERWATER = block(AetheriumresourcesModBlocks.TWISTEDMATTERUNDERWATER, null);
 	public static final RegistryObject<Item> DARKMATTER_UNDERWATER = block(AetheriumresourcesModBlocks.DARKMATTER_UNDERWATER, null);
+	public static final RegistryObject<Item> ANARAUGFRUIT = REGISTRY.register("anaraugfruit", () -> new AnaraugfruitItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
