@@ -19,7 +19,7 @@
       "item": "aetheriumresources:dark_matter_gem"
     },
     "4": {
-      "item": "aetheriumresources:deleted_mod_element"
+      "item": "aetheriumresources:dark_carrot"
     },
     "5": {
       "item": "aetheriumresources:dark_matter_gem"
@@ -35,7 +35,7 @@
     }
   },
   "result": {
-    "item": "aetheriumresources:deleted_mod_element",
+    "item": "aetheriumresources:bloody_dark_carrot",
     "count": 1
   }
 }

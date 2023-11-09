@@ -1,19 +1,49 @@
 
 package net.mcreator.aetheriumresources.block;
 
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.HitResult;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.MenuProvider;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+
+import net.mcreator.aetheriumresources.procedures.DarkCarrotStage0UpdateTickProcedure;
+import net.mcreator.aetheriumresources.procedures.DarkCarrotStage0BlockValidPlacementConditionProcedure;
+import net.mcreator.aetheriumresources.init.AetheriumresourcesModItems;
+import net.mcreator.aetheriumresources.init.AetheriumresourcesModBlocks;
+import net.mcreator.aetheriumresources.block.entity.DarkCarrotStage3BlockEntity;
+
+import java.util.Random;
 
 public class DarkCarrotStage3Block extends Block
 		implements
 
 			EntityBlock {
-
 	public DarkCarrotStage3Block() {
 		super(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.PLANT).sound(SoundType.GRASS).instabreak().noCollission().noOcclusion()
 				.randomTicks().isRedstoneConductor((bs, br, bp) -> false));
-
 	}
 
 	@Override
@@ -38,9 +68,7 @@ public class DarkCarrotStage3Block extends Block
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
-			return
-
-			DarkCarrotStage0BlockValidPlacementConditionProcedure.execute(world, x, y, z);
+			return DarkCarrotStage0BlockValidPlacementConditionProcedure.execute(world, x, y, z);
 		}
 		return super.canSurvive(blockstate, worldIn, pos);
 	}
@@ -55,7 +83,7 @@ public class DarkCarrotStage3Block extends Block
 
 	@Override
 	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
-		return new ItemStack(AetheriumresourcesModItems.DELETED_MOD_ELEMENT.get());
+		return new ItemStack(AetheriumresourcesModItems.DARKSEEDS.get());
 	}
 
 	@Override
@@ -66,7 +94,6 @@ public class DarkCarrotStage3Block extends Block
 		int z = pos.getZ();
 
 		DarkCarrotStage0UpdateTickProcedure.execute(world, x, y, z);
-
 	}
 
 	@Override

@@ -1,20 +1,46 @@
 
 package net.mcreator.aetheriumresources.block;
 
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraftforge.common.IPlantable;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.HitResult;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.Fluids;
+import net.minecraft.world.level.material.FluidState;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.SimpleWaterloggedBlock;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+
+import net.mcreator.aetheriumresources.init.AetheriumresourcesModBlocks;
 
 public class DarkMatterFarmlandBlock extends Block implements SimpleWaterloggedBlock
 
 {
-
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public DarkMatterFarmlandBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT, MaterialColor.COLOR_BLACK).sound(SoundType.SOUL_SAND).strength(1.5f, 6f)
 				.requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
-
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 
@@ -80,5 +106,4 @@ public class DarkMatterFarmlandBlock extends Block implements SimpleWaterloggedB
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(AetheriumresourcesModBlocks.DARK_MATTER_FARMLAND.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

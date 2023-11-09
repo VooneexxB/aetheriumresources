@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "aetheriumresources:deleted_mod_element",
+          "name": "aetheriumresources:darkseeds",
           "weight": 1,
           "conditions": [
             {

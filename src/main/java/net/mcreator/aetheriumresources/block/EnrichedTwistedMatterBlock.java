@@ -1,16 +1,29 @@
 
 package net.mcreator.aetheriumresources.block;
 
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.BlockPos;
+import net.minecraft.client.Minecraft;
+
+import java.util.Random;
 
 public class EnrichedTwistedMatterBlock extends Block {
-
 	public EnrichedTwistedMatterBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_WHITE).sound(SoundType.ANCIENT_DEBRIS).strength(4.5f, 10f)
 				.requiresCorrectToolForDrops().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
-
 	}
 
 	@Override
@@ -43,5 +56,4 @@ public class EnrichedTwistedMatterBlock extends Block {
 			world.addParticle(ParticleTypes.WARPED_SPORE, x0, y0, z0, dx, dy, dz);
 		}
 	}
-
 }
