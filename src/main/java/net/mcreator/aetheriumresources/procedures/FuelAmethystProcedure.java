@@ -200,6 +200,99 @@ public class FuelAmethystProcedure {
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
+				if (new Object() {
+					public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+						AtomicInteger _retval = new AtomicInteger(0);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+									.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+						return _retval.get();
+					}
+				}.getAmount(world, new BlockPos(x, y, z), 3) < 64 && (new Object() {
+					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+									.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+						return _retval.get();
+					}
+				}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() == Items.AMETHYST_SHARD && (new Object() {
+					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+									.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+						return _retval.get();
+					}
+				}.getItemStack(world, new BlockPos(x, y, z), 1)).getItem() == AetheriumresourcesModItems.MATERIAORGANICA.get() && (new Object() {
+					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+									.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+						return _retval.get();
+					}
+				}.getItemStack(world, new BlockPos(x, y, z), 2)).getItem() == AetheriumresourcesModItems.MATERIAORGANICA.get()) {
+					if (!world.isClientSide()) {
+						BlockPos _bp = new BlockPos(x, y, z);
+						BlockEntity _blockEntity = world.getBlockEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_blockEntity != null)
+							_blockEntity.getTileData().putDouble("combustao", 1);
+						if (world instanceof Level _level)
+							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+					}
+				} else if (new Object() {
+					public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+						AtomicInteger _retval = new AtomicInteger(0);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+									.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+						return _retval.get();
+					}
+				}.getAmount(world, new BlockPos(x, y, z), 3) >= 64 || (new Object() {
+					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+									.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+						return _retval.get();
+					}
+				}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() == Blocks.AIR.asItem() || (new Object() {
+					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+									.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+						return _retval.get();
+					}
+				}.getItemStack(world, new BlockPos(x, y, z), 1)).getItem() == Blocks.AIR.asItem() || (new Object() {
+					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
+						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+									.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
+						return _retval.get();
+					}
+				}.getItemStack(world, new BlockPos(x, y, z), 2)).getItem() == Blocks.AIR.asItem()) {
+					if (!world.isClientSide()) {
+						BlockPos _bp = new BlockPos(x, y, z);
+						BlockEntity _blockEntity = world.getBlockEntity(_bp);
+						BlockState _bs = world.getBlockState(_bp);
+						if (_blockEntity != null)
+							_blockEntity.getTileData().putDouble("combustao", 0);
+						if (world instanceof Level _level)
+							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+					}
+				}
 			}
 		} else {
 			if (!world.isClientSide()) {
