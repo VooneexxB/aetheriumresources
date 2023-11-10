@@ -1,10 +1,15 @@
 
 package net.mcreator.aetheriumresources.item;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.aetheriumresources.procedures.OmicronKnifeToolInHandTickProcedure;
 
 public class OmicronKnifeItem extends SwordItem {
 	public OmicronKnifeItem() {
@@ -33,5 +38,12 @@ public class OmicronKnifeItem extends SwordItem {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -2.2f, new Item.Properties().tab(null).fireResistant());
+	}
+
+	@Override
+	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
+		super.inventoryTick(itemstack, world, entity, slot, selected);
+		if (selected)
+			OmicronKnifeToolInHandTickProcedure.execute(entity);
 	}
 }

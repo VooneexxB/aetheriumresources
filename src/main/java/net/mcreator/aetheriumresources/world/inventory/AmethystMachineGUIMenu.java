@@ -22,7 +22,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.aetheriumresources.procedures.FuelLogicAmethystProcedure;
+import net.mcreator.aetheriumresources.procedures.FuelAmethystProcedure;
 import net.mcreator.aetheriumresources.init.AetheriumresourcesModMenus;
 import net.mcreator.aetheriumresources.init.AetheriumresourcesModItems;
 
@@ -260,7 +260,7 @@ public class AmethystMachineGUIMenu extends AbstractContainerMenu implements Sup
 			double y = entity.getY();
 			double z = entity.getZ();
 
-			FuelLogicAmethystProcedure.execute(world, x, y, z);
+			FuelAmethystProcedure.execute(world, x, y, z);
 		}
 	}
 }

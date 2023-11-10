@@ -135,7 +135,7 @@
       }
     ],
     "onTick": {
-      "name": "FuelLogicAmethyst"
+      "name": "FuelAmethyst"
     },
     "gridSettings": {
       "sx": 18,

@@ -10,6 +10,6 @@ public class TwistedDarkCarrotPlayerFinishesUsingItemProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1800, 2));
+			_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1800, 1));
 	}
 }

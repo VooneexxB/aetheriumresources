@@ -14,7 +14,7 @@ import net.mcreator.aetheriumresources.init.AetheriumresourcesModTabs;
 public class BloodyDarkCarrotItem extends Item {
 	public BloodyDarkCarrotItem() {
 		super(new Item.Properties().tab(AetheriumresourcesModTabs.TAB_AETHERIUM_TAB).stacksTo(64).fireResistant().rarity(Rarity.UNCOMMON)
-				.food((new FoodProperties.Builder()).nutrition(6).saturationMod(2f).alwaysEat()
+				.food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f).alwaysEat()
 
 						.build()));
 	}

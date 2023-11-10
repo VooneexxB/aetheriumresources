@@ -19,9 +19,8 @@ import net.mcreator.aetheriumresources.init.AetheriumresourcesModItems;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class FuelLogicAmethystProcedure {
+public class FuelAmethystProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		double fireHeight = 0;
 		if (new Object() {
 			public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicInteger _retval = new AtomicInteger(0);
