@@ -72,6 +72,7 @@ import net.mcreator.aetheriumresources.block.DarkmatterbricksslabBlock;
 import net.mcreator.aetheriumresources.block.DarkmatterUnderwaterBlock;
 import net.mcreator.aetheriumresources.block.DarkmatterBlock;
 import net.mcreator.aetheriumresources.block.DarkgrassBlock;
+import net.mcreator.aetheriumresources.block.DarkSaplingBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterTilesStairsBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterTilesBlock;
 import net.mcreator.aetheriumresources.block.DarkMatterGemBlockBlock;
@@ -230,6 +231,7 @@ public class AetheriumresourcesModBlocks {
 	public static final RegistryObject<Block> TWISTED_BUSH_STAGE_1 = REGISTRY.register("twisted_bush_stage_1", () -> new TwistedBushStage1Block());
 	public static final RegistryObject<Block> TWISTED_BUSH_STAGE_2 = REGISTRY.register("twisted_bush_stage_2", () -> new TwistedBushStage2Block());
 	public static final RegistryObject<Block> TWISTED_BUSH_STAGE_3 = REGISTRY.register("twisted_bush_stage_3", () -> new TwistedBushStage3Block());
+	public static final RegistryObject<Block> DARK_SAPLING = REGISTRY.register("dark_sapling", () -> new DarkSaplingBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -256,6 +258,7 @@ public class AetheriumresourcesModBlocks {
 			TwistedBushStage1Block.registerRenderLayer();
 			TwistedBushStage2Block.registerRenderLayer();
 			TwistedBushStage3Block.registerRenderLayer();
+			DarkSaplingBlock.registerRenderLayer();
 		}
 	}
 }
