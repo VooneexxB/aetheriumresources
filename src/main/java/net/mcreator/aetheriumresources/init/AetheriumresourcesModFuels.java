@@ -41,5 +41,31 @@ public class AetheriumresourcesModFuels {
 			event.setBurnTime(100);
 		else if (itemstack.getItem() == AetheriumresourcesModBlocks.TWISTED_FOREST_DOOR.get().asItem())
 			event.setBurnTime(200);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.DARK_MATTER_FOREST_LOG.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.DARK_MATTER_FOREST_WOOD.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.DARK_MATTER_FOREST_PLANKS.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.DARK_MATTER_FOREST_STAIRS.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.DARK_MATTER_FOREST_SLAB.get().asItem())
+			event.setBurnTime(150);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.DARK_MATTER_FOREST_BUTTON.get().asItem())
+			event.setBurnTime(100);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.DARK_FOREST_PLANKS_DOOR.get().asItem())
+			event.setBurnTime(200);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.DARK_MATTER_FOREST_FENCE.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.DARK_MATTER_FOREST_FENCE_GATE.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.DARK_MATTER_FOREST_PRESSURE_PLATE.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.DARK_FOREST_PLANKS_TRAPDOOR.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.STRIPPED_DARK_MATTER_FOREST_LOG.get().asItem())
+			event.setBurnTime(300);
+		else if (itemstack.getItem() == AetheriumresourcesModBlocks.STRIPPED_DARK_MATTER_FOREST_WOOD.get().asItem())
+			event.setBurnTime(300);
 	}
 }

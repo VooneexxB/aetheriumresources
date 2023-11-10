@@ -2,15 +2,15 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "bedtexture",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 2,
-    "customModelName": "bedegg:default",
-    "rotationMode": 2,
+    "texture": "solid",
+    "textureTop": "solid",
+    "textureLeft": "solid",
+    "textureFront": "solid",
+    "textureRight": "solid",
+    "textureBack": "solid",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -18,9 +18,9 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,28 +33,28 @@
         "subtract": false
       }
     ],
-    "name": "Egg Bed (WIP)",
+    "name": "Solid Matter Block",
     "specialInfo": [],
-    "hardness": 800.0,
-    "resistance": 800.0,
+    "hardness": 1.5,
+    "resistance": 6.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:AetheriumTab"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": false,
+    "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
-    "plantsGrowOn": false,
+    "plantsGrowOn": true,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
-      "value": "MISCELLANEOUS"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -63,7 +63,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "BLACK",
     "creativePickItem": {
       "value": ""
     },
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "BASALT"
     },
     "breakSound": {
       "value": ""
@@ -97,15 +97,15 @@
       "value": ""
     },
     "luminance": 0,
-    "unbreakable": true,
-    "breakHarvestLevel": 1,
+    "unbreakable": false,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "ASH"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleSpawningRadious": 0.1,
+    "particleAmount": 2,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -125,11 +125,7 @@
     "fluidRestrictions": [],
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
+    "blocksToReplace": [],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 10,
     "frequencyOnChunk": 16,

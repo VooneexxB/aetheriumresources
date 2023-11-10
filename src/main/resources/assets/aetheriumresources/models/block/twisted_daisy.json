@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aetheriumresources:blocks/twisted_daisy",
+    "particle": "aetheriumresources:blocks/twisted_daisy"
+  }
+}

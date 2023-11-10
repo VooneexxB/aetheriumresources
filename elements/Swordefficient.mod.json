@@ -1,0 +1,39 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:TwistedBushStage0"
+      },
+      {
+        "value": "CUSTOM:TwistedBushStage1"
+      },
+      {
+        "value": "CUSTOM:TwistedBushStage2"
+      },
+      {
+        "value": "CUSTOM:TwistedBushStage3"
+      },
+      {
+        "value": "CUSTOM:DarkCarrotStage0"
+      },
+      {
+        "value": "CUSTOM:DarkCarrotStage3"
+      },
+      {
+        "value": "CUSTOM:DarkCarrotStage1"
+      },
+      {
+        "value": "CUSTOM:DarkCarrotStage2"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "sword_efficient",
+    "namespace": "minecraft"
+  }
+}

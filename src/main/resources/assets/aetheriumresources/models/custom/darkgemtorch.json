@@ -1,0 +1,146 @@
+{
+  "credit": "Made with Blockbench",
+  "elements": [
+    {
+      "from": [
+        7,
+        0,
+        7
+      ],
+      "to": [
+        8,
+        6,
+        8
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            6,
+            8,
+            16
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            7,
+            6,
+            8,
+            16
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            8,
+            6,
+            9,
+            16
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            8,
+            6,
+            9,
+            16
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            7,
+            6,
+            9,
+            7
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            7,
+            14,
+            9,
+            16
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0.5,
+        6,
+        1.75
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        -0.5,
+        6,
+        1.75
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        1.75,
+        7.25,
+        0.5
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        1.75,
+        7.25,
+        0.5
+      ]
+    },
+    "ground": {
+      "translation": [
+        0.25,
+        3.25,
+        0
+      ]
+    },
+    "gui": {
+      "translation": [
+        1.75,
+        7.75,
+        0
+      ],
+      "scale": [
+        2,
+        1.5,
+        2
+      ]
+    },
+    "head": {
+      "rotation": [
+        -56,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        10.75,
+        -12.25
+      ],
+      "scale": [
+        1,
+        1.5,
+        1
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0.5,
+        4.75,
+        0
+      ]
+    }
+  }
+}

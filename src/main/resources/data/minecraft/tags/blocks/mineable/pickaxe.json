@@ -36,6 +36,7 @@
     "aetheriumresources:bloco_ametista_purificada",
     "aetheriumresources:microscopio",
     "aetheriumresources:enriched_twisted_matter",
-    "aetheriumresources:twisted_matter_gem_block"
+    "aetheriumresources:twisted_matter_gem_block",
+    "aetheriumresources:solid_matter_block"
   ]
 }

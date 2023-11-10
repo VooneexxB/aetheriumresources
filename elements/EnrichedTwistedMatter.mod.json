@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 2,
     "spawnParticles": true,
     "particleToSpawn": {
       "value": "WARPED_SPORE"

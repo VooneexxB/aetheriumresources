@@ -132,6 +132,32 @@
           "x": 126,
           "y": 36
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "combustao_full_slot.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "GUIstateCombustao"
+          },
+          "name": "combustao_full_slot.png",
+          "x": 239,
+          "y": 48
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "combustao_full_slot.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "GUIstateCombustao"
+          },
+          "name": "combustao_full_slot.png",
+          "x": 171,
+          "y": 48
+        }
       }
     ],
     "onTick": {

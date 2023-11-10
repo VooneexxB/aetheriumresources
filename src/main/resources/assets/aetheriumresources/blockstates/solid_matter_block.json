@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "aetheriumresources:block/solid_matter_block"
+    }
+  }
+}

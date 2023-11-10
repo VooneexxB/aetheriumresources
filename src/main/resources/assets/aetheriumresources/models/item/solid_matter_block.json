@@ -1,5 +1,5 @@
 {
-  "parent": "aetheriumresources:block/eggbed",
+  "parent": "aetheriumresources:block/solid_matter_block",
   "display": {
     "thirdperson": {
       "rotation": [
