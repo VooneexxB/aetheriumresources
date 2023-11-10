@@ -3259,6 +3259,216 @@
         ]
       },
       "path": "~/GUI e Misc/Procedures/Blocos"
+    },
+    {
+      "name": "Progress0",
+      "type": "procedure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_0",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Blocos/ProgressBar"
+    },
+    {
+      "name": "Progress1",
+      "type": "procedure",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Blocos/ProgressBar"
+    },
+    {
+      "name": "Progress3",
+      "type": "procedure",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Blocos/ProgressBar"
+    },
+    {
+      "name": "Progress4",
+      "type": "procedure",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Blocos/ProgressBar"
+    },
+    {
+      "name": "Progress6",
+      "type": "procedure",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Blocos/ProgressBar"
+    },
+    {
+      "name": "Progress7",
+      "type": "procedure",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Blocos/ProgressBar"
+    },
+    {
+      "name": "Progress9",
+      "type": "procedure",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Blocos/ProgressBar"
     }
   ],
   "variable_elements": [],
@@ -3909,7 +4119,12 @@
               },
               {
                 "name": "Blocos",
-                "children": []
+                "children": [
+                  {
+                    "name": "ProgressBar",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Armas",

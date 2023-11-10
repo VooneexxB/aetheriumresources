@@ -110,7 +110,7 @@ public class AmethystMachineBlockEntity extends RandomizableContainerBlockEntity
 
 	@Override
 	public boolean canPlaceItem(int index, ItemStack stack) {
-		if (index == 2)
+		if (index == 3)
 			return false;
 		return true;
 	}
@@ -130,6 +130,8 @@ public class AmethystMachineBlockEntity extends RandomizableContainerBlockEntity
 		if (index == 0)
 			return false;
 		if (index == 1)
+			return false;
+		if (index == 2)
 			return false;
 		return true;
 	}

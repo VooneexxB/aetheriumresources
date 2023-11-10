@@ -56,7 +56,7 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 0,
+    "tickRate": 3600,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -114,11 +114,12 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [
-      2
+      3
     ],
     "inventoryInSlotIDs": [
       0,
-      1
+      1,
+      2
     ],
     "hasEnergyStorage": false,
     "energyInitial": 0,
@@ -128,6 +129,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "FuelAmethyst"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
