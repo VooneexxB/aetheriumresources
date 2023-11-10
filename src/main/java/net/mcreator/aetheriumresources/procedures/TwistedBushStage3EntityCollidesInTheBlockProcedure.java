@@ -1,14 +1,8 @@
 package net.mcreator.aetheriumresources.procedures;
 
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.TickEvent;
-import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageSource;
+import javax.annotation.Nullable;
 
 public class TwistedBushStage3EntityCollidesInTheBlockProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {

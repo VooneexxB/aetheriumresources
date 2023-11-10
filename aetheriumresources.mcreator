@@ -498,7 +498,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethyst_machine",
-      "path": "~/Blocos/Maquinas"
+      "path": "~/Blocos/WIP"
     },
     {
       "name": "Amethystmachinerecipe",
@@ -2427,7 +2427,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "microscopio",
-      "path": "~/Blocos/Maquinas"
+      "path": "~/Blocos/WIP"
     },
     {
       "name": "MicroscopioGUI",
@@ -3734,36 +3734,6 @@
       "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
     },
     {
-      "name": "DarkSaplingBlockValidPlacementCondition",
-      "type": "procedure",
-      "sortid": 360,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dark_sapling_block_valid_placement_condition",
-      "metadata": {
-        "return_type": "logic",
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/GUI e Misc/Procedures/Crop"
-    },
-    {
       "name": "DarkSapling",
       "type": "block",
       "sortid": 360,
@@ -3773,12 +3743,12 @@
       "path": "~/Blocos/Crops/Saplings"
     },
     {
-      "name": "BonemealBush",
+      "name": "BonemealBush3",
       "type": "procedure",
-      "sortid": 361,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bonemeal_bush",
+      "registry_name": "bonemeal_bush_3",
       "metadata": {
         "dependencies": [
           {
@@ -3839,12 +3809,42 @@
       "path": "~/GUI e Misc/Procedures/Crop/BonemealBush"
     },
     {
-      "name": "BonemealBush3",
+      "name": "DarkSaplingBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 363,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bonemeal_bush_3",
+      "registry_name": "dark_sapling_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Crop"
+    },
+    {
+      "name": "BonemealBush",
+      "type": "procedure",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemeal_bush",
       "metadata": {
         "dependencies": [
           {
@@ -3870,6 +3870,209 @@
         ]
       },
       "path": "~/GUI e Misc/Procedures/Crop/BonemealBush"
+    },
+    {
+      "name": "Progress1",
+      "type": "procedure",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Progress4",
+      "type": "procedure",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Progress3",
+      "type": "procedure",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Progress0",
+      "type": "procedure",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_0",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Progress9",
+      "type": "procedure",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_9",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Progress6",
+      "type": "procedure",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_6",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Progress7",
+      "type": "procedure",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_7",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4341,19 +4544,194 @@
     "name": "~",
     "children": [
       {
-        "name": "Efeitos e Pocoes",
+        "name": "Itens",
         "children": [
           {
-            "name": "Recipe",
+            "name": "Seringas",
             "children": []
           },
+          {
+            "name": "Comida",
+            "children": []
+          },
+          {
+            "name": "Equipamento",
+            "children": []
+          },
+          {
+            "name": "Crafting",
+            "children": []
+          },
+          {
+            "name": "Discos",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Crafting",
+        "children": [
+          {
+            "name": "DarkMatter",
+            "children": []
+          },
+          {
+            "name": "Gem",
+            "children": [
+              {
+                "name": "Tochas",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Ametista",
+            "children": []
+          },
+          {
+            "name": "Glitch",
+            "children": []
+          },
+          {
+            "name": "TwistedMatter",
+            "children": []
+          },
+          {
+            "name": "Discos",
+            "children": []
+          },
+          {
+            "name": "TwistedForest",
+            "children": []
+          },
+          {
+            "name": "SolidMatter",
+            "children": []
+          },
+          {
+            "name": "DarkForest",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Efeitos e Pocoes",
+        "children": [
           {
             "name": "Potions",
             "children": []
           },
           {
+            "name": "Recipe",
+            "children": []
+          },
+          {
             "name": "Effects",
             "children": []
+          }
+        ]
+      },
+      {
+        "name": "Biomas e Dimensoes",
+        "children": [
+          {
+            "name": "Structures",
+            "children": []
+          },
+          {
+            "name": "Biomas",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "GUI e Misc",
+        "children": [
+          {
+            "name": "GUI",
+            "children": []
+          },
+          {
+            "name": "LootTable",
+            "children": []
+          },
+          {
+            "name": "Tags",
+            "children": [
+              {
+                "name": "Forge",
+                "children": [
+                  {
+                    "name": "Blocks",
+                    "children": []
+                  },
+                  {
+                    "name": "Items",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Minecraft",
+                "children": [
+                  {
+                    "name": "Blocks",
+                    "children": []
+                  },
+                  {
+                    "name": "Items",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Procedures",
+            "children": [
+              {
+                "name": "Effect",
+                "children": []
+              },
+              {
+                "name": "Armas",
+                "children": []
+              },
+              {
+                "name": "Blocos",
+                "children": [
+                  {
+                    "name": "AmethystPurifier",
+                    "children": []
+                  },
+                  {
+                    "name": "Wood",
+                    "children": []
+                  },
+                  {
+                    "name": "Farmland",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Seringa",
+                "children": []
+              },
+              {
+                "name": "Crop",
+                "children": [
+                  {
+                    "name": "Bonemeal",
+                    "children": []
+                  },
+                  {
+                    "name": "BonemealBush",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -4364,7 +4742,7 @@
             "name": "BorderDimension",
             "children": [
               {
-                "name": "DarkMatter",
+                "name": "SolidMatter",
                 "children": []
               },
               {
@@ -4388,32 +4766,20 @@
                 "name": "TwistedForest",
                 "children": [
                   {
-                    "name": "Extensions",
+                    "name": "Bush",
                     "children": []
                   },
                   {
-                    "name": "Bush",
+                    "name": "Extensions",
                     "children": []
                   }
                 ]
               },
               {
-                "name": "SolidMatter",
+                "name": "DarkMatter",
                 "children": []
               }
             ]
-          },
-          {
-            "name": "Glitch",
-            "children": []
-          },
-          {
-            "name": "Maquinas",
-            "children": []
-          },
-          {
-            "name": "Gems",
-            "children": []
           },
           {
             "name": "Crops",
@@ -4427,180 +4793,17 @@
                 "children": []
               }
             ]
-          }
-        ]
-      },
-      {
-        "name": "Crafting",
-        "children": [
-          {
-            "name": "DarkForest",
-            "children": []
-          },
-          {
-            "name": "DarkMatter",
-            "children": []
-          },
-          {
-            "name": "Discos",
-            "children": []
-          },
-          {
-            "name": "TwistedMatter",
-            "children": []
-          },
-          {
-            "name": "TwistedForest",
-            "children": []
-          },
-          {
-            "name": "Gem",
-            "children": [
-              {
-                "name": "Tochas",
-                "children": []
-              }
-            ]
-          },
-          {
-            "name": "SolidMatter",
-            "children": []
-          },
-          {
-            "name": "Ametista",
-            "children": []
           },
           {
             "name": "Glitch",
             "children": []
-          }
-        ]
-      },
-      {
-        "name": "Itens",
-        "children": [
+          },
           {
-            "name": "Equipamento",
+            "name": "Gems",
             "children": []
           },
           {
-            "name": "Crafting",
-            "children": []
-          },
-          {
-            "name": "Seringas",
-            "children": []
-          },
-          {
-            "name": "Discos",
-            "children": []
-          },
-          {
-            "name": "Comida",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "Biomas e Dimensoes",
-        "children": [
-          {
-            "name": "Biomas",
-            "children": []
-          },
-          {
-            "name": "Structures",
-            "children": []
-          }
-        ]
-      },
-      {
-        "name": "GUI e Misc",
-        "children": [
-          {
-            "name": "LootTable",
-            "children": []
-          },
-          {
-            "name": "Tags",
-            "children": [
-              {
-                "name": "Forge",
-                "children": [
-                  {
-                    "name": "Items",
-                    "children": []
-                  },
-                  {
-                    "name": "Blocks",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Minecraft",
-                "children": [
-                  {
-                    "name": "Items",
-                    "children": []
-                  },
-                  {
-                    "name": "Blocks",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "Procedures",
-            "children": [
-              {
-                "name": "Effect",
-                "children": []
-              },
-              {
-                "name": "Seringa",
-                "children": []
-              },
-              {
-                "name": "Blocos",
-                "children": [
-                  {
-                    "name": "Wood",
-                    "children": []
-                  },
-                  {
-                    "name": "AmethystPurifier",
-                    "children": []
-                  },
-                  {
-                    "name": "Farmland",
-                    "children": []
-                  }
-                ]
-              },
-              {
-                "name": "Armas",
-                "children": []
-              },
-              {
-                "name": "Crop",
-                "children": [
-                  {
-                    "name": "Bonemeal",
-                    "children": []
-                  },
-                  {
-                    "name": "BonemealBush",
-                    "children": []
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "name": "GUI",
+            "name": "Maquinas",
             "children": []
           }
         ]
