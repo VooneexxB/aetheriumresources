@@ -135,7 +135,6 @@ public class AetheriumresourcesModItems {
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> AMETHYST_MACHINE = block(AetheriumresourcesModBlocks.AMETHYST_MACHINE,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> EGGBED = block(AetheriumresourcesModBlocks.EGGBED, AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> SERINGADESANGUE = REGISTRY.register("seringadesangue", () -> new SeringadesangueItem());
 	public static final RegistryObject<Item> SERINGA_ANTIDOTO = REGISTRY.register("seringa_antidoto", () -> new SeringaAntidotoItem());
 	public static final RegistryObject<Item> SERINGA = REGISTRY.register("seringa", () -> new SeringaItem());

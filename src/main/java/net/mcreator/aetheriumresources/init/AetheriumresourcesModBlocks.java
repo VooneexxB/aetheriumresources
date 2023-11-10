@@ -91,7 +91,6 @@ import net.mcreator.aetheriumresources.block.ChiseledDarkMatterBlock;
 import net.mcreator.aetheriumresources.block.BlocoAmetistaPurificadaBlock;
 import net.mcreator.aetheriumresources.block.BORDERPortalBlock;
 import net.mcreator.aetheriumresources.block.AmethystMachineBlock;
-import net.mcreator.aetheriumresources.block.AaBlock;
 import net.mcreator.aetheriumresources.AetheriumresourcesMod;
 
 public class AetheriumresourcesModBlocks {
@@ -164,7 +163,6 @@ public class AetheriumresourcesModBlocks {
 	public static final RegistryObject<Block> TWISTED_FOREST_SLAB = REGISTRY.register("twisted_forest_slab", () -> new TwistedForestSlabBlock());
 	public static final RegistryObject<Block> TWISTED_FOREST_FENCE = REGISTRY.register("twisted_forest_fence", () -> new TwistedForestFenceBlock());
 	public static final RegistryObject<Block> AMETHYST_MACHINE = REGISTRY.register("amethyst_machine", () -> new AmethystMachineBlock());
-	public static final RegistryObject<Block> EGGBED = REGISTRY.register("eggbed", () -> new AaBlock());
 	public static final RegistryObject<Block> DARK_MATTER_GEM_BLOCK = REGISTRY.register("dark_matter_gem_block", () -> new DarkMatterGemBlockBlock());
 	public static final RegistryObject<Block> BORDER_PORTAL = REGISTRY.register("border_portal", () -> new BORDERPortalBlock());
 	public static final RegistryObject<Block> TWISTED_FOREST_LEAVES = REGISTRY.register("twisted_forest_leaves",
@@ -229,7 +227,6 @@ public class AetheriumresourcesModBlocks {
 			DarkForestPlanksDoorBlock.registerRenderLayer();
 			DarkMatterForestButtonBlock.registerRenderLayer();
 			TwistedGrassBlock.registerRenderLayer();
-			AaBlock.registerRenderLayer();
 			BORDERPortalBlock.registerRenderLayer();
 			TwistedTrapdoorBlock.registerRenderLayer();
 			MicroscopioBlock.registerRenderLayer();

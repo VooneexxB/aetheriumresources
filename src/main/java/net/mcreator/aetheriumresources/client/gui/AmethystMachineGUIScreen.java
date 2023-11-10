@@ -10,6 +10,7 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.aetheriumresources.world.inventory.AmethystMachineGUIMenu;
+import net.mcreator.aetheriumresources.procedures.GUIstateCombustaoProcedure;
 
 import java.util.HashMap;
 
@@ -71,6 +72,14 @@ public class AmethystMachineGUIScreen extends AbstractContainerScreen<AmethystMa
 		RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/glitch_overlay.png"));
 		this.blit(ms, this.leftPos + 0, this.topPos + -1, 0, 0, 176, 166, 176, 166);
 
+		if (GUIstateCombustaoProcedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/combustao_full_slot.png"));
+			this.blit(ms, this.leftPos + 113, this.topPos + 11, 0, 0, 14, 14, 14, 14);
+		}
+		if (GUIstateCombustaoProcedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/combustao_full_slot.png"));
+			this.blit(ms, this.leftPos + 45, this.topPos + 11, 0, 0, 14, 14, 14, 14);
+		}
 		RenderSystem.disableBlend();
 	}
 
