@@ -20,14 +20,12 @@ import net.mcreator.aetheriumresources.block.entity.DarkCarrotStage3BlockEntity;
 import net.mcreator.aetheriumresources.block.entity.DarkCarrotStage2BlockEntity;
 import net.mcreator.aetheriumresources.block.entity.DarkCarrotStage1BlockEntity;
 import net.mcreator.aetheriumresources.block.entity.DarkCarrotStage0BlockEntity;
-import net.mcreator.aetheriumresources.block.entity.AmethystMachineBlockEntity;
+import net.mcreator.aetheriumresources.block.entity.AmethystPurifierBlockEntity;
 import net.mcreator.aetheriumresources.AetheriumresourcesMod;
 
 public class AetheriumresourcesModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES,
 			AetheriumresourcesMod.MODID);
-	public static final RegistryObject<BlockEntityType<?>> AMETHYST_MACHINE = register("amethyst_machine",
-			AetheriumresourcesModBlocks.AMETHYST_MACHINE, AmethystMachineBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> MICROSCOPIO = register("microscopio", AetheriumresourcesModBlocks.MICROSCOPIO,
 			MicroscopioBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> DARK_CARROT_STAGE_0 = register("dark_carrot_stage_0",
@@ -46,6 +44,8 @@ public class AetheriumresourcesModBlockEntities {
 			AetheriumresourcesModBlocks.TWISTED_BUSH_STAGE_2, TwistedBushStage2BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> TWISTED_BUSH_STAGE_3 = register("twisted_bush_stage_3",
 			AetheriumresourcesModBlocks.TWISTED_BUSH_STAGE_3, TwistedBushStage3BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> AMETHYST_PURIFIER = register("amethyst_purifier",
+			AetheriumresourcesModBlocks.AMETHYST_PURIFIER, AmethystPurifierBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

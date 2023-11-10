@@ -19,7 +19,6 @@
     "aetheriumresources:polished_dark_matter_slab",
     "aetheriumresources:polished_dark_matter_wall",
     "aetheriumresources:chiseled_dark_matter",
-    "aetheriumresources:amethyst_machine",
     "aetheriumresources:dark_matter_gem_block",
     "aetheriumresources:twisted_matter_bricks",
     "aetheriumresources:twisted_matter_bricks_slab",
@@ -37,6 +36,7 @@
     "aetheriumresources:microscopio",
     "aetheriumresources:enriched_twisted_matter",
     "aetheriumresources:twisted_matter_gem_block",
-    "aetheriumresources:solid_matter_block"
+    "aetheriumresources:solid_matter_block",
+    "aetheriumresources:amethyst_purifier"
   ]
 }

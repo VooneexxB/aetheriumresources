@@ -1,8 +1,8 @@
 package net.mcreator.aetheriumresources.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.core.BlockPos;
 
 public class Progress3Procedure {
 	public static boolean execute(LevelAccessor world, double x, double y, double z) {

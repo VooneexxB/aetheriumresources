@@ -1,21 +1,65 @@
 
 package net.mcreator.aetheriumresources.block;
 
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
-import net.minecraft.world.level.material.Material;
+import org.checkerframework.checker.units.qual.s;
 
-public class AmethystMachineBlock extends Block
+import net.minecraftforge.network.NetworkHooks;
+
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.material.MaterialColor;
+import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
+import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Rotation;
+import net.minecraft.world.level.block.Mirror;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.EntityBlock;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.item.TieredItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.world.MenuProvider;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.Containers;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.aetheriumresources.world.inventory.AmethystMachineGUIMenu;
+import net.mcreator.aetheriumresources.procedures.FuelAmethystProcedure;
+import net.mcreator.aetheriumresources.block.entity.AmethystPurifierBlockEntity;
+
+import java.util.Random;
+import java.util.List;
+import java.util.Collections;
+
+import io.netty.buffer.Unpooled;
+
+public class AmethystPurifierBlock extends Block
 		implements
 
 			EntityBlock {
-
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
-	public AmethystMachineBlock() {
+	public AmethystPurifierBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.METAL).sound(SoundType.METAL).strength(5f, 10f).lightLevel(s -> 8)
 				.requiresCorrectToolForDrops());
-
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 
@@ -56,7 +100,6 @@ public class AmethystMachineBlock extends Block
 
 	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
@@ -77,7 +120,6 @@ public class AmethystMachineBlock extends Block
 		int z = pos.getZ();
 
 		FuelAmethystProcedure.execute(world, x, y, z);
-
 		world.scheduleTick(pos, this, 3600);
 	}
 
@@ -97,7 +139,6 @@ public class AmethystMachineBlock extends Block
 				}
 			}, pos);
 		}
-
 		return InteractionResult.SUCCESS;
 	}
 
@@ -109,7 +150,7 @@ public class AmethystMachineBlock extends Block
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return new AmethystMachineBlockEntity(pos, state);
+		return new AmethystPurifierBlockEntity(pos, state);
 	}
 
 	@Override
@@ -123,11 +164,10 @@ public class AmethystMachineBlock extends Block
 	public void onRemove(BlockState state, Level world, BlockPos pos, BlockState newState, boolean isMoving) {
 		if (state.getBlock() != newState.getBlock()) {
 			BlockEntity blockEntity = world.getBlockEntity(pos);
-			if (blockEntity instanceof AmethystMachineBlockEntity be) {
+			if (blockEntity instanceof AmethystPurifierBlockEntity be) {
 				Containers.dropContents(world, pos, be);
 				world.updateNeighbourForOutputSignal(pos, this);
 			}
-
 			super.onRemove(state, world, pos, newState, isMoving);
 		}
 	}
@@ -140,10 +180,9 @@ public class AmethystMachineBlock extends Block
 	@Override
 	public int getAnalogOutputSignal(BlockState blockState, Level world, BlockPos pos) {
 		BlockEntity tileentity = world.getBlockEntity(pos);
-		if (tileentity instanceof AmethystMachineBlockEntity be)
+		if (tileentity instanceof AmethystPurifierBlockEntity be)
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;
 	}
-
 }

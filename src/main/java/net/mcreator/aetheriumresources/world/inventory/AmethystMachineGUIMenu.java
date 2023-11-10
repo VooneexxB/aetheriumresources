@@ -260,7 +260,7 @@ public class AmethystMachineGUIMenu extends AbstractContainerMenu implements Sup
 			double y = entity.getY();
 			double z = entity.getZ();
 
-			FuelAmethystProcedure.execute();
+			FuelAmethystProcedure.execute(world, x, y, z);
 		}
 	}
 }

@@ -133,8 +133,6 @@ public class AetheriumresourcesModItems {
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> TWISTED_FOREST_FENCE = block(AetheriumresourcesModBlocks.TWISTED_FOREST_FENCE,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
-	public static final RegistryObject<Item> AMETHYST_MACHINE = block(AetheriumresourcesModBlocks.AMETHYST_MACHINE,
-			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 	public static final RegistryObject<Item> SERINGADESANGUE = REGISTRY.register("seringadesangue", () -> new SeringadesangueItem());
 	public static final RegistryObject<Item> SERINGA_ANTIDOTO = REGISTRY.register("seringa_antidoto", () -> new SeringaAntidotoItem());
 	public static final RegistryObject<Item> SERINGA = REGISTRY.register("seringa", () -> new SeringaItem());
@@ -230,7 +228,7 @@ public class AetheriumresourcesModItems {
 	public static final RegistryObject<Item> TWISTED_BUSH_STAGE_1 = block(AetheriumresourcesModBlocks.TWISTED_BUSH_STAGE_1, null);
 	public static final RegistryObject<Item> TWISTED_BUSH_STAGE_2 = block(AetheriumresourcesModBlocks.TWISTED_BUSH_STAGE_2, null);
 	public static final RegistryObject<Item> TWISTED_BUSH_STAGE_3 = block(AetheriumresourcesModBlocks.TWISTED_BUSH_STAGE_3, null);
-	public static final RegistryObject<Item> DARK_SAPLING = block(AetheriumresourcesModBlocks.DARK_SAPLING,
+	public static final RegistryObject<Item> AMETHYST_PURIFIER = block(AetheriumresourcesModBlocks.AMETHYST_PURIFIER,
 			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

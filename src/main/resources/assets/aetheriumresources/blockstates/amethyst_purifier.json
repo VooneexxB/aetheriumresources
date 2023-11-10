@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "aetheriumresources:block/amethyst_purifier"
+    },
+    "facing=east": {
+      "model": "aetheriumresources:block/amethyst_purifier",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "aetheriumresources:block/amethyst_purifier",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "aetheriumresources:block/amethyst_purifier",
+      "y": 270
+    }
+  }
+}

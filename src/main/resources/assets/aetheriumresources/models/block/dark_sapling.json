@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "aetheriumresources:blocks/dark_forest_sapling",
-    "particle": "aetheriumresources:blocks/dark_forest_sapling"
-  }
-}

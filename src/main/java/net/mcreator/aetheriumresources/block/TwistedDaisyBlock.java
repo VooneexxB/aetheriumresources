@@ -1,9 +1,29 @@
 
 package net.mcreator.aetheriumresources.block;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+
+import net.mcreator.aetheriumresources.init.AetheriumresourcesModBlocks;
+
+import java.util.List;
+import java.util.Collections;
 
 public class TwistedDaisyBlock extends FlowerBlock {
 	public TwistedDaisyBlock() {
@@ -28,7 +48,6 @@ public class TwistedDaisyBlock extends FlowerBlock {
 
 	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
@@ -37,10 +56,7 @@ public class TwistedDaisyBlock extends FlowerBlock {
 
 	@Override
 	public boolean mayPlaceOn(BlockState groundState, BlockGetter worldIn, BlockPos pos) {
-
-		return
-
-		groundState.is(AetheriumresourcesModBlocks.TWISTED_MATTER.get())
+		return groundState.is(AetheriumresourcesModBlocks.TWISTED_MATTER.get())
 
 		;
 	}
@@ -49,7 +65,6 @@ public class TwistedDaisyBlock extends FlowerBlock {
 	public boolean canSurvive(BlockState blockstate, LevelReader worldIn, BlockPos pos) {
 		BlockPos blockpos = pos.below();
 		BlockState groundState = worldIn.getBlockState(blockpos);
-
 		return this.mayPlaceOn(groundState, worldIn, blockpos);
 	}
 
@@ -57,5 +72,4 @@ public class TwistedDaisyBlock extends FlowerBlock {
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(AetheriumresourcesModBlocks.TWISTED_DAISY.get(), renderType -> renderType == RenderType.cutout());
 	}
-
 }

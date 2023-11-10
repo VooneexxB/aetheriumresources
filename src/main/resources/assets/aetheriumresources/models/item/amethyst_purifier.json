@@ -1,5 +1,5 @@
 {
-  "parent": "aetheriumresources:block/amethyst_machine",
+  "parent": "aetheriumresources:block/amethyst_purifier",
   "display": {
     "thirdperson": {
       "rotation": [

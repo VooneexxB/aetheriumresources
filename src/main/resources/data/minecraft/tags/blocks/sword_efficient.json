@@ -1,9 +1,13 @@
 {
   "replace": false,
   "values": [
+    "aetheriumresources:twisted_bush_stage_0",
     "aetheriumresources:dark_carrot_stage_2",
+    "aetheriumresources:twisted_bush_stage_3",
     "aetheriumresources:dark_carrot_stage_3",
+    "aetheriumresources:twisted_bush_stage_2",
     "aetheriumresources:dark_carrot_stage_0",
+    "aetheriumresources:twisted_bush_stage_1",
     "aetheriumresources:dark_carrot_stage_1"
   ]
 }
