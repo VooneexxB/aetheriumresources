@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "aetheriumresources:darkmatter"
+    },
+    "1": {
+      "item": "aetheriumresources:twisted_matter"
+    },
+    "2": {
+      "item": "aetheriumresources:twisted_matter"
+    },
+    "3": {
+      "item": "aetheriumresources:darkmatter"
+    }
+  },
+  "result": {
+    "item": "aetheriumresources:solid_matter_block",
+    "count": 4
+  }
+}

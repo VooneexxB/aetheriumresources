@@ -18,7 +18,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
 import net.mcreator.aetheriumresources.world.features.plants.TwistedGrassFeature;
+import net.mcreator.aetheriumresources.world.features.plants.TwistedDaisyFeature;
 import net.mcreator.aetheriumresources.world.features.plants.DarkgrassFeature;
+import net.mcreator.aetheriumresources.world.features.plants.DarkDaisyFeature;
 import net.mcreator.aetheriumresources.world.features.ores.TwistedmatterunderwaterFeature;
 import net.mcreator.aetheriumresources.world.features.ores.TwistedMatterFeature;
 import net.mcreator.aetheriumresources.world.features.ores.EnrichedTwistedMatterFeature;
@@ -60,6 +62,10 @@ public class AetheriumresourcesModFeatures {
 	public static final RegistryObject<Feature<?>> DARKMATTER_UNDERWATER = register("darkmatter_underwater", DarkmatterUnderwaterFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, DarkmatterUnderwaterFeature.GENERATE_BIOMES,
 					DarkmatterUnderwaterFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DARK_DAISY = register("dark_daisy", DarkDaisyFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, DarkDaisyFeature.GENERATE_BIOMES, DarkDaisyFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> TWISTED_DAISY = register("twisted_daisy", TwistedDaisyFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, TwistedDaisyFeature.GENERATE_BIOMES, TwistedDaisyFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

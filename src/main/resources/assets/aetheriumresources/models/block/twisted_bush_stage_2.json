@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "aetheriumresources:blocks/twisted_bush_stage2",
+    "particle": "aetheriumresources:blocks/twisted_bush_stage2"
+  }
+}

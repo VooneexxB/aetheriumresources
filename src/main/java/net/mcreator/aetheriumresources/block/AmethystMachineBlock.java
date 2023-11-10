@@ -119,7 +119,7 @@ public class AmethystMachineBlock extends Block
 		int y = pos.getY();
 		int z = pos.getZ();
 
-		FuelAmethystProcedure.execute(world, x, y, z);
+		FuelAmethystProcedure.execute();
 		world.scheduleTick(pos, this, 40);
 	}
 

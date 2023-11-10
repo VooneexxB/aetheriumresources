@@ -221,6 +221,15 @@ public class AetheriumresourcesModItems {
 	public static final RegistryObject<Item> TWISTEDMATTERUNDERWATER = block(AetheriumresourcesModBlocks.TWISTEDMATTERUNDERWATER, null);
 	public static final RegistryObject<Item> DARKMATTER_UNDERWATER = block(AetheriumresourcesModBlocks.DARKMATTER_UNDERWATER, null);
 	public static final RegistryObject<Item> ANARAUGFRUIT = REGISTRY.register("anaraugfruit", () -> new AnaraugfruitItem());
+	public static final RegistryObject<Item> SOLID_MATTER_BLOCK = block(AetheriumresourcesModBlocks.SOLID_MATTER_BLOCK,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> DARK_DAISY = block(AetheriumresourcesModBlocks.DARK_DAISY, AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_DAISY = block(AetheriumresourcesModBlocks.TWISTED_DAISY,
+			AetheriumresourcesModTabs.TAB_AETHERIUM_TAB);
+	public static final RegistryObject<Item> TWISTED_BUSH_STAGE_0 = block(AetheriumresourcesModBlocks.TWISTED_BUSH_STAGE_0, null);
+	public static final RegistryObject<Item> TWISTED_BUSH_STAGE_1 = block(AetheriumresourcesModBlocks.TWISTED_BUSH_STAGE_1, null);
+	public static final RegistryObject<Item> TWISTED_BUSH_STAGE_2 = block(AetheriumresourcesModBlocks.TWISTED_BUSH_STAGE_2, null);
+	public static final RegistryObject<Item> TWISTED_BUSH_STAGE_3 = block(AetheriumresourcesModBlocks.TWISTED_BUSH_STAGE_3, null);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

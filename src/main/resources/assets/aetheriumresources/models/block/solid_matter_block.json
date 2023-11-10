@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "aetheriumresources:blocks/solid",
+    "up": "aetheriumresources:blocks/solid",
+    "north": "aetheriumresources:blocks/solid",
+    "east": "aetheriumresources:blocks/solid",
+    "south": "aetheriumresources:blocks/solid",
+    "west": "aetheriumresources:blocks/solid",
+    "particle": "aetheriumresources:blocks/solid"
+  }
+}

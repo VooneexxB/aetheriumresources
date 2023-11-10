@@ -253,7 +253,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "glitchreceita",
-      "path": "~/Crafting"
+      "path": "~/Crafting/Glitch"
     },
     {
       "name": "Glitch2receita",
@@ -262,7 +262,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "glitch_2receita",
-      "path": "~/Crafting"
+      "path": "~/Crafting/Glitch"
     },
     {
       "name": "SeringaGlitchLivingEntityIsHitWithItem",
@@ -507,7 +507,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethystmachinerecipe",
-      "path": "~/Crafting"
+      "path": "~/Crafting/Ametista"
     },
     {
       "name": "Darkmatter",
@@ -782,7 +782,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_matter_forest_items_tag",
-      "path": "~/GUI e Misc/Tags"
+      "path": "~/GUI e Misc/Tags/Forge/Items"
     },
     {
       "name": "DarkMatterForestWoodRecipe",
@@ -863,7 +863,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fencetag",
-      "path": "~/GUI e Misc/Tags"
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
     },
     {
       "name": "Fencegatetag",
@@ -872,7 +872,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "fencegatetag",
-      "path": "~/GUI e Misc/Tags"
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
     },
     {
       "name": "Elektrodeath",
@@ -1295,7 +1295,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "walltag",
-      "path": "~/GUI e Misc/Tags"
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
     },
     {
       "name": "EnrichedDarkMatter",
@@ -1340,7 +1340,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "darkgemblockcrafting",
-      "path": "~/Crafting"
+      "path": "~/Crafting/Gem"
     },
     {
       "name": "StrippedDarkMatterForestLog",
@@ -1382,7 +1382,7 @@
           }
         ]
       },
-      "path": "~/GUI e Misc/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos/Wood"
     },
     {
       "name": "DarkForestPlanksTrapdoor",
@@ -1598,7 +1598,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "twisted_forest_tag",
-      "path": "~/GUI e Misc/Tags"
+      "path": "~/GUI e Misc/Tags/Forge/Items"
     },
     {
       "name": "TwistedMatterDrop",
@@ -1667,7 +1667,7 @@
           }
         ]
       },
-      "path": "~/GUI e Misc/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos/Wood"
     },
     {
       "name": "StrippedTwistedForestWood",
@@ -1817,7 +1817,7 @@
           }
         ]
       },
-      "path": "~/GUI e Misc/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos/Wood"
     },
     {
       "name": "StrippedTwistedWood",
@@ -1850,7 +1850,7 @@
           }
         ]
       },
-      "path": "~/GUI e Misc/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos/Wood"
     },
     {
       "name": "TwistedForestPlanksRecipe",
@@ -2418,7 +2418,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bloco_ametista_purificada_recipe",
-      "path": "~/Crafting"
+      "path": "~/Crafting/Ametista"
     },
     {
       "name": "Microscopio",
@@ -2662,7 +2662,7 @@
           }
         ]
       },
-      "path": "~/GUI e Misc/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos/Farmland"
     },
     {
       "name": "Farmlandprocedure",
@@ -2695,7 +2695,7 @@
           }
         ]
       },
-      "path": "~/GUI e Misc/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos/Farmland"
     },
     {
       "name": "BloodyDarkCarrot",
@@ -3155,26 +3155,9 @@
       "locked_code": false,
       "registry_name": "fuel_amethyst",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
-      "path": "~/GUI e Misc/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos/AmethystPurifier"
     },
     {
       "name": "OmicronKnifeToolInHandTick",
@@ -3220,7 +3203,7 @@
           }
         ]
       },
-      "path": "~/GUI e Misc/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos/Farmland"
     },
     {
       "name": "TwistedMatterFarmlandNeighbourBlockChanges",
@@ -3249,7 +3232,7 @@
           }
         ]
       },
-      "path": "~/GUI e Misc/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos/Farmland"
     },
     {
       "name": "GUIstateCombustao",
@@ -3279,7 +3262,485 @@
           }
         ]
       },
-      "path": "~/GUI e Misc/Procedures/Blocos"
+      "path": "~/GUI e Misc/Procedures/Blocos/AmethystPurifier"
+    },
+    {
+      "name": "DarkLogFuel",
+      "type": "itemextension",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_log_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "DarkLogWoodFuel",
+      "type": "itemextension",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_log_wood_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "DarkPlanksFuel",
+      "type": "itemextension",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_planks_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "DarkStairsFuel",
+      "type": "itemextension",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_stairs_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "DarkSlabFuel",
+      "type": "itemextension",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_slab_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "DarkButtonFuel",
+      "type": "itemextension",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_button_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "DarkDoorFuel",
+      "type": "itemextension",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_door_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "DarkFenceFuel",
+      "type": "itemextension",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_fence_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "DarkGateFuel",
+      "type": "itemextension",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_gate_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "DarkPressureFuel",
+      "type": "itemextension",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_pressure_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "DarkTrapdoorFuel",
+      "type": "itemextension",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_trapdoor_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "DarkStrippedLogFuel",
+      "type": "itemextension",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_stripped_log_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "DarkStrippedWoodFuel",
+      "type": "itemextension",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_stripped_wood_fuel",
+      "path": "~/Blocos/BorderDimension/DarkForest/Extensions"
+    },
+    {
+      "name": "SolidMatterBlock",
+      "type": "block",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solid_matter_block",
+      "path": "~/Blocos/BorderDimension/SolidMatter"
+    },
+    {
+      "name": "SolidMatterBlockCrafting",
+      "type": "recipe",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solid_matter_block_crafting",
+      "path": "~/Crafting/SolidMatter"
+    },
+    {
+      "name": "Cobblestonetag",
+      "type": "tag",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestonetag",
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "Cobblestoneitemtag",
+      "type": "tag",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestoneitemtag",
+      "path": "~/GUI e Misc/Tags/Minecraft/Items"
+    },
+    {
+      "name": "Stonetooltag",
+      "type": "tag",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonetooltag",
+      "path": "~/GUI e Misc/Tags/Minecraft/Items"
+    },
+    {
+      "name": "Stonecraftingtag",
+      "type": "tag",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonecraftingtag",
+      "path": "~/GUI e Misc/Tags/Minecraft/Items"
+    },
+    {
+      "name": "DarkGemTorchCrafting",
+      "type": "recipe",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_gem_torch_crafting",
+      "path": "~/Crafting/Gem/Tochas"
+    },
+    {
+      "name": "TwistedGemTorchCrafting",
+      "type": "recipe",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_gem_torch_crafting",
+      "path": "~/Crafting/Gem/Tochas"
+    },
+    {
+      "name": "Fertilizer",
+      "type": "tag",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fertilizer",
+      "path": "~/GUI e Misc/Tags/Forge/Items"
+    },
+    {
+      "name": "Bonemealstage0",
+      "type": "procedure",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemealstage_0",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Crop/Bonemeal"
+    },
+    {
+      "name": "Bonemealstage1",
+      "type": "procedure",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemealstage_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Crop/Bonemeal"
+    },
+    {
+      "name": "Bonemealstage2",
+      "type": "procedure",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bonemealstage_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Crop/Bonemeal"
+    },
+    {
+      "name": "DarkDaisy",
+      "type": "plant",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_daisy",
+      "path": "~/Blocos/BorderDimension/DarkForest"
+    },
+    {
+      "name": "TwistedDaisy",
+      "type": "plant",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_daisy",
+      "path": "~/Blocos/BorderDimension/TwistedForest"
+    },
+    {
+      "name": "TwistedBushStage0",
+      "type": "block",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bush_stage_0",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Bush"
+    },
+    {
+      "name": "TwistedBushStage1",
+      "type": "block",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bush_stage_1",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Bush"
+    },
+    {
+      "name": "TwistedBushStage2",
+      "type": "block",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bush_stage_2",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Bush"
+    },
+    {
+      "name": "TwistedBushStage3",
+      "type": "block",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bush_stage_3",
+      "path": "~/Blocos/BorderDimension/TwistedForest/Bush"
+    },
+    {
+      "name": "TwistedBushStage0UpdateTick",
+      "type": "procedure",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bush_stage_0_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Crop"
+    },
+    {
+      "name": "TwistedBushStage3EntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bush_stage_3_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Crop"
+    },
+    {
+      "name": "TwistedBushStage1EntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twisted_bush_stage_1_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Crop"
+    },
+    {
+      "name": "AnaraugfruitRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anaraugfruit_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GUI e Misc/Procedures/Crop"
+    },
+    {
+      "name": "Twistedbushdrop",
+      "type": "loottable",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "twistedbushdrop",
+      "path": "~/GUI e Misc/LootTable"
+    },
+    {
+      "name": "Falldamageresetting",
+      "type": "tag",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "falldamageresetting",
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
+    },
+    {
+      "name": "Swordefficient",
+      "type": "tag",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordefficient",
+      "path": "~/GUI e Misc/Tags/Minecraft/Blocks"
     }
   ],
   "variable_elements": [],
@@ -3554,127 +4015,72 @@
   ],
   "language_map": {
     "en_us": {
-      "block.aetheriumresources.polished_dark_matter_stairs": "Polished Dark Matter Stairs",
       "item.aetheriumresources.anaraugfruit": "Anaraug Fruit",
       "itemGroup.tabaetherium_tab": "Aetherium Resources",
-      "item.aetheriumresources.disco_3.desc": "Andrii Floria - Chaos1",
-      "subtitles.twistedmusic": "",
       "subtitles.pipehit": "",
       "block.aetheriumresources.polished_dark_matter_slab": "Polished Dark Matter Slab",
       "subtitles.error-placing": "",
+      "block.aetheriumresources.dark_daisy": "Dark Daisy",
       "subtitles.place": "",
       "item.aetheriumresources.thunderstorm": "Thunderstorm Night",
-      "block.aetheriumresources.stripped_dark_matter_forest_wood": "Stripped Dark Forest Log",
+      "block.aetheriumresources.twisted_bush_stage_1": "Twisted Bush Stage 1",
       "block.aetheriumresources.twisted_matter_tiles_wall": "Twisted Matter Tiles Wall",
-      "subtitles.pipeprojectilehit": "",
+      "block.aetheriumresources.twisted_bush_stage_2": "Twisted Bush Stage 2",
       "block.aetheriumresources.twisted_forest_slab": "Twisted Slab",
-      "block.aetheriumresources.twisted_matter_tiles": "Twisted Matter Tiles",
-      "block.aetheriumresources.twisted_forest_leaves": "Twisted Leaves",
-      "subtitles.error-fall": "",
+      "block.aetheriumresources.twisted_bush_stage_0": "Twisted Bush Stage 0",
       "block.aetheriumresources.dark_matter_forest_leaves": "Dark Forest Leaves",
       "item.aetheriumresources.darkseeds": "Dark Seeds (WIP)",
       "item.aetheriumresources.metal_pipe_item": "Metal Pipe (OP)",
+      "block.aetheriumresources.twisted_bush_stage_3": "Twisted Bush Stage 2",
       "item.aetheriumresources.disco_2.desc": "Andrii Floria - God of Hopelessness",
-      "block.aetheriumresources.twisted_forest_log": "Twisted Forest Log",
-      "item.aetheriumresources.seringadesangue": "Seringa (Sangue)",
       "item.aetheriumresources.seringa": "Seringa",
       "block.aetheriumresources.error_2": "F41LUR3",
-      "block.aetheriumresources.stripped_twisted_forest_wood": "Twisted Forest Log",
       "block.aetheriumresources.twisted_grass": "Twisted Grass",
-      "item.aetheriumresources.theend": "The End",
-      "block.aetheriumresources.dark_matter_forest_pressure_plate": "Dark Forest Pressure Plate",
-      "block.aetheriumresources.dark_matter_gem_block": "Dark Gem Block",
       "item.aetheriumresources.twisted_matter_gem": "Twisted Gem",
-      "item.minecraft.tipped_arrow.effect.erroretapa_4": "Arrow of Dark Condensed Parasite",
       "block.aetheriumresources.twisted_forest_stairs": "Twisted Stairs",
       "item.aetheriumresources.darkmatteritem": "Dark Matter",
       "block.aetheriumresources.twisted_trapdoor": "Twisted Trapdoor",
       "item.minecraft.tipped_arrow.effect.pocaoefeito": "Arrow of 3RR0R",
       "item.aetheriumresources.dark_matter_gem": "Dark Gem",
       "subtitles.failure-breaking": "",
-      "block.aetheriumresources.darkmatter": "Dark Matter Block",
-      "block.aetheriumresources.twisted_matter_bricks_slab": "Twisted Matter Bricks Slab",
-      "block.aetheriumresources.failure_decorativo": "F41LUR3 (Decorativo)",
-      "block.aetheriumresources.dark_matter_forest_fence_gate": "Dark Forest Gate",
-      "item.minecraft.tipped_arrow.effect.erroretapa_2": "Arrow of Activated Strange Bottle",
-      "item.minecraft.tipped_arrow.effect.erroretapa_1": "Arrow of Strange Bottle",
-      "subtitles.breakingworld": "",
-      "block.aetheriumresources.enriched_twisted_matter": "Enriched Twisted Matter",
       "item.minecraft.splash_potion.effect.pocaoefeito": "Splash Potion of 3RR0R",
-      "block.aetheriumresources.darkmatterbrickswall": "Dark Matter Bricks Wall",
-      "item.aetheriumresources.simulacra": "S1MUL4CRA",
       "block.aetheriumresources.dark_matter_tiles_stairs": "Dark Matter Tiles Stairs",
-      "block.aetheriumresources.error_decorativo": "3RR0R (Decorativo)",
       "subtitles.parasita": "",
-      "block.aetheriumresources.twisted_matter_tiles_stairs": "Twisted Matter Tiles Stairs",
       "item.minecraft.lingering_potion.effect.erroretapa_1": "Lingering Strange Bottle",
-      "subtitles.blockhitmetalpipe": "",
       "item.minecraft.lingering_potion.effect.erroretapa_2": "Lingering Activated Strange Bottle",
-      "block.aetheriumresources.polished_twisted_matter_wall": "Polished Twisted Matter Wall",
       "item.minecraft.lingering_potion.effect.erroretapa_4": "Lingering Potion of Dark Condensed Parasite",
-      "subtitles.thunderstorm": "",
-      "block.aetheriumresources.darkgrass": "Dark Grass",
-      "block.aetheriumresources.dark_matter_tiles": "Dark Matter Tiles",
-      "block.aetheriumresources.dark_matter_forest_stairs": "Dark Forest Stairs",
       "subtitles.theend": "",
       "item.aetheriumresources.seringa_antidoto": "Seringa (Antídoto)",
-      "item.aetheriumresources.elektrodeath": "Elektro Corruption",
       "item.aetheriumresources.parasyte": "P4RAS1TA",
-      "item.aetheriumresources.glitchytale.desc": "Andrii Floria - God of Fear",
-      "block.aetheriumresources.twistedmatterunderwater": "Twisted Matter Block",
-      "block.aetheriumresources.dark_matter_farmland": "Dark Matter Farmland",
-      "block.aetheriumresources.polished_twisted_matter": "Polished Twisted Matter",
       "item.aetheriumresources.darkmatterbrick": "Dark Matter Brick",
-      "block.aetheriumresources.twisted_matter_bricks": "Twisted Matter Bricks",
       "block.aetheriumresources.dark_carrot_stage_3": "Dark Carrot Stage 3",
       "block.aetheriumresources.dark_carrot_stage_2": "Dark Carrot Stage 2",
       "block.aetheriumresources.polished_dark_matter_wall": "Polished Dark Matter Wall",
       "block.aetheriumresources.dark_carrot_stage_1": "Dark Carrot Stage 1",
       "block.aetheriumresources.dark_forest_planks_door": "Dark Forest Door",
       "block.aetheriumresources.dark_carrot_stage_0": "Dark Carrot Stage 0",
-      "subtitles.step": "",
-      "block.aetheriumresources.microscopio": "Microscopio (WIP)",
-      "block.aetheriumresources.dark_matter_forest_button": "Dark Forest Button",
       "block.aetheriumresources.chiseled_dark_matter": "Chiseled Dark Matter",
       "subtitles.potionerror": "",
-      "block.aetheriumresources.darkmatter_underwater": "Dark Matter Block",
       "subtitles.error-step": "",
       "item.aetheriumresources.glitchytale": "F4LS3H0P3",
       "block.aetheriumresources.polished_dark_matter": "Polished Dark Matter",
-      "subtitles.truedeath": "",
-      "subtitles.metalpipehit": "",
       "block.aetheriumresources.stripped_twisted_forest_log": "Twisted Forest Log",
       "item.aetheriumresources.omicron_knife": "Adaga Escarlate",
       "block.aetheriumresources.dark_matter_forest_slab": "Dark Forest Slab",
-      "block.aetheriumresources.dark_matter_forest_log": "Dark Forest Log",
-      "item.aetheriumresources.dark_carrot": "Dark Carrot (WIP)",
       "subtitles.twistedadditions": "",
-      "item.minecraft.potion.effect.erroretapa_4": "Potion of Dark Condensed Parasite",
-      "block.aetheriumresources.twisted_forest_fence": "Twisted Fence",
-      "item.minecraft.potion.effect.erroretapa_2": "Activated Strange Bottle",
       "block.aetheriumresources.dark_forest_planks_trapdoor": "Dark Forest Trapdoor",
       "subtitles.metalpipereload": "",
       "subtitles.failure-fall": "",
       "subtitles.throwpipe": "",
-      "item.minecraft.potion.effect.erroretapa_1": "Strange Bottle",
-      "block.aetheriumresources.darkmatterbricksstairs": "Dark Matter Bricks Stairs",
       "item.aetheriumresources.thunderstorm.desc": "kimdc2 - Thunderstorm Night",
-      "block.aetheriumresources.darkmattertileswalls": "Dark Matter Tiles Wall",
       "block.aetheriumresources.dark_matter_bricks": "Dark Matter Bricks",
       "block.aetheriumresources.twisted_forest_door": "Twisted Door",
       "item.minecraft.potion.effect.erroretapafinal": "Bottle of Dark Mixture",
       "item.aetheriumresources.bloody_sky.desc": "Andrii Floria - Screams Under Red Sky",
-      "block.aetheriumresources.twisted_forest_wood": "Twisted Forest Wood",
       "item.aetheriumresources.metal_pipe": "Throwable Metal Pipe (OP)",
       "item.minecraft.potion.effect.pocaoefeito": "Potion of 3RR0R",
-      "item.aetheriumresources.seringa_glitch": "Seringa (Glitch)",
-      "block.aetheriumresources.darkmatterbricksslab": "Dark Matter Bricks Slab",
-      "biome.aetheriumresources.twisted_desert": "Twisted Desert",
-      "block.aetheriumresources.amethyst_machine": "Amethyst Purifier (WIP)",
-      "subtitles.elektrodeath": "",
       "block.aetheriumresources.twisted_forest_button": "Twisted Button",
       "effect.aetheriumresources.efeito": "H34D4CH3",
-      "block.aetheriumresources.twisted_matter_bricks_wall": "Twisted Matter Bricks Wall",
       "subtitles.simulacra": "",
       "block.aetheriumresources.twisted_matter_gem_block": "Twisted Gem Block",
       "block.aetheriumresources.error": "3RR0R",
@@ -3684,59 +4090,121 @@
       "block.aetheriumresources.darkmattertilesslab": "Dark Matter Tiles Slab",
       "item.minecraft.tipped_arrow.effect.error_etapa_3": "Arrow of Condensed Parasite",
       "item.aetheriumresources.disco_3": "BR3AK1NGW0RLD",
-      "item.minecraft.splash_potion.effect.erroretapafinal": "Splash Bottle of Dark Mixture",
-      "item.minecraft.splash_potion.effect.error_etapa_3": "Splash Potion of Condensed Parasite",
       "subtitles.failure-hit": "",
       "item.aetheriumresources.disco_2": "TRU3DE4TH",
-      "block.aetheriumresources.twisted_forest_planks": "Twisted Planks",
-      "item.aetheriumresources.twisted_dark_carrot": "Twisted Dark Carrot (WIP)",
-      "item.minecraft.lingering_potion.effect.erroretapafinal": "Lingering Bottle of Dark Mixture",
-      "block.aetheriumresources.polished_twisted_matter_stairs": "Polished Twisted Matter Stairs",
       "item.aetheriumresources.bloody_dark_carrot": "Bloody Dark Carrot (WIP)",
-      "item.aetheriumresources.theend.desc": "kimdc2 - The End",
       "item.minecraft.potion.effect.error_etapa_3": "Potion of Condensed Parasite",
-      "block.aetheriumresources.twisted_matter_bricks_stairs": "Twisted Matter Bricks Stairs",
-      "block.aetheriumresources.twisted_matter_tiles_slab": "Twisted Matter Tiles Slab",
       "block.aetheriumresources.twisted_matter": "Twisted Matter Block",
-      "subtitles.failure-step": "",
-      "subtitles.swordslash1": "",
       "subtitles.twistedambience": "",
-      "subtitles.moodtwisted": "",
       "biome.aetheriumresources.darkforest": "Dark Forest",
-      "item.aetheriumresources.elektrodeath.desc": "kimdc2 - Elektrocorruption",
-      "block.aetheriumresources.enriched_dark_matter": "Enriched Dark Matter (WIP)",
-      "item.aetheriumresources.materiaorganica": "M4TÉR1A",
-      "subtitles.error-hit": "",
-      "block.aetheriumresources.twisted_forest_fence_gate": "Twisted Gate",
       "biome.aetheriumresources.darkdesert": "Dark Desert",
-      "block.aetheriumresources.dark_matter_forest_fence": "Dark Forest Fence",
       "item.aetheriumresources.parasite_matter_pieces": "Parasite Matter (WIP)",
       "item.minecraft.lingering_potion.effect.error_etapa_3": "Lingering Potion of Condensed Parasite",
-      "biome.aetheriumresources.twisted_forest": "Twisted Forest",
-      "block.aetheriumresources.twisted_forest_pressure_plate": "Twisted Pressure Plate",
-      "subtitles.death": "",
       "item.aetheriumresources.parasyte.desc": "Andrii Floria - Scurrying Around",
-      "item.aetheriumresources.border": "Border Access (WIP)",
-      "item.minecraft.lingering_potion.effect.pocaoefeito": "Lingering Potion of 3RR0R",
-      "item.aetheriumresources.twisted_matter_brick": "Dark Matter Brick",
       "block.aetheriumresources.twisted_matter_farmland": "Twisted Matter Farmland",
-      "item.aetheriumresources.twisted_matter_item": "Twisted Matter",
-      "block.aetheriumresources.dark_matter_forest_planks": "Dark Forest Planks",
       "subtitles.metalpipethrow": "",
-      "block.aetheriumresources.bloco_ametista_purificada": "Bloco de Ametista Purificada (WIP)",
       "effect.aetheriumresources.efeito_2": "GU3RR31R0",
       "block.aetheriumresources.polished_twisted_matter_slab": "Polished Twisted Matter Slab",
       "subtitles.error-breaking": "",
       "block.aetheriumresources.dark_matter_forest_wood": "Dark Forest Wood",
       "item.minecraft.splash_potion.effect.erroretapa_1": "Splash Strange Bottle",
-      "item.aetheriumresources.ametistapurificada": "Ametista Purificada (WIP)",
       "item.aetheriumresources.bloody_sky": "Burning Skies",
-      "item.aetheriumresources.simulacra.desc": "Andrii Floria - 9l1tch",
       "item.minecraft.tipped_arrow.effect.erroretapafinal": "Arrow of Dark Mixture",
-      "item.aetheriumresources.realitymisfortune": "Reality\u0027s Misfortune",
       "item.minecraft.splash_potion.effect.erroretapa_4": "Splash Potion of Dark Condensed Parasite",
-      "subtitles.swordslash": "",
-      "item.minecraft.splash_potion.effect.erroretapa_2": "Splash Activated Strange Bottle"
+      "item.minecraft.splash_potion.effect.erroretapa_2": "Splash Activated Strange Bottle",
+      "block.aetheriumresources.polished_dark_matter_stairs": "Polished Dark Matter Stairs",
+      "item.aetheriumresources.disco_3.desc": "Andrii Floria - Chaos1",
+      "subtitles.twistedmusic": "",
+      "block.aetheriumresources.stripped_dark_matter_forest_wood": "Stripped Dark Forest Log",
+      "subtitles.pipeprojectilehit": "",
+      "subtitles.error-fall": "",
+      "block.aetheriumresources.twisted_forest_leaves": "Twisted Leaves",
+      "block.aetheriumresources.twisted_matter_tiles": "Twisted Matter Tiles",
+      "block.aetheriumresources.twisted_forest_log": "Twisted Forest Log",
+      "item.aetheriumresources.seringadesangue": "Seringa (Sangue)",
+      "block.aetheriumresources.stripped_twisted_forest_wood": "Twisted Forest Log",
+      "item.aetheriumresources.theend": "The End",
+      "block.aetheriumresources.dark_matter_forest_pressure_plate": "Dark Forest Pressure Plate",
+      "block.aetheriumresources.dark_matter_gem_block": "Dark Gem Block",
+      "item.minecraft.tipped_arrow.effect.erroretapa_4": "Arrow of Dark Condensed Parasite",
+      "block.aetheriumresources.darkmatter": "Dark Matter Block",
+      "block.aetheriumresources.twisted_matter_bricks_slab": "Twisted Matter Bricks Slab",
+      "block.aetheriumresources.failure_decorativo": "F41LUR3 (Decorativo)",
+      "block.aetheriumresources.dark_matter_forest_fence_gate": "Dark Forest Gate",
+      "item.minecraft.tipped_arrow.effect.erroretapa_2": "Arrow of Activated Strange Bottle",
+      "item.minecraft.tipped_arrow.effect.erroretapa_1": "Arrow of Strange Bottle",
+      "subtitles.breakingworld": "",
+      "block.aetheriumresources.enriched_twisted_matter": "Enriched Twisted Matter",
+      "block.aetheriumresources.darkmatterbrickswall": "Dark Matter Bricks Wall",
+      "item.aetheriumresources.simulacra": "S1MUL4CRA",
+      "block.aetheriumresources.error_decorativo": "3RR0R (Decorativo)",
+      "block.aetheriumresources.twisted_matter_tiles_stairs": "Twisted Matter Tiles Stairs",
+      "subtitles.blockhitmetalpipe": "",
+      "block.aetheriumresources.polished_twisted_matter_wall": "Polished Twisted Matter Wall",
+      "subtitles.thunderstorm": "",
+      "block.aetheriumresources.darkgrass": "Dark Grass",
+      "block.aetheriumresources.dark_matter_tiles": "Dark Matter Tiles",
+      "block.aetheriumresources.dark_matter_forest_stairs": "Dark Forest Stairs",
+      "block.aetheriumresources.twisted_daisy": "Twisted Daisy",
+      "item.aetheriumresources.elektrodeath": "Elektro Corruption",
+      "item.aetheriumresources.glitchytale.desc": "Andrii Floria - God of Fear",
+      "block.aetheriumresources.twistedmatterunderwater": "Twisted Matter Block",
+      "block.aetheriumresources.dark_matter_farmland": "Dark Matter Farmland",
+      "block.aetheriumresources.polished_twisted_matter": "Polished Twisted Matter",
+      "block.aetheriumresources.twisted_matter_bricks": "Twisted Matter Bricks",
+      "subtitles.step": "",
+      "block.aetheriumresources.microscopio": "Microscopio (WIP)",
+      "block.aetheriumresources.dark_matter_forest_button": "Dark Forest Button",
+      "block.aetheriumresources.darkmatter_underwater": "Dark Matter Block",
+      "subtitles.truedeath": "",
+      "subtitles.metalpipehit": "",
+      "block.aetheriumresources.dark_matter_forest_log": "Dark Forest Log",
+      "item.aetheriumresources.dark_carrot": "Dark Carrot (WIP)",
+      "item.minecraft.potion.effect.erroretapa_4": "Potion of Dark Condensed Parasite",
+      "block.aetheriumresources.twisted_forest_fence": "Twisted Fence",
+      "item.minecraft.potion.effect.erroretapa_2": "Activated Strange Bottle",
+      "item.minecraft.potion.effect.erroretapa_1": "Strange Bottle",
+      "block.aetheriumresources.darkmatterbricksstairs": "Dark Matter Bricks Stairs",
+      "block.aetheriumresources.darkmattertileswalls": "Dark Matter Tiles Wall",
+      "block.aetheriumresources.twisted_forest_wood": "Twisted Forest Wood",
+      "item.aetheriumresources.seringa_glitch": "Seringa (Glitch)",
+      "block.aetheriumresources.darkmatterbricksslab": "Dark Matter Bricks Slab",
+      "biome.aetheriumresources.twisted_desert": "Twisted Desert",
+      "block.aetheriumresources.amethyst_machine": "Amethyst Purifier (WIP)",
+      "subtitles.elektrodeath": "",
+      "block.aetheriumresources.twisted_matter_bricks_wall": "Twisted Matter Bricks Wall",
+      "item.minecraft.splash_potion.effect.erroretapafinal": "Splash Bottle of Dark Mixture",
+      "item.minecraft.splash_potion.effect.error_etapa_3": "Splash Potion of Condensed Parasite",
+      "block.aetheriumresources.twisted_forest_planks": "Twisted Planks",
+      "item.aetheriumresources.twisted_dark_carrot": "Twisted Dark Carrot (WIP)",
+      "block.aetheriumresources.polished_twisted_matter_stairs": "Polished Twisted Matter Stairs",
+      "item.minecraft.lingering_potion.effect.erroretapafinal": "Lingering Bottle of Dark Mixture",
+      "item.aetheriumresources.theend.desc": "kimdc2 - The End",
+      "block.aetheriumresources.twisted_matter_bricks_stairs": "Twisted Matter Bricks Stairs",
+      "block.aetheriumresources.twisted_matter_tiles_slab": "Twisted Matter Tiles Slab",
+      "subtitles.failure-step": "",
+      "subtitles.swordslash1": "",
+      "subtitles.moodtwisted": "",
+      "item.aetheriumresources.elektrodeath.desc": "kimdc2 - Elektrocorruption",
+      "block.aetheriumresources.enriched_dark_matter": "Enriched Dark Matter (WIP)",
+      "item.aetheriumresources.materiaorganica": "M4TÉR1A",
+      "subtitles.error-hit": "",
+      "block.aetheriumresources.twisted_forest_fence_gate": "Twisted Gate",
+      "block.aetheriumresources.dark_matter_forest_fence": "Dark Forest Fence",
+      "biome.aetheriumresources.twisted_forest": "Twisted Forest",
+      "block.aetheriumresources.twisted_forest_pressure_plate": "Twisted Pressure Plate",
+      "block.aetheriumresources.solid_matter_block": "Solid Matter Block",
+      "subtitles.death": "",
+      "item.aetheriumresources.border": "Border Access (WIP)",
+      "item.minecraft.lingering_potion.effect.pocaoefeito": "Lingering Potion of 3RR0R",
+      "item.aetheriumresources.twisted_matter_brick": "Dark Matter Brick",
+      "item.aetheriumresources.twisted_matter_item": "Twisted Matter",
+      "block.aetheriumresources.dark_matter_forest_planks": "Dark Forest Planks",
+      "block.aetheriumresources.bloco_ametista_purificada": "Bloco de Ametista Purificada (WIP)",
+      "item.aetheriumresources.ametistapurificada": "Ametista Purificada (WIP)",
+      "item.aetheriumresources.simulacra.desc": "Andrii Floria - 9l1tch",
+      "item.aetheriumresources.realitymisfortune": "Reality\u0027s Misfortune",
+      "subtitles.swordslash": ""
     }
   },
   "foldersRoot": {
@@ -3775,6 +4243,10 @@
                   {
                     "name": "Extensions",
                     "children": []
+                  },
+                  {
+                    "name": "DarkBush",
+                    "children": []
                   }
                 ]
               },
@@ -3788,8 +4260,16 @@
                   {
                     "name": "Extensions",
                     "children": []
+                  },
+                  {
+                    "name": "Bush",
+                    "children": []
                   }
                 ]
+              },
+              {
+                "name": "SolidMatter",
+                "children": []
               }
             ]
           },
@@ -3841,6 +4321,23 @@
           },
           {
             "name": "Gem",
+            "children": [
+              {
+                "name": "Tochas",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "SolidMatter",
+            "children": []
+          },
+          {
+            "name": "Ametista",
+            "children": []
+          },
+          {
+            "name": "Glitch",
             "children": []
           }
         ]
@@ -3934,7 +4431,20 @@
               },
               {
                 "name": "Blocos",
-                "children": []
+                "children": [
+                  {
+                    "name": "Wood",
+                    "children": []
+                  },
+                  {
+                    "name": "AmethystPurifier",
+                    "children": []
+                  },
+                  {
+                    "name": "Farmland",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Armas",
@@ -3942,7 +4452,12 @@
               },
               {
                 "name": "Crop",
-                "children": []
+                "children": [
+                  {
+                    "name": "Bonemeal",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
