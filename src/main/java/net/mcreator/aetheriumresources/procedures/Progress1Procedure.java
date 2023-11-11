@@ -14,7 +14,7 @@ public class Progress1Procedure {
 					return blockEntity.getTileData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "craftingTime")) / 10;
+		}.getValue(world, new BlockPos(x, y, z), "craftingTime")) / 6;
 		if (new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);

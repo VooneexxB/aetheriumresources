@@ -10,6 +10,12 @@ import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.aetheriumresources.world.inventory.AmethystMachineGUIMenu;
+import net.mcreator.aetheriumresources.procedures.Progress9Procedure;
+import net.mcreator.aetheriumresources.procedures.Progress7Procedure;
+import net.mcreator.aetheriumresources.procedures.Progress6Procedure;
+import net.mcreator.aetheriumresources.procedures.Progress4Procedure;
+import net.mcreator.aetheriumresources.procedures.Progress3Procedure;
+import net.mcreator.aetheriumresources.procedures.Progress1Procedure;
 import net.mcreator.aetheriumresources.procedures.GUIstateCombustaoProcedure;
 
 import java.util.HashMap;
@@ -70,7 +76,7 @@ public class AmethystMachineGUIScreen extends AbstractContainerScreen<AmethystMa
 		this.blit(ms, this.leftPos + 82, this.topPos + 27, 0, 0, 7, 22, 7, 22);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/glitch_overlay.png"));
-		this.blit(ms, this.leftPos + 0, this.topPos + -1, 0, 0, 176, 166, 176, 166);
+		this.blit(ms, this.leftPos + 0, this.topPos + 1, 0, 0, 176, 166, 176, 166);
 
 		if (GUIstateCombustaoProcedure.execute(world, x, y, z)) {
 			RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/combustao_full_slot.png"));
@@ -79,6 +85,30 @@ public class AmethystMachineGUIScreen extends AbstractContainerScreen<AmethystMa
 		if (GUIstateCombustaoProcedure.execute(world, x, y, z)) {
 			RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/combustao_full_slot.png"));
 			this.blit(ms, this.leftPos + 45, this.topPos + 11, 0, 0, 14, 14, 14, 14);
+		}
+		if (Progress1Procedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/progresso1.png"));
+			this.blit(ms, this.leftPos + 82, this.topPos + 27, 0, 0, 7, 22, 7, 22);
+		}
+		if (Progress3Procedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/progresso2.png"));
+			this.blit(ms, this.leftPos + 82, this.topPos + 27, 0, 0, 7, 22, 7, 22);
+		}
+		if (Progress4Procedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/progresso3.png"));
+			this.blit(ms, this.leftPos + 82, this.topPos + 27, 0, 0, 7, 22, 7, 22);
+		}
+		if (Progress6Procedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/progresso4.png"));
+			this.blit(ms, this.leftPos + 82, this.topPos + 27, 0, 0, 7, 22, 7, 22);
+		}
+		if (Progress7Procedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/progresso5.png"));
+			this.blit(ms, this.leftPos + 82, this.topPos + 27, 0, 0, 7, 22, 7, 22);
+		}
+		if (Progress9Procedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("aetheriumresources:textures/screens/progresso_full.png"));
+			this.blit(ms, this.leftPos + 82, this.topPos + 27, 0, 0, 7, 22, 7, 22);
 		}
 		RenderSystem.disableBlend();
 	}

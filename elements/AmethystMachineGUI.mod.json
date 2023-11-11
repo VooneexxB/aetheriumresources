@@ -130,7 +130,7 @@
           "use1Xscale": false,
           "name": "glitch_overlay.png",
           "x": 126,
-          "y": 36
+          "y": 38
         }
       },
       {
@@ -157,6 +157,84 @@
           "name": "combustao_full_slot.png",
           "x": 171,
           "y": 48
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progresso1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress1"
+          },
+          "name": "progresso1.png",
+          "x": 208,
+          "y": 64
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progresso2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress3"
+          },
+          "name": "progresso2.png",
+          "x": 208,
+          "y": 64
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progresso3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress4"
+          },
+          "name": "progresso3.png",
+          "x": 208,
+          "y": 64
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progresso4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress6"
+          },
+          "name": "progresso4.png",
+          "x": 208,
+          "y": 64
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progresso5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress7"
+          },
+          "name": "progresso5.png",
+          "x": 208,
+          "y": 64
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "progresso_full.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progress9"
+          },
+          "name": "progresso_full.png",
+          "x": 208,
+          "y": 64
         }
       }
     ],
